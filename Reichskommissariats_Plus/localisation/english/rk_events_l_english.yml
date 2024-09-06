@@ -1,0 +1,1490 @@
+﻿l_english:
+ #### UNIQUE ####
+ 
+ 
+
+ #### EVENTS ####
+ 
+ rksplus.1.t:0 "Central Macedonian Question"
+ rksplus.1.d:0 "The state of Macedonia has been a subject of debate between the German officers from Greece and Bulgaria. Both sides claimed that they hold a significance value to the region and believed that they are better fitted to administer the region. How should we react to this?"
+ rksplus.1.a:0 "The Greek administration are right. We should hand control to them."
+ rksplus.1.b:0 "The Bulgarian administration makes a good point. They are better suited to take control."
+ 
+ rksplus.2.t:0 "Bohemian Question"
+ rksplus.2.d:0 "As the demands of manpower and factories have increased, the Reichstag has proposed the annexation of the Reichsprotektorat Böhmen und Mähren. Incorporating the Protectare can help us to acquire the much-needed resources however it can lead to the destabilization of the Reich. This is but a minor hiccup and will be patched up within the coming years."
+ rksplus.2.a:0 "It's time."
+ 
+ rksplus.3.t:0 "Integration of the Generalgouvernment"
+ rksplus.3.d:0 "The Reichstag has recently passed the long awaited annexation bill of the Generalgouvernment. The newly colonised lands are now ready for mass German settlements. However, the Reich must make a decision on how we will annex the territories."
+ rksplus.3.a:0 "Annex the territories."
+ rksplus.3.b:0 "Annex the territories."
+ rksplus.3.c:0 "Split between us and the Ukrainian Administration."
+ rksplus.3.e:0 "We will annex everything!"
+ 
+ rksplus.4.t:0 "Lemberg Question"
+ rksplus.4.d:0 "As our troops entered the territories of Lemberg and Stanislau, the Reichstag has been debating on what we should do to the territories. There have been many discussions about this issue but ultimately it is the Fuhrer's decision that will be decider."
+ rksplus.4.a:0 "As many proposed, the Generalgouvernment will take control. (Historical)"
+ rksplus.4.b:0 "No, the Ukrainian Administration will take charge. (Unhistorical)"
+ 
+ rksplus.5.t:0 "Saint Petersburg Question"
+ rksplus.5.d:0 "With the dust finally settled in Saint Petersburg after a fierce battle with the Russians, it is time to decide if the city and its surrounding territories should be incorporated to the Reich or transfered to the Moskowien administration."
+ rksplus.5.a:0 "We conquered it thus it is ours!"
+ rksplus.5.b:0 "Let the Moskowien control it."
+ 
+ rksplus.6.t:0 "Crimea Question"
+ rksplus.6.d:0 "After our victory in Sevastopol, the Crimean peninsula is now under our control. We could annex the territory to our realm or transfer it to the RK Ukraine, however Reinhard Heydrich has proposed for a new SS state to be installed there. Should we give in to his demand or take the land for ourselves?"
+ rksplus.6.a:0 "Crimea shall be ours!"
+ rksplus.6.b:0 "No, the Ukrainian Administration will make better use of it."
+ rksplus.6.c:0 "Heydrich's proposal seems reasonable. This might make for a good little experiment."
+ 
+ rksplus.7.t:0 "Carpathian Question"
+ rksplus.7.d:0 "The RK Slowakei argues that the Carpathia should be transfered to them but RK Ungarn has heavily opposed this. How should we react to this?"
+ rksplus.7.a:0 "Slovakian administration is right."
+ rksplus.7.b:0 "Let the Hungarian administration take control."
+ 
+ rksplus.8.t:0 "Transylvanian Question"
+ rksplus.8.d:0 "It is time to decide the fate of Transylvania. The region is Romanian majority with a Hungarian minority. We could either give the territories to the Romanian administration or the Hungarian administration, split the lands between them or create a new Reichskommissariat based in Cluj."
+ rksplus.8.a:0 "Give it to the Romanian Administration."
+ rksplus.8.b:0 "Give it to the Hungarian Administration."
+ rksplus.8.c:0 "Split the lands."
+ rksplus.8.e:0 "A Reichskommissariat based in Cluj would ensure stability in the region."
+ 
+ rksplus.9.t:0 "Dobrich Question"
+ rksplus.9.d:0 "The Romanian and Bulgarian administration are debating on the sovereignty of Dobrich. They have brought this issue to the Reichstag for the Fuhrer to decide the fate of Dobrich."
+ rksplus.9.a:0 "Give it to the Bulgarian administration"
+ rksplus.9.b:0 "No, the Romanian administration should have it."
+ 
+ rksplus.10.t:0 "Banat Question"
+ rksplus.10.d:0 "After our invasion of Romania, the question of Banat has emerged. This has caused a heavy debate in the Reichstag. Many suggestions were given but it is up to the Fuhrer to make the final call."
+ rksplus.10.a:0 "Hand it over to the RK Romania."
+ rksplus.10.b:0 "RK Transylvania are in a good position to administer."
+ rksplus.10.c:0 "Let's give it to RK Hungary."
+ rksplus.10.e:0 "A Reichskommissariat based in Timisoara would ensure stability."
+ rksplus.10.f:0 "Hand it over to RK Banat."
+ 
+ rksplus.11.t:0 "Macedonian Question"
+ rksplus.11.d:0 "After our conquest of Macedonia, the Serbian administration asked us to transfer control to them. This was held back by the Bulgarian administration who argues that the Macedonian territory would be more suitable under their control. What should we do?"
+ rksplus.11.a:0 "The Bulgarian administration are right. Hand over the territories."
+ rksplus.11.b:0 "The Serbian Administration has some legitimate claims to the region. It's best for them to take control."
+ 
+ rksplus.12.t:0 "Kosovo Question"
+ rksplus.12.d:0 "The Albanian and Serbian administration has respectively sent their proposals for the question of Kosovo. The Albanian administration argues that Kosovo is ethnically Albanian majority while the Serbian Administration countered with the region being a part of the old Serbia. Ultimately, it is our decision here in Berlin that would decide the outcome of this conflict. So, who should we give it to?"
+ rksplus.12.a:0 "Give Kosovo to RK Albania."
+ rksplus.12.b:0 "No, RK Serbia is the better option."
+ 
+ rksplus.13.t:0 "Northern Epirus Question"
+ rksplus.13.d:0 "With the conquest of Albania, the question of Northern Epirus has appeared. It is up to us to settle this dispute. Should we give the territory to RK Albania or RK Greece?"
+ rksplus.13.a:0 "RK Albania it is!"
+ rksplus.13.b:0 "No, hand it over to the RK Greece."
+ 
+ rksplus.14.t:0 "West Banat Question"
+ rksplus.14.d:0 "With our invasion of Yugoslavia, West Banat has been a hot topic of debate between Reichskommissars. They have sent their appeals to Berlin and it's up to us to solve this dispute."
+ rksplus.14.a:0 "Hand it over to RK Serbia."
+ rksplus.14.b:0 "Let's give it to the Transylvanian administration."
+ rksplus.14.c:0 "Giving it to RK Banat is the best choice."
+ rksplus.14.e:0 "Form a new Reichskommissariat Banat."
+ rksplus.14.f:0 "Transfer it to RK Hungary."
+ 
+ rksplus.15.t:0 "Vojvodina Question"
+ rksplus.15.d:0 "The capture of Novi Sad has raised some questions about the future of Vojvodina. It is time to decide the fate of Vojvodina."
+ rksplus.15.a:0 "Hand it over to RK Banat."
+ rksplus.15.b:0 "Transfer it to RK Serbia."
+ rksplus.15.c:0 "Give it to RK Hungary."
+ rksplus.15.e:0 "Hand it over to RK Croatia."
+ 
+ rksplus.16.t:0 "An Ordensstaat in Banat?"
+ rksplus.16.d:0 "Reichsfuhrer Heinrich Himmler has come to Berlin with a proposal to turn the newly created Reichskommissariat in Banat into a SS Ordensstaat under Sepp Janko. The creation of a new Ordensstaat would strengthen the German presence in the region and the Schutzstaffel. However, some within the Reichstag doubted this proposal as the state's loyalty lies upon Himmler and the SS."
+ rksplus.16.a:0 "The SS has too much power already."
+ rksplus.16.b:0 "Wonderful idea!"
+ 
+ rksplus.17.t:0 "The Fate of British Isle"
+ rksplus.17.d:0 "Our victory over the defiant English has greatly crushed the hopes of the Allies weakling! As our troops are squashing down on local resistance, it is perhaps time to decide the future of the British Isle. First option is to create a new Reichskommissariat covering the entirety of the island. However, we could split the lands between 4 new Reichskommissariats which would surely make management a lot easier. The other option is to grant indepedence to Scotland and Wales while still retaining England and Cornwall. This will all be decided by Berlin."
+ rksplus.17.a:0 "Unite the Isle under a single Reichskommissariat!"
+ rksplus.17.b:0 "4 Reichskommissariats will ensure stability!"
+ rksplus.17.c:0 "We'll go with the final option."
+ 
+ rksplus.18.t:0 "The Question of Karelia"
+ rksplus.18.d:0 "With the takeover of Karelia and the defeat of the Ruskis, Karelia became the topic of debate between RK Finland and RK Moskau. They have sent their appeals to Berlin to decide once and for all who should own Karelia."
+ rksplus.18.a:0 "Split the lands between [RMK.GetName] and [RFD.GetName]"
+ rksplus.18.b:0 "Give everything to RK Finnland."
+ rksplus.18.c:0 "Give everything to RK Moskau."
+ rksplus.18.e:0 "Split the lands between [RND.GetName] and [RFD.GetName]"
+ 
+ rksplus.19.t:0 "The Fate of Spain"
+ rksplus.19.d:0 "What was once the country of Spain is now destroyed due to the civil war and our conquest. The Spanish lands are now ours and it is time to decide the fate of Spain. Firstly, we could create a new Reichskommissariat centered in Madrid for all of Spain. Alternatively, we could also create 2 new Reichskommissariats both in Bilbao and Barcelona respectively along with RK Spain."
+ rksplus.19.a:0 "Unite the lands under a single Reichskommissariat!"
+ rksplus.19.b:0 "The alternative seems like a better choice..."
+ 
+ rksplus.20.t:0 "The Annexation of Former Prussian Lands"
+ rksplus.20.d:0 "Ever since the Treaty of Versailles, the former territories of Prussia were lost to the Poles. What was once an ethnically German majority region were threathened by Polish settlers. It seems like the lands were lost. However, the leadership of the Fuhrer and the might of the German Army has crushed the Poles in a decisive victorous campaign! The old lands of Prussia are now ours once again. The Reichstag has approved a legislation to incorporate back the former territories. It may take a while to rebuild the lands due to the devastation of the war but it doesn't matter for the German people. We have sucessfully brought back our rightful lands and honour to Germany. Welcome back to the German realm once more!"
+ rksplus.20.a:0 "Massive celebrations in Berlin and all across the country!"
+ 
+ rksplus.21.t:0 "Transamur Question"
+ rksplus.21.d:0 "With our possession of the Far East, the RK Ostsibirien has requested to take control of the region. However, some in the region wished to be a part of RK Manchurien. What should we do?"
+ rksplus.21.a:0 "Hand it over to RK Ostsibirien."
+ rksplus.21.b:0 "Hand it over to RK Manchurien."
+ 
+ rksplus.22.t:0 "Hatay Question"
+ rksplus.22.d:0 "Hatay was once a part of French Syria before being handed to Turkey. This has caused an uproar amongst Arab nationalists in the region. With our control in the state, perhaps we could reverse this decision or keep it the way it is with RK Turkey. The choice is ours."
+ rksplus.22.a:0 "Give it to RK Turkey."
+ rksplus.22.b:0 "Give it to RP Nahost."
+ 
+ rksplus.23.t:0 "Edirne Question"
+ rksplus.23.d:0 "With our invasion of Turkey, it is time to decide who will control the state of Edirne."
+ rksplus.23.a:0 "Give it to RK Turkey"
+ rksplus.23.b:0 "Give it to RK Greece"
+ rksplus.23.c:0 "Give it to RK Bulgaria"
+ 
+ rksplus.24.t:0 "Istanbul Question"
+ rksplus.24.d:0 "After our capture of the strategiccally important city of Istanbul or Constantinople, it is time to decide the fate of the city."
+ rksplus.24.a:0 "Give it to RK Turkey"
+ rksplus.24.b:0 "Give it to RK Greece"
+ rksplus.24.c:0 "Give it to RK Bulgaria"
+ rksplus.24.e:0 "It's best that we keep it for ourselves."
+ 
+ rksplus.25.t:0 "The Fate of Italy"
+ rksplus.25.d:0 "The might of the German Army has wrecked and humiliated the puny Italians! As our soldiers began to tackle the ever-growing Italian resistance, the Reichstag has been advocating for a new Reichskommissariat to be installed in Rome. This will surely be unpopular and hated amongst the Italian populace. \n\nWhile we could just go ahead and prepare the plan, our old friend Benito Mussolini is in custody and awaiting trials. It might be naive but we could install him as a puppet leader of the Italian Social Republic. This is highly unpopular in the Reichstag as the parliament wanted him gone. However with him in place, even though the Italian people despised him for their defeat it could at the very least create a sense of stability. \n\nInterestingly, Roberto Farinacci has expressed support for the Reich's takeover of Italy and called for a German friendly Italian collaboration government. With him in charge, we would be able to assert our control in the Italian peninsula even further. \n\nIt is up to the Fuhrer if he wants to directly create a new Reichskommissariat, give his old friend a chance, though in shame, or perhaps give Farinacci a chance?"
+ rksplus.25.a:0 "Absurd! Install a new Reichskommissariat in Rome!"
+ rksplus.25.b:0 "We still have some uses for Mussolini...."
+ rksplus.25.c:0 "Farinacci might be more loyal to our demands..."
+
+ rksplus.26.t:0 "Trieste Question"
+ rksplus.26.d:0 "With our takeover of the city of Trieste, it is time to decide the fate of the city and its surrounding."
+ rksplus.26.a:0 "We must ensure our hegemony in the Adriatic Sea."
+ rksplus.26.b:0 "Give it to RK Italien."
+ rksplus.26.c:0 "Give it SS-Ordensstaat Lombardei"
+ 
+ rksplus.27.t:0 "South Tyrol Question"
+ rksplus.27.d:0 "With our takeover of the German majority state of South Tyrol, it is time to decide the future of the territory."
+ rksplus.27.a:0 "All Germans must be united under the fatherland!"
+ rksplus.27.b:0 "Transfer all to RK Italien."
+ rksplus.27.c:0 "Split the lands!"
+ rksplus.27.e:0 "Transfer all to SS-Ordensstaat Lombardei."
+ rksplus.27.f:0 "Split the lands!"
+ 
+ rksplus.28.t:0 "Savoy Question"
+ rksplus.28.d:0 "Savoy was once an Italian state, but fell under French control after the Plomberies Agreement of 1858. However, that is all in the past. It is time to decide the fate of this historical region."
+ rksplus.28.a:0 "Give it to RK Frankreich."
+ rksplus.28.b:0 "Give it to RK Italien."
+ 
+ rksplus.29.t:0 "Malta Question"
+ rksplus.29.d:0 "With the capture of Malta, we have secured one of the most strategic location in the Mediterranean Sea. Now we must ask ourselves the question, what will we do with it?"
+ rksplus.29.a:0 "Holding onto Malta is vital for Mediterranean superiority."
+ rksplus.29.b:0 "Give it to RK Italien."
+ 
+ rksplus.30.t:0 "An Ordensstaat in Burgundy?"
+ rksplus.30.d:0 "Reichsführer-SS Heinrich Himmler along with other high-ranking SS-Officials are proposing for a new Ordensstaat in Burgundy. The SS has already began consolidating their control in the region and are now seeking legitimacy from Berlin. With shifting politics in Berlin, this would only complicates the already controversial situation. If we were to allow the formation, it would not only strengthen the Schutzstaffel like never seen before but also allows the SS to slowly shift away from the Reich and maybe even have the capabilities to influence global events. Disagreeing to their terms might drastically reduce the loyalty of the Schutzstaffel to the Reich. We are on borrowed time and it is time to finally decide the future of Burgundy."
+ rksplus.30.a:0 "We cannot let the SS gain anymore powers."
+ rksplus.30.b:0 "We have to agree."
+ 
+ rksplus.31.t:0 "Rhodes Question"
+ rksplus.31.d:0 "With our capture of Rhodes, it is time to decide who will own the island."
+ rksplus.31.a:0 "Give it to RK Griechenland."
+ rksplus.31.b:0 "Give it to RK Turkei."
+ 
+ rksplus.32.t:0 "Cyprus Question"
+ rksplus.32.d:0 "With our takeover of Cyprus, it is time to decide the future of Cyprus."
+ rksplus.32.a:0 "Give it to RK Griechenland."
+ rksplus.32.b:0 "Give it to RK Turkei."
+ rksplus.32.c:0 "Give it to RP Nahost"
+ 
+ rksplus.33.t:0 "The Fate of Amerika"
+ rksplus.33.d:0 "The behemoth that was the United States of America has been completely annihilated by the German war machine! The Fuhrer gave an astounding speech in front of the German people congratulating the German Army in their victory against the American capitalist devils. Behind all of this however, the Fuhrer and the General Staff are beginning to plan the future of Amerika. \n\nThree solutions were made following the discussion between high-ranking offciers. \n\nFirst option, form a Reichsprotektorat covering the entirety of Mainland USA with the exception of Alaska under the Reichsprotektor Fritz Julius Kuhn. \n\nSecond option is more popular amongst the Southern collaboraters, the division of the North and South. \n\nThirdly, the complete destruction of the idea of the United States of America as an united entity thus replaced with regional Reichsprotektorats. \n\nNevertheless, the Fuhrer and the General Staff have agreed upon the option of......"
+ rksplus.33.a:0 "...the formation of Reichsprotektorat Amerika!"
+ rksplus.33.b:0 "...the division of North and South!"
+ rksplus.33.c:0 "...the regional division of Amerika!"
+ 
+ rksplus.34.t:0 "The Fate of the Pacific States"
+ rksplus.34.d:0 "With the fall of Los Angeles, it is time to secure and decide the future of the Pacific States."
+ rksplus.34.a:0 "Form a new Reichsprotektorat."
+ rksplus.34.b:0 "Incorporate it into the Reichsprotektorat Amerika"
+ 
+ rksplus.35.t:0 "Pacific States Question"
+ rksplus.35.d:0 "The Japanese delegation in Berlin has asked us to hand over the Pacific States in a sign of friendship and prosperity between Germany and Japan."
+ rksplus.35.a:0 "Directly transfer to Japan."
+ rksplus.35.b:0 "Let's talk them out of this slowly...."
+ 
+ rksplus.36.t:0 "Attu Island Question"
+ rksplus.36.d:0 "With our capture of the significantly important island of Attu island, it is time to hand it over to an appopriate administration."
+ rksplus.36.a:0 "Give it to RK Ostsibirien."
+ rksplus.36.b:0 "Give it to RP Kanada."
+ rksplus.36.c:0 "Give it to RP Pazifik."
+ rksplus.36.e:0 "Wait, who is that hooded figure?"
+ 
+ rksplus.37.t:0 "An Unexpected Visitor"
+ rksplus.37.d:0 "As the crowd suddenly realised that a mysterious man is in the room with them, guards pointed their rifles. The tension in the room roses as the Fuhrer began asking how and why are the mysterious man in there. Amidst the confusion, Reichsführer-SS Heinrich Himmler quickly barges in and told everyone to lower their guns. Himmler nervously approached the man and began asking questions. It seems like Himmler knew this man. Surprisingly, the man answered. He claimed that he was sent to Berlin by a man known as the Great Leader. He stated that the Great Leader demands the German Reich hand over the Attu Island. 'Wait, Attu Island? But why, the Fuhrer asked'. The man kept his silence. Out of options, the Fuhrer gave the green light to the man. He smiled and walked out of the room, never to be seen again. After the commotion, the Fuhrer arranged a meeting with Heinrich Himmler. There, Himmler finally told the truth. The mysterious man is a part of an unknown organisation known as S.H.O.C.K.E.R.. The Schutzstaffel and the organisation has actually collaborated several times in Asia particularly in Siberia without the Fuhrer's knowledge. Himmler described the organisation as powerful, brutal and technologically advanced. Their ambition in Attu Island is unknown but it could pose a great threat to the Reich...."
+ rksplus.37.a:0 "From the ground, the devils emerged."
+ rksplus.37.b:0 "A new order awaits. (Play as Shocker)"
+ 
+ rksplus.38.t:0 "The Fate of Korea"
+ rksplus.38.d:0 "The capture of Seoul has led to a number of questions. Particularly, what will happen to the Korean Peninsula? Some in the Reichstag has suggested that the region be incorporated into Reichsprotektorat Mandschurei but with rising Korean nationalism, this might not be a good decision. We could create a new Reichsprotektorat to appease the Korean populace. With two solutions, what should we pick?"
+ rksplus.38.a:0 "Form a new Reichsprotektorat."
+ rksplus.38.b:0 "Incorporate it into Reichsprotektorat Mandschurei."
+ 
+ rksplus.39.t:0 "Inner Mongolia Question"
+ rksplus.39.d:0 "The historical region known as Inner Mongolia was once a part of Mongolia however it quickly fell under Chinese hands. Reichsprotektorat Mongolei demanded that the territories be returned to them while Reichsprotektorat Mandschurei said otherwise. They have sent their appeals to Berlin to once and for all close down this dispute."
+ rksplus.39.a:0 "Give it to Reichsprotektorat Mongolei."
+ rksplus.39.b:0 "Give it to Reichsprotektorat Mandschurei."
+ 
+ rksplus.40.t:0 "Kuwait Question"
+ rksplus.40.d:0 "With the capture of Kuwait, it is time to decide the fate of the territory."
+ rksplus.40.a:0 "Give it to RP Nahost."
+ rksplus.40.b:0 "Give it to RK Arabien."
+ rksplus.40.c:0 "Kuwait is too important for us to give it away."
+ 
+ rksplus.41.t:0 "Dalian Question"
+ rksplus.41.d:0 "With the capture of Dalian, it is time to decide the fate of the territory."
+ rksplus.41.a:0 "Give it to RP Mandschurei"
+ rksplus.41.b:0 "Keeping it is for the best!"
+ 
+ rksplus.42.t:0 "Qingdao Question"
+ rksplus.42.d:0 "With the capture of Qingdao, some within the Reichstag argues that we should keep it as it was once a part of the German Empire while others advocated for it to be a part of Reichsprotektorat Ostchina. What option should we pick?"
+ rksplus.42.a:0 "Give it to RP Ostchina"
+ rksplus.42.b:0 "It was rightfully ours and still is."
+ 
+ rksplus.43.t:0 "Hong Kong Question"
+ rksplus.43.d:0 "With the capitulation of what was once a British colonial city of Hong Kong, it is time to decide the future of the city."
+ rksplus.43.a:0 "Give it to RP Ostchina"
+ rksplus.43.b:0 "This city will come in handy...."
+ 
+ rksplus.44.t:0 "Macau Question"
+ rksplus.44.d:0 "After the capture of what was once a Portuguese colony of Macau, it is time to decide the future of this colonial holding."
+ rksplus.44.a:0 "Give it to RP Ostchina"
+ rksplus.44.b:0 "We will keep it."
+ 
+ rksplus.45.t:0 "Nord Pas-de Calais Question"
+ rksplus.45.d:0 "With the capture of Nord Pas-de Calais from Allied forces, the Belgien administration has requested for control over the territory. But, we could give it to the newly formed military administration of Reichskommissariat Frankreich. It's up to Berlin to decide."
+ rksplus.45.a:0 "Merge RK Belgien with Nord Pas-de Calais to create RK Belgien-Nordfrankreich! (Historical)"
+ rksplus.45.b:0 "Give it to RK Frankreich. (Unhistorical)"
+ 
+ rksplus.46.t:0 "East Turkestan Question"
+ rksplus.46.d:0 "East Turkestan was once a part of the Qing Dynasty but has a significant Turkic population. Should we unite the Turkic people of Central Asia or give the authority to Westchina?"
+ rksplus.46.a:0 "Give it to RK Turkestan"
+ rksplus.46.b:0 "Give it to RK Westchina"
+ 
+ rksplus.47.t:0 "Gibraltar Question"
+ rksplus.47.d:0 "Gibraltar is a highly strategic location as it acts as the gate of the Mediterranean from the Atlantic. We could either keep it as a part of a military base or give it to Reichskommissariats up north?"
+ rksplus.47.a:0 "Give it to RK Spain"
+ rksplus.47.b:0 "Give it to RK Andalusien"
+ rksplus.47.c:0 "It's too valuable to be given away."
+ 
+ rksplus.48.t:0 "Diego Garcia Question"
+ rksplus.48.d:0 "After the capture of Diego Garcia, it is time to decide the fate of the island."
+ rksplus.48.a:0 "Give it to RK Indien"
+ rksplus.48.b:0 "We will keep it."
+ 
+ rksplus.49.t:0 "Thrace Question"
+ rksplus.49.d:0 "With our capture of Alexandroupolis and the Thrace, it is time to decide who should own the state."
+ rksplus.49.a:0 "Give it to RK Griechenland."
+ rksplus.49.b:0 "Give it to RK Bulgarien."
+ 
+ rksplus.50.t:0 "Ural Question"
+ rksplus.50.d:0 "The Ural Mountains are widely accepted as the natural geographical border between Europe and Asia. We could give the region to the RK Moskowien administration but Rosenberg has proposed for a creation of Reichskommissariat Ural. The purpose of the Reichskommissariat is to strengthen the border and ensure a first line of defense before Moskowien. It's all up to Berlin to decide."
+ rksplus.50.a:0 "We will go with Rosenberg's proposal."
+ rksplus.50.b:0 "Let's just hand it over to RK Moskowien."
+ 
+ rksplus.51.t:0 "Ticino Question"
+ rksplus.51.d:0 "With our capture of Ticino, it is time to decide who should own the state."
+ rksplus.51.a:0 "Give it to RK Schweiz."
+ rksplus.51.b:0 "Give it to RK Italien."
+ rksplus.51.c:0 "Give it to SS-Ordensstaat Lombardei"
+ rksplus.51.e:0 "We will take it for ourselves."
+ 
+ 
+ rksplus.52.t:0 "SHOCKER demands Japan!"
+ rksplus.52.d:0 "The SHOCKER organisation has demanded us to completely withdraw from Japan. We could just ignore their demands but this might have a devastating consquence. The best option is here to leave Japan and prepare for the defense and fight another day."
+ rksplus.52.a:0 "We cannot take the risk."
+ rksplus.52.b:0 "To hell with it!"
+ 
+ rksplus.53.t:0 "Berlin has agreed!"
+ rksplus.53.d:0 "Following our demands, the German Reich has agreed to completely withdraw from Japan. This is a huge victory for SHOCKER!"
+ rksplus.53.a:0 "Eiii!"
+ 
+ rksplus.54.t:0 "Berlin has defied us!"
+ rksplus.54.d:0 "Following our demands, the German Reich has denied our demands for them to completely withdraw from Japan. All that is left to do is prepare an invasion.  We will start with slowly sending disguised soldiers as civilians and prepare everything for the invasion. This is expected to be completed within 35 days. Soon after the green light was given, we will formally declare war on Germany and its puppet and from there, we can expect a total victory."
+ rksplus.54.a:0 "You fools."
+ 
+ rksplus.55.t:0 "Operation Rising Sun"
+ rksplus.55.d:0 "We have declared war on Germany! It's time to take what is rightfully ours!"
+ rksplus.55.a:0 "Charge!"
+ 
+ rksplus.56.t:0 "Shocker Ultimatum"
+ rksplus.56.d:0 "Shocker has sent out an ultimatum to us, threathening us to surrender and submit to their rule or face destruction."
+ rksplus.56.a:0 "Better safe than sorry."
+ rksplus.56.b:0 "We will fight for the German people!"
+ 
+ rksplus.57.t:0 "Shocker Ultimatum"
+ rksplus.57.d:0 "Shocker has sent out an ultimatum to us, threathening us to surrender and submit to their rule or face destruction."
+ rksplus.57.a:0 "Better safe than sorry."
+ rksplus.57.b:0 "We will fight for the German people!"
+ 
+ rksplus.58.t:0 "Burgundy has accepted our dominance!"
+ rksplus.58.d:0 "Faced with no choice, the Burgundians have agreed to join our side and fight the Germans."
+ rksplus.58.a:0 "To be expected."
+ 
+ rksplus.59.t:0 "Burgundy has denied our dominance!"
+ rksplus.59.d:0 "In an act of defiance, the Burgundians have refused to join our side!"
+ rksplus.59.a:0 "Fools."
+ 
+ rksplus.60.t:0 "Gotenland has accepted our dominance!"
+ rksplus.60.d:0 "Faced with no choice, the Gotenlandians have agreed to join our side and fight the Germans."
+ rksplus.60.a:0 "To be expected."
+ 
+ rksplus.61.t:0 "Gotenland has denied our dominance!"
+ rksplus.61.d:0 "In an act of defiance, the Gotenlandians have refused to join our side!"
+ rksplus.61.a:0 "Fools."
+ 
+ rksplus.62.t:0 "Burgundy has betrayed us!"
+ rksplus.62.d:0 "In an unexpected move, the Burgundians have betrayed us and joined Shocker!"
+ rksplus.62.a:0 "Nein nein nein!"
+ 
+ rksplus.63.t:0 "Gotenland has betrayed us!"
+ rksplus.63.d:0 "In an unexpected move, the Gotenlandians have betrayed us and joined Shocker!"
+ rksplus.63.a:0 "Nein nein nein!"
+ 
+ rksplus.64.t:0 "Burgundy has demanded Nordfrankreich and Belgium!"
+ rksplus.64.d:0 "Officials from Burgundy has demanded that we give up the territories of Picardy, Nord-Pas De Calais and all of Belgium. What should we do?"
+ rksplus.64.a:0 "We don't want the SS to be against us."
+ rksplus.64.b:0 "Absolutely not!"
+ 
+ rksplus.65.t:0 "Triumphant Victory"
+ rksplus.65.d:0 "Berlin has agreed to pull out from the demanded territories! A glorious victory for Himmler!"
+ rksplus.65.a:0 "STRENG GEHEIM!"
+ 
+ rksplus.66.t:0 "Embarrassing Act"
+ rksplus.66.d:0 "Officials from Berlin laughed and mocked at our demands. It seems like they are against our destiny."
+ rksplus.66.a:0 "Spineless worms...."
+ 
+ 
+ rksplus.67.t:0 "Install King Edward VIII?"
+ rksplus.67.d:0 "It is known that King Edward VIII is sympathetic to our causes. We could install him as a puppet king in the British Isle. With him in custody, he could never refuse this offer."
+ rksplus.67.a:0 "Actually nevermind."
+ rksplus.67.b:0 "Send him to London immediately!"
+ rksplus.67.c:0 "Send him to London immediately!"
+ rksplus.67.e:0 "Send him to London immediately!"
+ rksplus.67.f:0 "Send him to London immediately!"
+ 
+ rksplus.68.t:0 "The British Columbia Question"
+ rksplus.68.d:0 "With the capture of Vancuover and the region of British Columbia, it is time to decide the appopriate administration for the frozen region."
+ rksplus.68.a:0 "Give it to RP Kanaden"
+ rksplus.68.b:0 "Give it to RP Pazifik"
+ 
+ rksplus.69.t:0 "The Alaskan Question"
+ rksplus.69.d:0 "With the capture of Anchorage and Alaska itself, it is time to decide the appopriate administration for the frozen region."
+ rksplus.69.a:0 "Give it to RP Kanaden"
+ rksplus.69.b:0 "Give it to RP Pazifik"
+ 
+ rksplus.70.t:0 "Bermuda Question"
+ rksplus.70.d:0 "With the capture of the Bermuda Island, it must be decided that either we should keep it for ourselves or transfer it to another administration."
+ rksplus.70.a:0 "We must ensure our dominance in the American Sea"
+ rksplus.70.b:0 "Give it to RP Amerika"
+ 
+ rksplus.71.t:0 "Falkland and South Georgia Question"
+ rksplus.71.d:0 "With the Falkland and South Georgia Islands in our possession, we must decide the future of the islands."
+ rksplus.71.a:0 "We will keep it ourselves."
+ rksplus.71.b:0 "Give it to RK Sudamerika"
+ 
+ rksplus.72.t:0 "Suez Question"
+ rksplus.72.d:0 "The Suez Canal is a canal connecting the Mediterranean Sea to the Arabian Sea, subsquently to the Indian Ocean and so on. It was constructed to shorten time and travel cost between colonies and trades in Asia. It is undoubtedly very important to us. Thus, should we directly control it, give it to RP Nahost or give it to RK Ägypten?"
+ rksplus.72.a:0 "It's way too important to give away."
+ rksplus.72.b:0 "Give it to RP Nahost"
+ rksplus.72.c:0 "Give it to RK Ägypten"
+ 
+ rksplus.73.t:0 "Play as Amerika?"
+ rksplus.73.d:0 "This is an option to play as Amerika. It is optional."
+ rksplus.73.a:0 "I'm not interested."
+ rksplus.73.b:0 "Sure, why not!"
+ 
+ rksplus.74.t:0 "Nigerian Question"
+ rksplus.74.d:0 "With our conquest of Nigeria and the establishment of colonial protectorates, it is time to decide the fate of Nigeria"
+ rksplus.74.a:0 "Give it to RK Westafrika"
+ rksplus.74.b:0 "Give it to RK Zentralafrika"
+ 
+ rksplus.75.t:0 "Iceland and Faroe Island Question"
+ rksplus.75.d:0 "With the surrender of the Icelandic and Faroean government and the arrival of our garrisons, we can finally decide the future of the islands."
+ rksplus.75.a:0 "Transfer to RK Norwegien"
+ rksplus.75.b:0 "Form a new Ordensstaat"
+ rksplus.75.c:0 "We need them for the cod fishes."
+ 
+ rksplus.76.t:0 "Lombardy Question"
+ rksplus.76.d:0 "With our conquest of Lombardy, it is time to decide the fate of Nigeria, ehhhh I meant Lombardy :)"
+ rksplus.76.a:0 "Give it to RK Italien"
+ rksplus.76.b:0 "Give it to SS-Ordensstaat Lombardei"
+ rksplus.76.c:0 "We will take it for ourselves."
+ 
+ rksplus.77.t:0 "Hans Pierell Braun"
+ rksplus.77.d:0 "A young officer, Hans Pierell Braun or better known by his colleagues as Verträumter-Bulle has recently hit the spotlight as one of the most talented officer in the Reich. He has shown bravery and valor in the battlefield, proving himself as a competent and charimastic leader. One example of this is the Battle of Bussing, where he faced off his arch nemesis Brandon Currington, which ends in his demise and Braun's victory. His recent artistic works such as 'Ambatukam' and 'Yugonmakmibus' has inspired a generation of artists and visionaries alike. For his efforts, he is promoted to the Reichsprotektor of Sudafrika by the Fuhrer himself. Surprisingly though, nobody took a notice on his skin colour despite being a nazi group so akin to that, I don't know maybe they are just that retarded lmao."
+ rksplus.77.a:0 "A great candidate!"
+ 
+ rksplus.78.t:0 "The Fate of Don-Wolga"
+ rksplus.78.d:0 "Reichskommissariat Don-Wolga is a colony visioned by Alfred Rosenberg that is to be formed in the region of Don-Volga. However, we can always do something else with the land. We can either form the Reichskommissariat Don-Wolga as proposed, give everything to Reichskommissariat Moskowien or split the lands between Moskowien and Kaukasien. §R( To transfer Don-Wolga to Reichskommisariat Ukraine, Kursk-Belgorod-Voronezh and Donbass needs to be Ukrainian)§!"
+ rksplus.78.a:0 "Establish Reichskommissariat Don-Wolga"
+ rksplus.78.b:0 "Give everything to Moskowien"
+ rksplus.78.c:0 "Give everything to Ukraine"
+ rksplus.78.e:0 "Split the lands between Moskowien and Kaukasien"
+ 
+ 
+ rksplus.79.t:0 "A NEW POWER HAS ARRIVED"
+ rksplus.79.d:0 "WE SHALL RECLAIM WHAT IS CLEARLY OURS. HYPERBOREA LEADS ALL TO PROSPERITY ONLY UNDER THE GUIDANCE OF VELIMIR. NO LONGER SHALL THE PEOPLE SUFFER UNDER UNFAIR NAZISM, WHICH HAS DOOMED US SLAVS. ONLY HYPERBOREA CAN SAVE TRUE SLAVS FROM ANNIHILATION. PREPARE YOURSELF FOR THE GREAT DEMISE."
+ rksplus.79.a:0 "HHHHHAAAAAAAAAAHAHAHAHHAHAHA"
+ 
+ rksplus.80.t:0 "FETCH US YOUR SOUL"
+ rksplus.80.d:0 "FETCH US YOUR SOUL"
+ rksplus.80.a:0 "FETCH US YOUR SOUL"
+ 
+ rksplus.81.t:0 "GREETINGS"
+ rksplus.81.d:0 "AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
+ rksplus.81.a:0 "NONE SHALL ESCAPE"
+ 
+ rksplus.82.t:0 "Reclaim Russia!"
+ rksplus.82.d:0 "Only under the guidance of Dmitry Yazov can we see Moscow once again! Let us reclaim the motherland in the Final Trial!"
+ rksplus.82.a:0 "URAAA!!!"
+ 
+ rksplus.83.t:0 "Verify your clocks"
+ rksplus.83.d:0 "Verify your clocks"
+ rksplus.83.a:0 "Verify your clocks"
+ 
+ rksplus.84.t:0 "01010111 01000101"
+ rksplus.84.d:0 "01010111 01000101 00100000 01010011 01001000 01000001 01001100 01001100 00100000 01010111 01001111 01010010 01001011 00100000 01000110 01001111 01010010 00100000 01001111 01001110 01000101 00100000 01000011 01000001 01010101 01010011 01000101 00001010 01010111 01000101 00100000 01010011 01001000 01000001 01001100 01001100 00100000 01010101 01001110 01001001 01010100 01000101 00100000 01010101 01001110 01000100 01000101 01010010 00100000 01001111 01001110 01000101 00100000 01000010 01000001 01001110 01001110 01000101 01010010 00001010 01010111 01000101 00100000 01010011 01001000 01000001 01001100 01001100 00100000 01010000 01010010 01001111 01010011 01010000 01000101 01010010 00100000 01010101 01001110 01000100 01000101 01010010 00100000 01001111 01001110 01000101 00100000 01001100 01000101 01000001 01000100 01000101 01010010 00001010 01010111 01000101 00100000 01010011 01001000 01000001 01001100 01001100 00100000 01001101 01000101 01000011 01001000 01000001 01001110 01001001 01010011 01000101 00100000 01000110 01001111 01010010 00100000 01001111 01001110 01000101 00100000 01010100 01000001 01010011 01001011 00001010 01010111 01000101 00100000 01010011 01001000 01000001 01001100 01001100 00100000 01000110 01001001 01000111 01001000 01010100 00100000 01000110 01001111 01010010 00100000 01001111 01001110 01000101 00100000 01010011 01010100 01000001 01010100 01000101 00001010 00001010 01010111 01000101"
+ rksplus.84.a:0 "01010111 01000101"
+ 
+ rksplus.85.t:0 "Southern Belarus Question"
+ rksplus.85.d:0 "With Reichskommissariats established in the East, we can decide on the looks of the border between RK Ukraine and RK Ostland by giving the states of Polesie and Mozyr to...."
+ rksplus.85.a:0 "Give them to RK Ostland"
+ rksplus.85.b:0 "Give them to RK Ukraine"
+ 
+ rksplus.86.t:0 "Gomel Question"
+ rksplus.86.d:0 "With Reichskommissariats established in the East, we can decide on the looks of the border between RK Ostland and RK Moskowien by giving the state of Gomel to...."
+ rksplus.86.a:0 "Give them to RK Ostland"
+ rksplus.86.b:0 "Give them to RK Moskowien"
+ 
+ rksplus.87.t:0 "Chernigov-Sumy Question"
+ rksplus.87.d:0 "With Reichskommissariats established in the East, we can decide on the looks of the border between RK Ukraine and RK Moskowien by giving the states of Chernigov and Sumy to...."
+ rksplus.87.a:0 "Give them to RK Moskowien"
+ rksplus.87.b:0 "Give them to RK Ukraine"
+ 
+ rksplus.88.t:0 "Donbass Question"
+ rksplus.88.d:0 "With Reichskommissariats established in the East, we can decide on the looks of the border between RK Ukraine and RK Moskowien by giving the region of Donbass to..."
+ rksplus.88.a:0 "Give them to RK Moskowien"
+ rksplus.88.b:0 "Give them to RK Ukraine"
+ 
+ rksplus.89.t:0 "Kherson Question"
+ rksplus.89.d:0 "With Reichskommissariats established in the East, we can decide on the looks of the border in Ukraine by giving the state of Kherson to..."
+ rksplus.89.a:0 "Give it to RK Ukraine"
+ rksplus.89.b:0 "Give it to Gotenland"
+ 
+ rksplus.90.t:0 "The Fate of India"
+ rksplus.90.d:0 "India or more accurately context as the Indian Subcontinent has been the Jewel of the British Empire for decades. The years of conquest by the British East India Company followed by the British Empire has showed the supremacy of the Aryan race, even if mixed to a certain degree. However, we as the pure Aryans of Deustchland certainly will create a system superior than those of the British. Admittedly however our military presence in India is second to none due to micromanaging the far more important European fronts. Therefore, we lack the proper readiness to fully subjugate India under the Aryan Hakenkreuz without certain revolts and uprisings. The previously pure Aryans of the Indus Valley has been wiped out by centuries of conflicts, further weakening the Aryan blood spirit. Nevertheless, we have two options on how to tackle India. \n\nWe can either manage a whole united India, looks nice on paper but it will complicate the administration due to the collapse of the British system. \n\nOr, we could just split the region into three which would help the administrations of each Reichskolonie to supress revolts and exploit resources."
+ rksplus.90.a:0 "One under the Hakenkreuz!"
+ rksplus.90.b:0 "Three colonies will ease the instability!"
+ 
+ rksplus.91.t:0 "Andaman Question"
+ rksplus.91.d:0 "Thanks to the valiant efforts of our navy and army, we are able to take over the islands of Andaman. Majority of the islands has been captured though one particular island is uncertain. A squadron of marines were sent to the island to secure it however we still haven't recieved any responses from them.... Anyway, what should we do with the islands?"
+ rksplus.91.a:0 "Give them to RK Indien"
+ rksplus.91.b:0 "Give them to RK Indochina"
+ rksplus.91.c:0 "Give them to RK Bengalen"
+ 
+ rksplus.92.t:0 "Panama Canal Question"
+ rksplus.92.d:0 "The Panama Canal is undoubtedly one of the most important construction in the history of mankind. Not only did it revolutionised the trading world but also catapulted the US to becoming a world powerhouse. With the canal in our firm controls, what decision should we take regarding this vital architectural masterpiece?"
+ rksplus.92.a:0 "Transfer to RK Zentralamerika"
+ rksplus.92.b:0 "We'll hold on to it."
+ 
+ rksplus.93.t:0 "Collaboration in Hungary?"
+ rksplus.93.d:0 "The current situation in Hungary has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow the Arrow Cross Party to rule over Hungary under our supervision?"
+ rksplus.93.a:0 "Nein!"
+ rksplus.93.b:0 "Good idea!"
+ 
+ rksplus.94.t:0 "Collaboration in Croatia?"
+ rksplus.94.d:0 "The current situation in Croatia has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow the Ustaše to rule over Croatia under our supervision?"
+ rksplus.94.a:0 "Nein!"
+ rksplus.94.b:0 "Good idea!"
+ 
+ rksplus.95.t:0 "Collaboration in Ukraine?"
+ rksplus.95.d:0 "The current situation in Ukraine has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow the OUN to rule over Ukraine under our supervision? §RWARNING: Allowing collaboration government will make the integration process much harder and longer...§!"
+ rksplus.95.a:0 "Nein!"
+ rksplus.95.b:0 "Stepan Bandera will lead!"
+ rksplus.95.c:0 "Andriy Melnyk will lead!"
+ rksplus.95.e:0 "No, the Ukrainian National Council will instead!"
+ 
+ rksplus.96.t:0 "The Fate of Brittany"
+ rksplus.96.d:0 "Brittany, perhaps the final holdout of the Celts on mainland Europe. Joachim von Ribbentrop, our diplomat has offered his service to adminster Brittany as a Reichskommisar. Ribbentrop being fluent in French has validated his point, though we do have another option which is to transfer the state to Reichskommissariat Frankreich instead."
+ rksplus.96.a:0 "Transfer to [RFC.GetName]"
+ rksplus.96.b:0 "Form Reichskommissariat Bretagne"
+ 
+ rksplus.97.t:0 "Kursk-Belgorod-Voronezh Question"
+ rksplus.97.d:0 "With Reichskommissariats established in the East, we can decide on the looks of the border between RK Ukraine and RK Moskowien by giving the state of Belgorod, Kursk and Voronezh to..."
+ rksplus.97.a:0 "Give all to RK Moskowien"
+ rksplus.97.b:0 "Give all to RK Ukraine"
+ rksplus.97.c:0 "Belgorod to Ukraine, the rest to Moskowien."
+ 
+ rksplus.98.t:0 "Play as Burgundy?"
+ rksplus.98.d:0 "This is an option to play as Burgundy. It is optional."
+ rksplus.98.a:0 "I'm not interested."
+ rksplus.98.b:0 "Sure, why not!"
+ 
+ rksplus.99.t:0 "Collaboration in Romania?"
+ rksplus.99.d:0 "The current situation in Romania has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow the Military Junta/Iron Guard to rule over Romania under our supervision?"
+ rksplus.99.a:0 "Nein!"
+ rksplus.99.b:0 "Ion Antonescu will lead!"
+ rksplus.99.c:0 "Horia Sima will lead!"
+ 
+ rksplus.100.t:0 "Collaboration in Albania?"
+ rksplus.100.d:0 "The current situation in Albania has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow the Balli Kombëtar to rule over Albania under our supervision?"
+ rksplus.100.a:0 "Nein!"
+ rksplus.100.b:0 "Good idea!"
+ 
+ rksplus.101.t:0 "Collaboration in Serbia?"
+ rksplus.101.d:0 "The current situation in Serbia has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow Nedic's Government to rule over Serbia under our supervision?"
+ rksplus.101.a:0 "Nein!"
+ rksplus.101.b:0 "Good idea!"
+ 
+ rksplus.102.t:0 "Collaboration in Bulgaria?"
+ rksplus.102.d:0 "The current situation in Bulgaria has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow UBNL to rule over Bulgaria under our supervision?"
+ rksplus.102.a:0 "Nein!"
+ rksplus.102.b:0 "Good idea!"
+ 
+ rksplus.103.t:0 "Collaboration in Greece?"
+ rksplus.103.d:0 "The current situation in Greece has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow Hellenic collaborators to rule over Greece under our supervision?"
+ rksplus.103.a:0 "Nein!"
+ rksplus.103.b:0 "Georgios Tsolakoglou will lead!"
+ rksplus.103.c:0 "Ioannis Rallis will lead!"
+ rksplus.103.e:0 "Konstandinos Logothetopoulos will lead!"
+ 
+ rksplus.104.t:0 "Collaboration in Slovakia?"
+ rksplus.104.d:0 "The current situation in Slovakia has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow Slovak People's Party to rule over Slovakia under our supervision?"
+ rksplus.104.a:0 "Nein!"
+ rksplus.104.b:0 "Good idea!"
+ 
+ rksplus.105.t:0 "Montenegro Question"
+ rksplus.105.d:0 "The Albanian and Serbian administration has respectively sent their proposals for the question of Montenegro. The Albanian administration argues that the region has always been a part of Albania while the Serbian Administration countered with the region being a part of the old Serbia. Ultimately, it is our decision here in Berlin that would decide the outcome of this conflict. So, who should we give it to?"
+ rksplus.105.a:0 "Give Montenegro to RK Albania."
+ rksplus.105.b:0 "No, RK Serbia is the better option."
+ 
+ rksplus.106.t:0 "Aland Question"
+ rksplus.106.d:0 "Aland has been captured recently and it is time to decide the future of the islands."
+ rksplus.106.a:0 "Transfer to [RFD.GetName]"
+ rksplus.106.b:0 "Transfer to [RSW.GetName]"
+ rksplus.106.c:0 "We'll hold on to it."
+ 
+ rksplus.107.t:0 "Bornholm Question"
+ rksplus.107.d:0 "Bornholm has been captured recently and it is time to decide the future of the island."
+ rksplus.107.a:0 "Transfer to [RDN.GetName]"
+ rksplus.107.b:0 "Transfer to [RSW.GetName]"
+ rksplus.107.c:0 "We'll hold on to it."
+ 
+ rksplus.108.t:0 "Isle of Man Question"
+ rksplus.108.d:0 "Isle of Man has been captured recently and it is time to decide the future of the island."
+ rksplus.108.a:0 "Transfer to [RUK.GetName]"
+ rksplus.108.b:0 "Transfer to [RIE.GetName]"
+ rksplus.108.c:0 "Transfer to [RWL.GetName]"
+ rksplus.108.e:0 "Transfer to [RSC.GetName]"
+ rksplus.108.f:0 "We'll hold on to it."
+ 
+ rksplus.109.t:0 "Shetland Islands Question"
+ rksplus.109.d:0 "Shetland Islands have been captured recently and it is time to decide the future of the island."
+ rksplus.109.a:0 "Transfer to [RUK.GetName]"
+ rksplus.109.b:0 "Transfer to [RSC.GetName]"
+ rksplus.109.c:0 "We'll hold on to it."
+ 
+ rksplus.110.t:0 "Jan Mayen Question"
+ rksplus.110.d:0 "LONG LIVE THE SACRED JAN MAYEN EMPIRE LONG LIVE THE SACRED JAN MAYEN EMPIRE 60 MILLION ONCE LIVED HERE NOW ITS POPULATED WITH LESS THAN FUCKING 15 PEOPLE AHHHHHHHHHH"
+ rksplus.110.a:0 "Transfer to [RNW.GetName]"
+ rksplus.110.b:0 "Transfer to [OIC.GetName]"
+ rksplus.110.c:0 "We'll hold on to it."
+ 
+ rksplus.111.t:0 "Baja California Question"
+ rksplus.111.d:0 "Our troops have sucessfully captured the city of Tijuana thus securing Baja California for good. With peace in the state, what should we do with this piece of land?"
+ rksplus.111.a:0 "Transfer to [RMX.GetName]"
+ rksplus.111.b:0 "Transfer to [RPZ.GetName]"
+ 
+ rksplus.112.t:0 "Collaboration in Britain?"
+ rksplus.112.d:0 "In the aftermath of the Battle of Britain, many of the British loyalists had either fled or perished from the face of Earth. With the situation calming down as our military police monitor the city streets, an important question has emerged. Should we allow collaborators to govern the British Isles? We have three options, firstly the founder of the British Union of Fascists, Oswald Mosley, secondly the pro-German and founder of the British Free Corps John Amery and finally King Edward VIII. It's up to the Fuhrer to decide. \n\n§RTo get Oswald Mosley or John Amery in charge, Britain must be united under a single entity!§!"
+ rksplus.112.a:0 "The king's legitimacy is undisputed!"
+ rksplus.112.b:0 "The freedom fighter of Britain!"
+ rksplus.112.c:0 "Nope."
+ 
+ rksplus.113.t:0 "Collaboration in Britain?"
+ rksplus.113.d:0 "The current situation in Britain has calmed down over the period of our occupation and the military is needed elsewhere on the front. Should we allow the British Union of Fascists or British Free Corps to rule over Britain under our supervision?"
+ rksplus.113.a:0 "Oswald Mosley's BUF"
+ rksplus.113.b:0 "John Amery's BFC"
+ rksplus.113.c:0 "Oswald Mosley's BUF"
+ rksplus.113.e:0 "John Amery's BFC"
+ 
+ rksplus.114.t:0 "Collaboration in Ireland?"
+ rksplus.114.d:0 "The current situation in Ireland has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow Irish collaborators to rule over Ireland under our supervision?"
+ rksplus.114.a:0 "Nein!"
+ rksplus.114.b:0 "Francis Stuart will lead!"
+ rksplus.114.c:0 "Eoin O'Duffy will lead!"
+ 
+ rksplus.115.t:0 "Collaboration in Norway?"
+ rksplus.115.d:0 "The current situation in Norway has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow Quisling and his Nasjonal Samling to rule over Norway under our supervision?"
+ rksplus.115.a:0 "Nein!"
+ rksplus.115.b:0 "Good idea!"
+ 
+ rksplus.116.t:0 "Collaboration in Sweden?"
+ rksplus.116.d:0 "The current situation in Sweden has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow Sven Olov Lindholm and his NSAP to rule over Sweden under our supervision?"
+ rksplus.116.a:0 "Nein!"
+ rksplus.116.b:0 "Good idea!"
+ 
+ rksplus.117.t:0 "Collaboration in Finland?"
+ rksplus.117.d:0 "The current situation in Finland has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow Arvi Kalsta and the SKJ to rule over Finland under our supervision?"
+ rksplus.117.a:0 "Nein!"
+ rksplus.117.b:0 "Good idea!"
+ 
+ rksplus.118.t:0 "Collaboration in Netherlands?"
+ rksplus.118.d:0 "The current situation in Netherlands has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow Anton Mussert and the NSB to rule over Netherlands under our supervision?"
+ rksplus.118.a:0 "Nein!"
+ rksplus.118.b:0 "Good idea!"
+ 
+ rksplus.119.t:0 "Collaboration in France?"
+ rksplus.119.d:0 "The current situation in France has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow Philippe Pétain, a renowned Great War general or Jacques Doriot, a newcomer but supportive of Germany to rule over France under our supervision?"
+ rksplus.119.a:0 "Nein!"
+ rksplus.119.b:0 "Pétain will fit the job well."
+ rksplus.119.c:0 "Doriot is the man France needs now!"
+ 
+ rksplus.120.t:0 "Corsica Question"
+ rksplus.120.d:0 "The island of Corsica has been sucessfully captured thanks to the valiant efforts of our army! Now, with the island settling down, what should we do with this island?"
+ rksplus.120.a:0 "Transfer to [RFC.GetName]"
+ rksplus.120.b:0 "Transfer to [RIT.GetName]"
+ 
+ rksplus.121.t:0 "Collaboration in Spain?"
+ rksplus.121.d:0 "The current situation in Spain has tensed up over the period of our occupation and the military is needed elsewhere on the front. Should we allow José María Gil-Robles and the CEDA to rule over Spain under our supervision?"
+ rksplus.121.a:0 "Nein!"
+ rksplus.121.b:0 "Good idea!"
+ 
+ rksplus.123.t:0 "Arkhangelsk Question"
+ rksplus.123.d:0 "Our troops have sucessfully captured the city of Arkhangelsk thus securing the region for good. With peace in the state, what should we do with this piece of land?"
+ rksplus.123.a:0 "Establish the [RND.GetName]!"
+ rksplus.123.b:0 "Transfer to [RMK.GetName]"
+ 
+ rksplus.124.t:0 "Nenets Question"
+ rksplus.124.d:0 "Our troops have sucessfully captured the city of Naryan Mar thus securing the region for good. With peace in the state, what should we do with this piece of land?"
+ rksplus.124.a:0 "Transfer to [RND.GetName]!"
+ rksplus.124.b:0 "Transfer to [RMK.GetName]"
+ 
+ rksplus.125.t:0 "The Northern Star"
+ rksplus.125.d:0 "After 3 years of meticulous planning followed by construction and development, the day has finally come for the new city of Nordstern dubbed "The German Singapore" to be inaugurated. \n\nIn his mesmerising speech, Fuhrer Adolf Hitler congratulated the workers of the Reich for the successful construction of the northern city. Hitler ended his speech by formally inaugurating the opening of the city to the Germanic people. Crowds cheered on as the ceremony took place. \n\nNordstern ("Northern Star") is a city envisioned by Adolf Hitler to be the "German Singapore" that would put the real one in shame in terms of military capabilities. Hitler appointed his favorite architect, Albert Speer to lead the project. Materials from occupied territories aswell as enslaved labourers mainly those of POWs were extensively used to ensure the completion of the project. \n\nThe city was built in conjuction with a major Kriegsmarine naval base. This would undoubtedly give Germany unprecedented maritime control over the North Atlantic area, a move strongly supported by Grossadmirals Erich Raeder and Karl Donitz. The naval base is fully equipped with the greatest weaponry known to man, unrivaled in the global stage. \n\nThe city is a massive propaganda machine for the Reich, being the most sucessful metropolis to be built under the Reich. The city is able to house around 250000-300000 German inhabitants thanks to the 55000 residential houses built. An enormous art museum was also built, containing the great German works for the people to admire. Infrastrucutres in the region has been vastly improved to accomodate the large number of settlers. \n\nThe Northern Star has shown its great potential not only throughout the Scandinavian peninsula but Europe aswell."
+ rksplus.125.a:0 "Shine bright, Nordstern!"
+ 
+ rksplus.126.t:0 "Project Nordstern is a Failure!"
+ rksplus.126.d:0 "Due to recent events, the construction of the city of Nordstern has been deemed a failure."
+ rksplus.126.a:0 "FUCKKKKK!!!!"
+ 
+ rksplus.127.t:0 "Easter Island Question"
+ rksplus.127.d:0 "The island of Easter Island has been sucessfully captured thanks to the valiant efforts of our army! Now, with the island settling down, what should we do with this island?"
+ rksplus.127.a:0 "Transfer to [RGT.GetName]"
+ rksplus.127.b:0 "We'll keep it."
+ 
+ rksplus.128.t:0 "Parana Question"
+ rksplus.128.d:0 "Our troops have sucessfully captured the city of Curitiba thus securing the region for good. With peace in the state, what should we do with this piece of land?"
+ rksplus.128.a:0 "Transfer to [RBZ.GetName]"
+ rksplus.128.b:0 "Transfer to [RGT.GetName]"
+ 
+ rksplus.1000.t:0 "Reichskommissariats Plus: Conquest Update"
+ rksplus.1000.d:0 "Hello and thank you very much for using my mod, Reichskommissariats Plus. \n\nReichskommissariats Plus is a mod purposed to allow players to create a new world order as the German Reich. The mod features a variety of additions, such as new Reichskommissariats for the ENTIRE WORLD, SS Ordensstaats, territorial questions, Soviet Union Peace Deal and even a customization menu \n\n-------------------------------------------------------------------------------------------------------------------------------\n\nOPTIONS BELOW (These options are available mostly due to compatiblity sake, but you could also use it if youre just lazy) \n\n1ST OPTION: Allows Germany to create Reichskommissariats without finishing the focus tree! \n\n2ND OPTION: Normal gameplay, no bypass"
+ rksplus.1000.a:0 "Allow creation of Reichskommissariats without completing the focus tree"
+ rksplus.1000.b:0 "Germany must complete the focus tree to create Reichskommissariats"
+ 
+ 
+ #### GOTENLAND ####
+ 
+ rksgotenland.1.t:0 "Disturbing Reports"
+ rksgotenland.1.d:0 "Reports have confirmed the presence of local resistance groups in the outskirts of Sevastopol. They are actively firing upon the German patrols and have even killed 3 of them. Special measures must be taken to clear out this threat."
+ rksgotenland.1.a:0 "No time left to spare."
+ 
+ rksgotenland.2.t:0 "First Phase"
+ rksgotenland.2.d:0 "REPORT: It is the greatest honour to inform you that the resistance no longer poses a significant threat to our foundation. Their futile efforts to destroy the very core of our state has been utterly destroyed. In other news, we have began the work on Germanising the land. Most of the locals are now either sent off to the camps or enslaved. The real task can finally start."
+ rksgotenland.2.a:0 "Wunderbar!"
+ 
+ rksgotenland.3.t:0 "Battle of Crimea"
+ rksgotenland.3.d:0 "Today, the elite SS units has ambushed the resistance's base. Initially, both sides exchanged fires from far distances. With artillery supports, the town the resistance have set up their base in was wiped out from the face of the Earth. As our troops slowly move in to secure the base, surviving resistance members either ran away or put up a last stand. A close-quarter combat took place shortly after. However thanks to our superiority in force and strength, the resistance stood no chance. We were able to secure the town a few hours later. The casualty numbers for our side are 51 men while they suffered 217 casualties, mostly dead. This sadly however is not the end of the resistance as informers reported that they have quickly set up a new base somewhere in the region. Overall, this is a decisive victory for us and the Reich."
+ rksgotenland.3.a:0 "Rest in peace to our fallen comrades."
+
+ #### BURGUNDY ####
+ 
+ rksburgundy.1.t:0 "Loyalty under Threat"
+ rksburgundy.1.d:0 "Heinrich Himmler, concerned over his men's loyalty has ordered an investigation. After a couple of weeks, the investigators have found out that some of Himmler's men are working for his opponents. The following day, the men were quickly apprehended by the secret police loyal to Himmler."
+ rksburgundy.1.a:0 "They will be scared to betray now."
+ 
+ rksburgundy.2.t:0 "The Night"
+ rksburgundy.2.d:0 "With suspicions arousing, Heinrich Himmler ordered his men to launch a secret operation. His goals? To eliminate all opponents. That night, a number of opponents were quickly silenced. Some were sent to the camps, others killed. With experiences from the Night of the Long Knives, this operation was certain to be successful. At dawn, Himmler can finally rest knowing that his control over Burgundy is no longer oppossed."
+ rksburgundy.2.a:0 "Sacrifices had to be made."
+ 
+ rksburgundy.3.t:0 "The Mission"
+ rksburgundy.3.d:0 "The idea of the Noah's Ark being in Tibet has sparked curiosity within Himmler's circle. Perhaps the origin of the Aryan people can be traced there, maybe even artifacts can be found there. Himmler has sent out several agents to Tibet to arrange a potential expedition. They are en route and soon will be reporting back to Burgundy."
+ rksburgundy.3.a:0 "Well well well...."
+ 
+ rksburgundy.4.t:0 "The Connection"
+ rksburgundy.4.d:0 "Our agents in Tibet has confirmed the possibility of the Aryan's origin. They have sucessfully negotiated a deal with local Tibetans for a guide and a house in exchange of a couple herds of goats and silvers."
+ rksburgundy.4.a:0 "It's confirmed!"
+ 
+ rksburgundy.5.t:0 "The Expedition"
+ rksburgundy.5.d:0 "Departing from the newly constructed airbase, the plane first lands in Damascus to refuel. After that, the plane finally arrived to Delhi. From there, the expedition crew drove all the way to the Himalayas and crossed over to Tibet. After a couple of days, they reached Lhasa, capital of Tibet. They met with the agents who introduced them to the local guide. Later, they headed out to the house they bought and rest for the day. Next week will be an interesting week, for sure."
+ rksburgundy.5.a:0 "Quite a long journey, isn't it?"
+ 
+ rksburgundy.6.t:0 "Discoveries"
+ rksburgundy.6.d:0 "The expedition crew set off on an epic journey towards the mountains. After they reached their destination, they quickly set up camp and began searching for clues. A couple of hours in and it seems like nothing was found. One day passed, nothing. Two days passed, nothing. Three days, nothing. Five days, yep nothing. At this point the crew was about to give up and go back to Lhasa when all of a sudden one of them shouted 'There's a cavern down here!'. Everybody quickly gathered around the man and what they saw was stunning to say the least. A massive entrance which leads to a cavern. 'Could this be the resting place of Noah's Ark?' they wondered. One of them volunteered to go down the small entrance, with the help of a rope. As he descends below equipped with a camera and a torch, he reports the situation to his fellow crewmates. The rope was barely long enough but he made it. There he wandered around the dark cavern searching for something. At last, he found an ancient mural painting that closely resembles the one in Germany. As he looked on in awe, he noticed something. There's another entrance. It seems thought that it is blocked by a boulder. Realising there's nothing left, he quickly took pictures of the mural and called out to his crewmates to pick him up. After he ascended, he told his crewmates about what's down there. Surprised, they asked for the pictures he took. When they took a look, they were stunned. This is it. It must be. The guy then told the crewmates there's another entrance but it is blocked by a boulder. Thankfully, they brought a couple of explosives along with them."
+ rksburgundy.6.a:0 "What's in there?"
+ 
+ rksburgundy.7.t:0 "The Reveal"
+ rksburgundy.7.d:0 "With the explosives, they agreed to blow up the boulder. They quickly descended down the entrance and began setting up the necessary equipments. When everything was set and ready, everybody went back to a safe distance. Counting from three to one, the explosives blew, sucessfully destroying the boulder. Everybody looked at each other to see if someone dares to go in. But in the end everyone agreed to go in at the same time. Upon entering, they found a staircase which leads to a seemingly endless dark path. Cautiously descending, they began to wonder what could be down there. After 10 minutes, the staircase stopped and led to a pitch-black path. They pressed on and continue walking down the path until all of a sudden a glimpse of light shines. Confused, they slowly walked. At last, it wasn't the Noah's Ark that was shining. IT IS THE FUCKING HOLLOW EARTH. HOW THE FUCK IS THIS EVEN POSSIBLE MEIN GOTT!!! THERES FUCKING DINOSAURS AND PTERODACTYLS FLYING!!!!! IS THAT FUCKING KING KONG???!!! Wait what's that? An ancient artifact...."
+ rksburgundy.7.a:0 "WHAT THE ACTUAL FUCK!"
+ 
+ 
+ rksburgundynew.1.t:0 "The Birth"
+ rksburgundynew.1.d:0 "The success of the mutiny led to the foundation of an Ordensstaat located in what was once the Duchy of Burgundy. As the SS troops began arriving in Nancy and Dijon, Himmler and his closest allies began to talk. A room in an ancient stronghold was picked as the discussion room. \n\nGiven the history of Burgundy, a Germanic tribe settling in Eastern Gaul after moved by the Roman Empire. Centuries of war and destruction and the final nail in the coffin being the defeat in the Battle of Nancy led to the downfall of the Duchy of Burgundy. \n\nAs convoys of troops began disembarking on foot in French cities, the citizens look in worry as SS soldiers began rounding up suspected untermensch and enemies in the city center. Not long, the cities heard thunder of gunshots which echoed everywhere. As the stream of blood flow in the streets of the cities, this sent a chilling message to each person. §RPREPARE FOR HELL.§!"
+ rksburgundynew.1.a:0 "A bloody start"
+ 
+ rksburgundynew.2.t:0 "Factionalism"
+ rksburgundynew.2.d:0 "Various factions have formed among the hierachy of the Schutzstaffel. The most prominent being the Himmler faction and the opposition. We must quickly decide who's the best for the Ordensstaat..."
+ rksburgundynew.2.a:0 "This sucks..."
+ 
+ rksburgundynew.3.t:0 "The Coup"
+ rksburgundynew.3.d:0 "Today, men of the Schutzstaffel loyal to the opposition sucessfully captured the prominent command center in Besancon. They have captured most of Himmler's faction members including himself as an important meeting was taking place. Thanks to the element of surprise, guards loyal to Himmler were quickly disarmed either by submission or death. \n\nThe new administration has quickly announced a martial law and parts of the military loyal to the opposition managed to overthrow the central command which was loyal to Himmler. Situation in the Ordensstaat are developing by minutes as reports stated that a French rebellion has taken place in Reims, though recent reports has concluded to mass arrests. \n\nHeinrich Himmler, along with his loyal allies were sent to the infamous chamber known as the "Crimson Keep". They are currently awaiting trials for their heinous crimes against the Reich."
+ rksburgundynew.3.a:0 "Mission success!"
+ 
+ rksburgundynew.4.t:0 "Renewed Loyalty"
+ rksburgundynew.4.d:0 "After a meeting in Berlin between Schutzstaffel and German officials, the SS has pledged loyalty to the Reich and would punish those who're against it. Though the question of the existence of the Ordensstaat was brought up, the Fuhrer ultimately decided to let the SS continue the reign in Burgundy as long as the Reich are allowed to monitor the state. Happy with the agreements, both sides reconcile and live happily ever after..."
+ rksburgundynew.4.a:0 "Glad that bastard is ousted..."
+ 
+ rksburgundynew.5.t:0 "The Future"
+ rksburgundynew.5.d:0 "With the future fast approaching, we must think for ourselves on how to approach it. While we are in fact loyal to the Reich, we should have a certain amount of autonomy to keep things in check. But, being friendly to Berlin while at the same time moving forward on our own is also appealing. Though, is still worth it to find meanings outside of serving the Reich to its fullest? Our purpose is to satisfy the Reich's needs from the very beginning after all. Such uncertainty! We have to decide on one path and one path only! NOW!"
+ rksburgundynew.5.a:0 "Autonomous State!"
+ rksburgundynew.5.b:0 "Balanced Approach!"
+ rksburgundynew.5.c:0 "Reich's Protectorate!"
+ 
+ rksburgundynew.6.t:0 "Unternehmen Oberherr"
+ rksburgundynew.6.d:0 "DATE: XX-XX-19XX \nUNTERNEHMEN OBERHERR \nRESULTS:SUCCESS \n\nUnternehmen Oberherr or Operation Overlord is an astounding success for the German people throughtout the lands of the Reich. Reichsführer-SS Heinrich Himmler has announced in a fiery speech that the efforts of the Schutzstaffel opposition in overthrowing Himmler has been destroyed thanks to the brilliant efforts of the Waffen-SS loyal to Himmler. \n\nThe opposition was caught red-handed when Himmler had set up a fake meeting with his body double and fake SS officials. This false information was then passed to important officials, though locations vary each person. One particular official took the bait and sent his men to a meaningless demise. He, along with his compatriots and allies were captured and sent to the infamous "Crimson Keep" for further questioning. \n\nAfter hours of interrogation, the conspirator revealed the identities of other conspirators. One by one, each suspect admitted to their crimes of plotting against Himmler and were sent to concentration camps. In total, over 179 suspects including soldiers were sucessfully apprehended though sadly some have escaped and took refuge in the Reich itself. \n\nReichsführer-SS Heinrich Himmler finalises his speech by stating that a new era for the Schutzstaffel and the whole German people has begun. This whole operation led to him having full control over the party and Ordensstaat as the undisputed ruler. §RThe Black Sun Will Rise Glooming Earth§!"
+ rksburgundynew.6.a:0 "§RA new era dawns upon all§!"
+ 
+ rksburgundynew.7.t:0 "Loyalty Check"
+ rksburgundynew.7.d:0 "Earlier today, Reichsführer-SS Heinrich Himmler has gathered every single important officials in the Ordensstaat to affirm their full loyalty towards Himmler. Himmler, having unprecedented power over all those in Burgundy showed his dominance by revealing the names of traitors still remaining. One by one, they either came out slowly sobbing or straight up collapse, then proceeded to be dragged out of the room to meet certain demise. With one fourth of the room gone, the rest realised their doomed fate and pledged total loyalty to Himmler."
+ rksburgundynew.7.a:0 "Remember that!"
+ 
+ rksburgundynew.8.t:0 "New Identity"
+ rksburgundynew.8.d:0 "Before the war, the states of Champagne and Franche-Comte were a part of the French State. Both states were ravaged by the brutal French culture, which promotes eating frog and praising chicken god. Thanks to the valiant efforts of the German army, the region was sucessfully liberated from its French oppressors. \n\nEven after the establishment of SS-Ordensstaat Burgund, there is still heavy French influence. That is when Reichsführer-SS Heinrich Himmler sets out to eliminate French culture totally from Burgundy. After series of events, most influencial French people in Burgundy is either dead or went into hiding. The public has been exposed to the greater Aryan culture of the Germanic race. Slowly but surely, they converted into Germans and left their French traditions and cultures in favour of the German version. \n\nUltimately, French culture still lingers barely in the streets of our cities. Steadily, we are removing every single mention of French culture to erase it from the lands of the Burgunds. The people are German and the land is too...."
+ rksburgundynew.8.a:0 "Rightfully returned to the Germanic people!"
+ 
+ rksburgundynew.9.t:0 "New Loyalty"
+ rksburgundynew.9.d:0 "The people once foolishly believed that French is the greatest culture in existance. They blindly believed what their leader and only rose up when their stomach is empty. This cycle of violence ultimately lowers the trust between the government and the people of France. \n\nAfter the French government cowardly left Paris, many citizen were left shocked on how ineffective and cowardly their leader was. With the war over in Europe, some still foolishly believed in the government and began rebelling against us. They died a meaningless death. \n\nWith the establishment of the Ordensstaat, we have not only shown the people what true governance is but also outperformed the French by a great margin. Slowly, the people began believing in us, the true saviour of Burgundy. The French government were mocked, discredited and shamed in the streets while our administration is highly praised. This proves that we are superior in all ways than the French. Sooner or later, the BLACK SUN will rise."
+ rksburgundynew.9.a:0 "They better truly do... or else...."
+ 
+ rksburgundynew.10.t:0 "The Catacombs"
+ rksburgundynew.10.d:0 ""§RThere will be a moment when the sun turns §!black.... §RJust a little more blood and they will be satisfied....§!" \n\nThe words of an ancient text found deep underground the Paris Catacombs. We didn't have permission to enter deep underground, yet, but we have secretly infiltrated and dug out an undisclosed pathway closed to the public. Following the path, there was a wooden door, almost fully rotten due to aging. The door was opened and a room is revealed to us all. Inside was an armory of weapons with symbols of the black sun, remains of what was thought to be a last stand. Between who? We don't have a clear answer. \n\nVenturing further, a large monument stood in front of us. No one dared to go forward but me. I was dumb enough to go. As I approached the mysterious monument, suddenly a bright light emitted from it, blinding us temporarily. When we opened our eyes, the room no longer exists and instead a large section of the catacomb replaced it. Back to the eerie background of skulls, I guess. It's not over though as a plate containing scripts of a past language lays down in front of me. Picking it up, I showed it to my colleagues. \n\nThe man named REDACTED actually managed to decipher the message and it says..... \n\nXX-XX-19XX"
+ rksburgundynew.10.a:0 "Hmmmm...."
+ 
+ rksburgundynew.11.t:0 "Berlin Question"
+ rksburgundynew.11.d:0 "The Schutzstaffel faces a wall, the wall being how to approach Germany. Berlin clearly despises us as rightfully so. We have stabbed them in the back to gain the Ordensstaat we currently reside in. Still, something has to be done. \n\nShould we distance ourselves even further from Germany, isolating us further but this means that we could reorganise the Schutzstaffel to be much more adaptable and responsive to situation on the ground. \n\nOr, we could leech off from the fact that Germany has taken an interest on our situation given that we have closed off access to outsiders aside from diplomats and settlers. We will give them obsolete and forged documents and in return, we will request investments, aids and experts to help improve our industry slightly more. \n\nAll for the sake of the Ordensstaat!"
+ rksburgundynew.11.a:0 "Only one way forward"
+ 
+ rksburgundynew.12.t:0 "SS-Ordensstaat Burgund is requesting investments!"
+ rksburgundynew.12.d:0 "Burgundy is requesting some investments in return for some important documents regarding their situation!"
+ rksburgundynew.12.a:0 "Sure."
+ rksburgundynew.12.b:0 "Nope."
+ 
+ rksburgundynew.13.t:0 "Missions to Ordensstaats"
+ rksburgundynew.13.d:0 "There is no point for us to isolate ourselves from other Ordensstaats. After all, we are like brothers stuck in a strict household. Even if their rule is under the grasps of Berlin, perhaps we could give them a visit and check on their situations?"
+ rksburgundynew.13.a:0 "Move on."
+ 
+ rksburgundynew.14.t:0 "Mission to Gotenland"
+ rksburgundynew.14.d:0 "It's been quite a while since Gotenland has turned into what it is now. \n\n After the glorious victory against the slavs, we have managed to consolidate our control in the peninsula thanks to the works of Reinhard Heydrich. Under his vision, Gotenland turned into a majestic tourist attraction known to all in the Reich. With the funds accumulating from the tourism sector, they were able to create a decent army capable of keeping the Slavs at bay. \n\nA toast for our friend in the east and a greater future!"
+ rksburgundynew.14.a:0 "A toast to a greater future!"
+ 
+ rksburgundynew.15.t:0 "Mission to Banat"
+ rksburgundynew.15.d:0 "In the heartland of the Balkans, an Ordensstaat stood proudly. The state has been criticised for being a base for warlords and pirates ravaging throughout the region. Still, they are ultranationalistic in nature and would be glad to receive us. \n\nFrom one Ordensstaat to the other!"
+ rksburgundynew.15.a:0 "One against all"
+ 
+ rksburgundynew.16.t:0 "Mission to Iceland"
+ rksburgundynew.16.d:0 "The volcanic freezing island of Iceland. Situated in the North Sea, it is a breeding ground for dozens of experiments regarding the colonial ambition of the Reich. \n\nNumerous colonies were set up as research facilites to find the ideal formula for future colonies around the world. One particular experiment revolves around a colony situated in the harsh cold environment to simulate the Siberia. \n\nAll for the future of the Germanic people!"
+ rksburgundynew.16.a:0 "Sounds amazing!"
+ 
+ rksburgundynew.17.t:0 "Mission to Lombardei"
+ rksburgundynew.17.d:0 "In our mission to Lombardei, we were given a tour around the country. Seeing the beautiful sights in Venice and Milan and the colonial town established during the reign of the Ordensstaat has motivated many Burgundian officials to work harder. \n\nOn our way back home, Herbert Ernst Vahl sent us his warming farewell and wishes a great future."
+ rksburgundynew.17.a:0 "Danke!"
+ 
+ rksburgundynew.18.t:0 "Dealing with the Devil"
+ rksburgundynew.18.d:0 "Lately, several contacts have been made with the mysterious organisation known as SHOCKER. Not much is known about them other than their goal is to control the world under their banner. \n\nIt's believed that they were originally a special research division created in a cooperation between Germany and Japan to speed up their technological advancement. It's unclear what was the fate of the division but it seems most of the members went rogue after discovering something sinister. They destroyed the research lab and left their respective countries to create SHOCKER. Naturally, they would've been our enemy but thanks to our previous diplomatic missions, we were able to create a mutual relationship between them. Despite this, we should still be extremely cautious when it comes to dealing with them. \n\nIn one of their meeting points in the city of Tokyo, we were able to receive a few intelligence and research documents regarding the human body and its abilites. \n\nUnknown source says that the SHOCKER is conducting experiment to create supersoldiers based on the DNA of insects and wild creatures. It's still a mystery to everyone but we should take an interest in their works, even if it will cost us everything."
+ rksburgundynew.18.a:0 "Is it even worth it?"
+ 
+ rksburgundynew.19.t:0 "Burgundy is pressuring us to join them!"
+ rksburgundynew.19.d:0 "SS-Ordensstaat Burgund has sent us a message demanding us to submit to their alignment and  join the Black Order, possibly against the Reich."
+ rksburgundynew.19.a:0 "Heil Himmler!"
+ rksburgundynew.19.b:0 "Never side with traitors!"
+ 
+ rksburgundynew.20.t:0 "Gotenland has joined us!"
+ rksburgundynew.20.d:0 "As expected, Gotenland has defied Berlin's wrath and sided with us!"
+ rksburgundynew.20.a:0 "We grow stronger each day"
+ 
+ rksburgundynew.21.t:0 "Gotenland has defied us!"
+ rksburgundynew.21.d:0 "Gotenland has surprisingly defied us and firmly stood their ground with the Reich, sadly."
+ rksburgundynew.21.a:0 "Their loss."
+ 
+ rksburgundynew.22.t:0 "Burgundy is pressuring us to join them!"
+ rksburgundynew.22.d:0 "SS-Ordensstaat Burgund has sent us a message demanding us to submit to their alignment and  join the Black Order, possibly against the Reich."
+ rksburgundynew.22.a:0 "Heil Himmler!"
+ rksburgundynew.22.b:0 "Never side with traitors!"
+ 
+ rksburgundynew.23.t:0 "Banat has joined us!"
+ rksburgundynew.23.d:0 "As expected, Banat has defied Berlin's wrath and sided with us!"
+ rksburgundynew.23.a:0 "We grow stronger each day"
+ 
+ rksburgundynew.24.t:0 "Banat has defied us!"
+ rksburgundynew.24.d:0 "Banat has surprisingly defied us and firmly stood their ground with the Reich, sadly."
+ rksburgundynew.24.a:0 "Their loss."
+ 
+ rksburgundynew.25.t:0 "Burgundy is pressuring us to join them!"
+ rksburgundynew.25.d:0 "SS-Ordensstaat Burgund has sent us a message demanding us to submit to their alignment and  join the Black Order, possibly against the Reich."
+ rksburgundynew.25.a:0 "Heil Himmler!"
+ rksburgundynew.25.b:0 "Never side with traitors!"
+ 
+ rksburgundynew.26.t:0 "Iceland has joined us!"
+ rksburgundynew.26.d:0 "As expected, Iceland has defied Berlin's wrath and sided with us!"
+ rksburgundynew.26.a:0 "We grow stronger each day"
+ 
+ rksburgundynew.27.t:0 "Iceland has defied us!"
+ rksburgundynew.27.d:0 "Iceland has surprisingly defied us and firmly stood their ground with the Reich, sadly."
+ rksburgundynew.27.a:0 "Their loss."
+ 
+ rksburgundynew.28.t:0 "Burgundy is pressuring us to join them!"
+ rksburgundynew.28.d:0 "SS-Ordensstaat Burgund has sent us a message demanding us to submit to their alignment and  join the Black Order, possibly against the Reich."
+ rksburgundynew.28.a:0 "Heil Himmler!"
+ rksburgundynew.28.b:0 "Never side with traitors!"
+ 
+ rksburgundynew.29.t:0 "Lombardei has joined us!"
+ rksburgundynew.29.d:0 "As expected, Lombardei has defied Berlin's wrath and sided with us!"
+ rksburgundynew.29.a:0 "We grow stronger each day"
+ 
+ rksburgundynew.30.t:0 "Lombardei has defied us!"
+ rksburgundynew.30.d:0 "Lombardei has surprisingly defied us and firmly stood their ground with the Reich, sadly."
+ rksburgundynew.30.a:0 "Their loss."
+ 
+ rksburgundynew.31.t:0 "The Final Inspection"
+ rksburgundynew.31.d:0 "Before the countdown reaches 12'o clock, Reichsführer-SS Heinrich Himmler and army generals of the Waffen-SS has visited army barracks across the Ordensstaat to inspect their situation. Satisfied with the army performances, Himmler wished luck to all and congratulated everybody for their valiant efforts."
+ rksburgundynew.31.a:0 "Sieg heil!"
+ 
+ rksburgundynew.32.t:0 "SS-Ordensstaat Burgund are demanding our full submission!"
+ rksburgundynew.32.d:0 "Heinrich Himmler, the traitor of Germany has demanded full submission of our beloved nation, how should we respond to this ridiculous demand?"
+ rksburgundynew.32.a:0 "Destroy them now."
+ rksburgundynew.32.b:0 "Send them the middle finger!"
+ 
+ rksburgundynew.33.t:0 "Berlin rejected our demand!"
+ rksburgundynew.33.d:0 "Foolishly, for us and them, the demands were rejected entirely by the Reichstag and the Fuhrer. Looks like we have no chance..."
+ rksburgundynew.33.a:0 "We will make every blood drop count!"
+ 
+ rksburgundynew.34.t:0 "Our industry is sabotaged!"
+ rksburgundynew.34.d:0 "The Burgundian bastards has sabotaged our industry, it will take time to recover from this...."
+ rksburgundynew.34.a:0 "Fools."
+ 
+ rksburgundynew.35.t:0 "Sabotage Cells rising up in Germany!"
+ rksburgundynew.35.d:0 "Sabotage units have been ordered to cause total chaos in random parts of Germany! Their certain fates are known, yet still they bravely fight for Burgundy. Long live the Schutzstaffel!"
+ rksburgundynew.35.a:0 "For victory!"
+ 
+ rksburgundynew.36.t:0 "Burgundian Uprising"
+ rksburgundynew.36.d:0 "Annoyingly enough, Burgundian sabotage units have begun their uprising all over Germany. This distraction however would not win them the war."
+ rksburgundynew.36.a:0 "Dirty tricks..."
+ 
+ rksburgundynew.37.t:0 "Riots across Germany"
+ rksburgundynew.37.d:0 "In what could only be described as Burgundian-sponsored propaganda campaign, the people foolishly believed that the front has collapsed and series of riots and lootings occured in our cities. Thankfully, most were shutdown though with violent force."
+ rksburgundynew.37.a:0 "They will pay..."
+ 
+ rksburgundynew.38.t:0 "Occupation of Deustchland"
+ rksburgundynew.38.d:0 "The Reichstag though battered, still stands proudly as a great structure of the German people. The war has taken its toll. Hundreds of thousands of lives were taken along the destruction of war. But sacrifices had to be made. The people will recover and Germany will reach its fullest potential missed out by those pesky Berliners. The German resistance has slowed down in activity following the defeat of the Reich. It seems like they have realised who the true enemy was. \n\nGermany will be rebuilt from the ashes. The Third Reich dies so that a Fourth Reich could be realised and achieve greater heights than before. Endsieg is ours!."
+ rksburgundynew.38.a:0 "Sieg Heil!"
+ 
+ rksburgundynew.39.t:0 "Proclamation of the Aryan Reich"
+ rksburgundynew.39.d:0 "In a glorious speech by Fuhrer Heinrich Himmler, taking place in the repaired and redesigned Reichstag, he proclaims that the old Germany is dead and a new Germany has taken its place. The new Germany is more stronger, united and greater than ever in the history of the Germanic people. He went on and said that a new world has begun and the effects are already showing. \n\nHimmler declared that the Aryan Reich has been born and it will guide the Aryan people to further greatness and prosperity. The speech ends with the cheering and chants of "Sieg Heil!" from the crowds. \n\n\n\n§RWell this is it, the intended end for SS Burgundy. This focus tree took way too long to create and honestly it might not be worth it considering how many people will miss out on it. Regardless, I had a shit ton of fun and thank you so much for playing SS-Burgundy in Reichskommissariats Plus!§!"
+ rksburgundynew.39.a:0 "A toast to a new era!"
+ 
+ rksburgundynew.40.t:0 "Journal 1: Prologue"
+ rksburgundynew.40.d:0 "My expedition group has been sent to Japan, the land of Rising Sun. It seems like a waste of time to find this mythical artifact, assuming that is even real in the first place. Obviously, we didn't want to be punished for not following orders so to Japan we went. \n\nAfter arriving in Tokio, we met up with an agent assigned to us. He gave us all the informations he could gather prior to our arrival. Story goes, there is a powerful force contained inside a square box and it's located somewhere within the mountain ranges of Japan. After a day of resting and preparing, we met up with a local monastery monk. He told us more informations of this "artifact" and showed us the path leading to the cave entrance. \n\nAfter hours of trekking through the Japanese wilderness, we arrived at the entrance. It's an ordinary cave entrance, only with a metal gate built inside to prevent thieves from entering. The local monk warned us about the dangers lurking in the cave system but we obviously ignored his warning. Seeing us not paying attention, he proceeded to open the gate with the help of a key. Slowly, we make our way inside while the local monk watched on, with regrets in his eyes."
+ rksburgundynew.40.a:0 "Proceed."
+ 
+ rksburgundynew.41.t:0 "Journal 2: Lost?"
+ rksburgundynew.41.d:0 "After paying a farewell to the local monk, we made our way inside the cave following a designated pathway. After hours of traversing through the cave system, we reached a point in the cave with no information whatsover. The path splits in two with only one leading to our destination. A discussion began, with some opting for the right path while others choose the left path. \n\nIt's clear to us that splitting up will be disastrous for our group as the chance of getting lost is higher. Finally, we decided to go to the....."
+ rksburgundynew.41.a:0 "Go right!"
+ rksburgundynew.41.b:0 "Go left!"
+ 
+ rksburgundynew.42.t:0 "The Left Path"
+ rksburgundynew.42.d:0 "Following the left path, we made our way deeper inside the cave system. While following the path, a giant boulder seems to be blocking the path. It seems like we have chosen the wrong path."
+ rksburgundynew.42.a:0 "Go back..."
+ 
+ rksburgundynew.43.t:0 "The Right Path"
+ rksburgundynew.43.d:0 "Following the right path, we made our way deeper inside the cave system. While following the path, we saw a Japanese sign showing us the way to the destination. It seems like we have chosen the right path."
+ rksburgundynew.43.a:0 "Proceed."
+ 
+ rksburgundynew.44.t:0 "Journal 3: Temple"
+ rksburgundynew.44.d:0 "Hours of traversing through the harsh cave, some of the expedition members were beginning to feel like the expedition is going nowhere. Amidst the complaining, we stumbled upon a subterranean temple. Weirdly enough, the temple has Germanic symbols and a Gothic style of architecture. We all agreed that this was a great spot to rest. With the fireplace lit, we sat down and rest for the night. \n\nA few stayed up to inspect in details the mysterious temple. It's too far away to be Germanic in origin, yet it is? Ignoring these thoughts, I went to rest and slept...."
+ rksburgundynew.44.a:0 "Proceed."
+ 
+ rksburgundynew.45.t:0 "?????????"
+ rksburgundynew.45.d:0 "A dream? A nightmare? A vision instead? What is going on? \n\nThe surrounding is red in colour, oddly similar to a certain planet nearby. An alien civilization has called this place home for quite a while now. A structure similarly shaped like a tower stood in front of me. What is that above it? A seemingly endless void sucking up everything in the world, sparing nothing in its feast. Consuming everything, it grows bigger and bigger and bigger and...... I was awoken by one of my team, he said that I was trembling in fear and sweating like a pig. Not sure if that's insult, but I ignored it and got up from my slumber. I started to prepare my equipments. \n\nIt was a dream after all, but what could it mean?"
+ rksburgundynew.45.a:0 "Proceed."
+ 
+ rksburgundynew.46.t:0 "Journal 4: The Artifact"
+ rksburgundynew.46.d:0 "After packing everything, we ventured further into the temple. While taking photographs of the mysterious symbols, we stumbled upon a room blocked by a small boulder. With time and efforts, we managed to push the boulder out of the way and entered the room. Inside, there it was. The powerful square box dubbed the "Pandora Box". The expedition group celebrated the discovery with excessive cheering. \n\nBut something is off, the ambience is just not wrong. Everyone else is cheerful, but not me. I felt despair..... . Maybe it was the nightmare though it can't be certain for sure. Aside from the feelings of despair, I felt like touching it. The rest refrained from touching it directly just in case but the desire to touch it is just too much.... Should I?"
+ rksburgundynew.46.a:0 "Touch the box"
+ rksburgundynew.46.b:0 "Rather not..."
+ 
+ rksburgundynew.47.t:0 "?????????"
+ rksburgundynew.47.d:0 "It was inevitable. Immediately after he touched the box, a ray of light brigther than the sun emitted from it. Soon, the ground began rumbling from its awakening. Quickly fleeing from the cave, the men trembled in horror as to what just happened. \n\nA mysterious wall rose from the ground. It spans from the east to the west, from the north to the south. Awhile later, it stopped. The structure stood high on the Home Island. It has consumed the land, along with it the cities and people living nearby. The island is now split into three parts. The disaster has only begun."
+ rksburgundynew.47.a:0 "What?!" 
+ 
+ rksburgundynew.48.t:0 "Japanese Civil War"
+ rksburgundynew.48.d:0 "Reports are coming in from Japan that the Reichskommissariat government has evacuated from the island. Soon after, the Reichskommissariat collapsed into chaos and uncertainty. Three new bodies of governments situated in Tokyo, Osaka and Sendai respectively has declared themselves the true sucessor of the Japanese state. \n\nRecent insights showed that they have already starting fighting each other. Another day of the Ordensstaat's mischief, I guess...."
+ rksburgundynew.48.a:0 "It's spiraling way out of hand..."
+ 
+ rksburgundynew.49.t:0 "The Mission"
+ rksburgundynew.49.d:0 "The idea of the Noah's Ark being in Tibet has sparked curiosity within Himmler's circle. Perhaps the origin of the Aryan people can be traced there, maybe even artifacts can be found there. Himmler has sent out several agents to Tibet to arrange a potential expedition. They are en route and soon will be reporting back to Burgundy."
+ rksburgundynew.49.a:0 "Well well well...."
+ 
+ rksburgundynew.50.t:0 "The Connection"
+ rksburgundynew.50.d:0 "Our agents in Tibet has confirmed the possibility of the Aryan's origin. They have sucessfully negotiated a deal with local Tibetans for a guide and a house in exchange of a couple herds of goats and silvers."
+ rksburgundynew.50.a:0 "It's confirmed!"
+ 
+ rksburgundynew.51.t:0 "The Expedition"
+ rksburgundynew.51.d:0 "Departing from a military airbase, the plane first lands in Damascus to refuel. After that, the plane finally arrived to Delhi. From there, the expedition crew drove all the way to the Himalayas and crossed over to Tibet. After a couple of days, they reached Lhasa, capital of Tibet. They met with the agents who introduced them to the local guide. Later, they headed out to the house they bought and rest for the day. Next week will be an interesting week, for sure."
+ rksburgundynew.51.a:0 "Quite a long journey, isn't it?"
+ 
+ rksburgundynew.52.t:0 "Discoveries"
+ rksburgundynew.52.d:0 "The expedition crew set off on an epic journey towards the mountains. After they reached their destination, they quickly set up camp and began searching for clues. A couple of hours in and it seems like nothing was found. One day passed, nothing. Two days passed, nothing. Three days, nothing. Five days, yep nothing. At this point the crew was about to give up and go back to Lhasa when all of a sudden one of them shouted 'There's a cavern down here!'. Everybody quickly gathered around the man and what they saw was stunning to say the least. A massive entrance which leads to a cavern. 'Could this be the resting place of Noah's Ark?' they wondered. One of them volunteered to go down the small entrance, with the help of a rope. As he descends below equipped with a camera and a torch, he reports the situation to his fellow crewmates. The rope was barely long enough but he made it. There he wandered around the dark cavern searching for something. At last, he found an ancient mural painting that closely resembles the one in Germany. As he looked on in awe, he noticed something. There's another entrance. It seems thought that it is blocked by a boulder. Realising there's nothing left, he quickly took pictures of the mural and called out to his crewmates to pick him up. After he ascended, he told his crewmates about what's down there. Surprised, they asked for the pictures he took. When they took a look, they were stunned. This is it. It must be. The guy then told the crewmates there's another entrance but it is blocked by a boulder. Thankfully, they brought a couple of explosives along with them."
+ rksburgundynew.52.a:0 "What's in there?"
+ 
+ rksburgundynew.53.t:0 "The Reveal"
+ rksburgundynew.53.d:0 "With the explosives, they agreed to blow up the boulder. They quickly descended down the entrance and began setting up the necessary equipments. When everything was set and ready, everybody went back to a safe distance. Counting from three to one, the explosives blew, sucessfully destroying the boulder. Everybody looked at each other to see if someone dares to go in. But in the end everyone agreed to go in at the same time. Upon entering, they found a staircase which leads to a seemingly endless dark path. Cautiously descending, they began to wonder what could be down there. After 10 minutes, the staircase stopped and led to a pitch-black path. They pressed on and continue walking down the path until all of a sudden a glimpse of light shines. Confused, they slowly walked. At last, it wasn't the Noah's Ark that was shining. IT IS THE FUCKING HOLLOW EARTH. HOW THE FUCK IS THIS EVEN POSSIBLE MEIN GOTT!!! THERES FUCKING DINOSAURS AND PTERODACTYLS FLYING!!!!! IS THAT FUCKING KING KONG???!!! Wait what's that? An ancient artifact...."
+ rksburgundynew.53.a:0 "WHAT THE ACTUAL FUCK!"
+ 
+ rksburgundynew.54.t:0 "Deployment to Brazil"
+ rksburgundynew.54.d:0 "Our deployment to Brazil was an unexpected surprise. At first, we thought we would be deployed to either Tibet or Japan but I guess there was a change of plan within the higher ups. Anyway, we got on a plane and flew our way to Brazil. \n\nTaking a fuel stop in Liberia, a monkey came up to me and asked for a banana. Obviously I didn't have one and I tried shooing him away but he was a persistent little bastard. He proceeded to screech at me and at that point my patient level was almost at its lowest. Luckily for the monkey, a guy came up and gave the monkey a lot of bananas. The monkey, happy with the tribute, took the bananas and sat on a couch and ate all of them. \n\n After the weird commotion, we continued our journey to Brazil. Eventually we landed in Sao Paolo. As we were walking our way to the nearby hotel to rest, there was a scene where a man wearing nothing but underwear holding a crowbar started arguing with a random confused pedestrian. As crowds began to gather, the underwear man got so angry that he bit the crowbar, much to everyone's dismay. Then, he sat down on the street and began crying like a baby. Not long after, the police arrived and took the man elsewhere. Turns out, the man is American and is from Florida. He is probably a victim of insanity, due to staying way too long in Brazil. Just another day in the South American continent..."
+ rksburgundynew.54.a:0 "Not Brazil!"
+ 
+ rksburgundynew.55.t:0 "Into the Jungles"
+ rksburgundynew.55.d:0 "After a day of well deserved rest, we gathered our equipments and checked out from the hotel. Thankfully, nothing out of the ordinary happened except a cat wearing a fedora driving a lorry full of Albanian goats. As we made our way out of the city, we met up with a Brazillian guide named Pedro and he led us to the beginning of the Amazon jungle. \n\nJungle-trekking through the Amazon was the worst experience I ever had. The mosquitos, snakes, spiders and all sorts of demonic creatures from hell made life worse. Thankfully after a few painful hours of trekking, we stopped and set up camp inside the jungle. \n\nWhile resting, I wondered if we did went to either Tibet or Japan. Will we actually find the Noah's Ark or the supposedly mythical artifact? Eh, who cares. Too tired to write anymore, I'm hitting the sack and calling it a day."
+ rksburgundynew.55.a:0 "Zzzzzz....."
+ 
+ rksburgundynew.56.t:0 "The River"
+ rksburgundynew.56.d:0 "It's the next day and after packing up our things, we headed off to a fishing village nearby. Arriving at the village, everyone greeted us with warm welcomes and especially a chicken that gave me a enchanted Swiftness V diamond sword. I had to decline it though since I was carrying too many stuffs anyway. After resting and chatting with the locals, we made our way to the dock and got on a boat. Pedro, the guide told me a story about the legends of El Dorado, the city filled to the brims with golds. As my team listened in, suddenly we realised something. Where the hell is our captain? At the same time, one of us pointed out to a life jacket clearly from the boat. That fucker, he ditched the damn boat! But why though? \n\nAs confusing began rounding up, we were oblivious to one thing. What's in front of us? As we looked forward, to our horrors the river flows down...."
+ rksburgundynew.56.a:0 "OH SHIT ITS A"
+ 
+ rksburgundynew.57.t:0 "WATERFALL!"
+ rksburgundynew.57.d:0 "Before we could even react, the boat went down bringing us to an inevitable demise. The boat crashed down and everything went silent...... \n\nThe boat crashed into a pool. Miraculously, everybody survived except for Pedro, his body were never to be seen. With the expedition team still intact, we gathered what we could from the wreckage and set up camp for the night. \n\nThe next day, we left the wreckage site and ventured deeper into the jungles. We survived off the wilderness of the Amazons and the little supplies we had left. \n\nOver the course of several days, we barely made it to the other side of the jungle. When our hopes began to diminish, suddenly we noticed a shiny bright light illuminating not far from our location. Following the light, we slowly made our way to it."
+ rksburgundynew.57.a:0 "No...."
+ 
+ rksburgundynew.58.t:0 "The Reveal"
+ rksburgundynew.58.d:0 "Getting out from the dense jungle, we saw a spectacular sight. No words other than majestic could describe the place better. \n\nIt's.... the city of.... El Dorado.... \n\nThe myth is true... The city is in fact, real. Stacks of golds could be seen miles away and yet nobody in the world has ever discovered it until now? The city is eerily quiet, devoid of life. There is not a single person living in the city yet the city remains intact. It's too good to be true.... Conveniently, we found an abandoned radio station. The radio was still working and we tuned into the military frequency. After hours of waiting, the rescue team arrived and picked us up. \n\nWhile in the plane, something troubled me. Why is there a radio station? That means we're not the first group to discovered it after all.. But what happened to them?"
+ rksburgundynew.58.a:0 "Huh..."
+ 
+ rksburgundynew.59.t:0 "Journey to the Atlantic"
+ rksburgundynew.59.d:0 "After being given the green light from the Ahnenerbe, a group of expeditionary sets out on an epic journey to find the lost city of the Atlantis. It is rumoured that the lost city isn't in the Mediterranean, instead being somewhere in the Atlantic Ocean. \n\nThe crew travelled to Lisbon and boarded a research vessel there. The team had high hopes for the success of the mission and would love to return home as heroes of the Ordensstaat. At last, they sailed onwards into the supposedly never-ending Atlantic Ocean."
+ rksburgundynew.59.a:0 "We'll find it!"
+ 
+ rksburgundynew.60.t:0 "Life Aboard the Vessel"
+ rksburgundynew.60.d:0 "The sea is quiet, the birds are migrating from one place to another and overall it's quite a beautiful scenery if you think about it.... \n\nThe crew began analysing the ocean for any signs of a past civilization. Most of the time however, they were only able to find wreckages of sunken ships of known civilizations. The deep ocean makes it difficult for the crew to fully survey the ocean floor, given the limited technology at the time. \n\nEven with the setbacks, the crew reported that they had quite the time in the vessel despite being miles away from any dry land. \n\nHowever, the expedition had to come to a halt. Supplies were running out and the ship had to be back at its dock for maintenance."
+ rksburgundynew.60.a:0 "Darn..."
+ 
+ rksburgundynew.61.t:0 "Disaster Struck!"
+ rksburgundynew.61.d:0 "While on their way back to Lisbon, suddenly a violent storm appeared without any warnings. The ocean waves were violent and the sky turned from a bright blue to a gloomy dark environment in an instant. \n\nTaken by surprises, the crewmates of the ship tried their best to keep control of the ship but to no avail. The harsh sea environments caused the ship to be capsized, eventually sinking to the bottom of the ocean."
+ rksburgundynew.61.a:0 "......"
+ 
+ rksburgundynew.62.t:0 "??????????"
+ rksburgundynew.62.d:0 ""Hihihihi.... you're awake now uwu? You were screaming for help like you were actually drowning. You had me worried for a second, hihihi.... \n\nGet up now, I will make you breakfast, uwu."
+ rksburgundynew.62.a:0 "Ummm...."
+ 
+ rksburgundynew.63.t:0 "Trouble is coming..."
+ rksburgundynew.63.d:0 "Recent reports have indicated an increase in Burgundian activies near the border of our French holdings. Himmler has cut off ties with Berlin in a worrying move to the Reichstag. We can only wait and speculate his future actions..."
+ rksburgundynew.63.a:0 "Has someone reminded him that he's playing with fire?"
+ 
+ rksburgundynew.64.t:0 "Burgundy Surrenders!"
+ rksburgundynew.64.d:0 "In response to the Burgundy's attempted destruction of our beloved Reich, we held off their invasion and after gathering enough strength, we've launched a counteroffensive into Burgundy itself. With Brussels firmly in our hand, the Burgundian army has gone amok with them commiting atrocities left and right even to fellow Germanic people. Now, they've surrendered to our superior army and Himmler's vision of Germany is gone."
+ rksburgundynew.64.a:0 "Victory belongs to Germany!"
+ 
+ rksburgundynew.65.t:0 "A Ceremony for the Traitors"
+ rksburgundynew.65.d:0 "Today, the military administration announced the execution of 172 SS traitors in public. A crowd of people gathered to the public square to witness the execution, satisfied with the death of their torturers. Unexpectedly, one drunk German officer accidentally fell and died while on his way to the hospital. The beer he was drinking originated from Denmark."
+ rksburgundynew.65.a:0 "Silly him!"
+ 
+ rksburgundynew.66.t:0 "The Fate of Burgundy"
+ rksburgundynew.66.d:0 "With the reconstruction and rejuvenation of the Burgundian state, we can now discuss the important question of the future of the military administration. Should it will be dismantled so that the previous Reichskommisariats could be reestablished OR be turned to a Reichskommisariat itself?"
+ rksburgundynew.66.a:0 "We'll dismantle it."
+ rksburgundynew.66.b:0 "A new Reichskommisariat has been created!"
+ 
+ 
+ #### NEWS ####
+ 
+ rksnews.1.t:0 "Hollow Earth Discovered"
+ rksnews.1.d:0 "While on an expedition to find the origins of the German people, a group of expedition crews recently discovered the mythical Hollow Earth located in Tibet. This discovery was first hidden from the public but was eventually leaked to the public by an anonymous whistleblower. The German Reich has responded by quickly shutting down the entrance with the cooperation of the local Tibetans. As of now, official German expedition are yet to be confirmed."
+ rksnews.1.a:0 "Wait what?!"
+ rksnews.1.b:0 "Uhhhh...."
+ 
+ rksnews.2.t:0 "Dai-Shocker Alliance"
+ rksnews.2.d:0 "The Shocker organisation has recently released a statement regarding the formation of a new alliance called 'Dai-Shocker'. They called upon all the shadow organisations of the world to work together for one singular ambition, which is still unknown. Berlin has not yet responded to the statement though public pressures are mounting up."
+ rksnews.2.a:0 "My god!"
+ rksnews.2.b:0 "Oh just wait humans..."
+ 
+ rksnews.3.t:0 "Germany caves in to SHOCKER demands!"
+ rksnews.3.d:0 "After SHOCKER publicly announced their ultimatum to Germany, the German Reich has agreed to completely withdraw from the islands of Japan. This news came as a shock to many people in the Reich as they believed that Germany would stand up for itself. This is a huge victory for SHOCKER and an embarrassing humilitation to Germany."
+ rksnews.3.a:0 "Impossible!"
+ rksnews.3.b:0 "Weaklings."
+ rksnews.3.c:0 "It's getting out of control."
+ 
+ rksnews.4.t:0 "Germany denied SHOCKER demands!"
+ rksnews.4.d:0 "In an expected move, Germany has rejected the Shocker's ultimatum. The SHOCKER demanded that Germany pulls out completely from the islands of Japan however Germany has stood up for itself. Shocker representatives were reportedly seen storming out of the conference with a devillish smile. This news are a great act of defiance to the aggressive Shocker however some in the Reich has expressed concerns on what will happen next..."
+ rksnews.4.a:0 "What could we expect next?"
+ rksnews.4.b:0 "Complete fools!"
+ rksnews.4.c:0 "Over my dead body."
+ 
+ rksnews.5.t:0 "Shocker's Invasion of Japan"
+ rksnews.5.d:0 "Earlier today, the Shocker has declared war on Germany and its allies. Shortly there after, a massive army came out of hiding and started engaging with local authority in the Northern regions of Japan. Germany has responded by condemning the invasion and urges its allies to fight alongside them. The Great Shocker War has begun."
+ rksnews.5.a:0 "The ultimate showdown."
+ rksnews.5.b:0 "Those fools in Berlin will have their heads decapitated!"
+ rksnews.5.c:0 "Bring it on!"
+ 
+ rksnews.6.t:0 "The Great War"
+ rksnews.6.d:0 "Earlier today, the Shocker has declared war on Germany and its allies. Ever since the annexation of Japan by Shocker, the Reich has taken precaution steps for an all-out war. With that being a reality now, the German Reich are more prepared than ever to defend its territories. Only time will tell who will be victorous in this war, or not at all."
+ rksnews.6.a:0 "The ultimate showdown."
+ rksnews.6.b:0 "Those fools in Berlin will have their heads decapitated!"
+ rksnews.6.c:0 "Bring it on!"
+ 
+ rksnews.7.t:0 "The Fall of Tokyo"
+ rksnews.7.d:0 "Shocker forces have entered Tokyo, and today the Shocker officials have declared a glorious victory against the 'German bastards' and call upon all Japanese men to fight alongside them. The fighting was reported to be heavy, with close-quarter combats and heavy artillery barrage. In the end however, the Shocker forces prevailed. This development is a major defeat to Berlin as the island might be overtaken by Shocker forces soon."
+ rksnews.7.a:0 "A heavy blow."
+ rksnews.7.b:0 "The world shall be ours!"
+ rksnews.7.c:0 "It's not over yet, maniacs!"
+ 
+ rksnews.8.t:0 "Germany accepts Burgundy's demands!"
+ rksnews.8.d:0 "Shocking news as Berlin has reluctantly agreed to pull out from Belgium and Northern France. Burgundy always had an interest in the region, but experts doubted Burgundy will outright demand it until now. The pullout has shown the strong influences of the Schutzstaffel in the government and vulnerability of the German Reich. With the new territories acquired, Burgundy has begun implementing their own policies that weren't present in the Reich."
+ rksnews.8.a:0 "An embarrassing display of factionalism."
+ rksnews.8.b:0 "STRENG GEHEIM!"
+ rksnews.8.c:0 "Their influences are too high..."
+ 
+ rksnews.9.t:0 "Germany rejected Burgundy's demands!"
+ rksnews.9.d:0 "Standing strong, Germany has rejected Burgundy's demands to pullout from Belgium and Northern France! In a bold move, Burgundy demanded the territories of Belgium and Northern France and the pull out of German forces in the region. The rejection is a display of the Reich's ongoing combat against factionalism within the parliament. This undoubtedly is a devastating defeat to Burgundy and a heavy blow to its ambition."
+ rksnews.9.a:0 "Finally they're standing up for themselves..."
+ rksnews.9.b:0 "Darn...."
+ rksnews.9.c:0 "They are a bit full of themselves..."
+ 
+ rksnews.10.t:0 "The Fall of Berlin"
+ rksnews.10.d:0 "Disturbing reports has come from Berlin, the capital of the German Reich as the Shocker Army has entered the Reichstag and declared the 'official death of the Reich'. Reports stated that the Shocker Army has commited atrocities in the city targeting primarily NSDAP members. Their heads were decapitated and shown to the public in an effort to scare off the surviving population to submission. The German Reich has vowed to retake the city at all costs."
+ rksnews.10.a:0 "The Reich's Final Moments"
+ rksnews.10.b:0 "Off with their heads!"
+ rksnews.10.c:0 "Where the fuck was Steiner?!"
+ 
+ rksnews.11.t:0 "Treaty of Brest-Litovsk"
+ rksnews.11.d:0 "Earlier today, the German and Russian delegations met for the first time since the war initiated to discuss the peace agreement between both sides. With the Russian seeing the war as disadvantageous, they have announced their unconditional surrender. Surprisingly, the Germans agreed to have talks in Brest-Litovsk, where historically in 1918 the German Empire and Soviet Russia signed a seperate peace treaty ultimately ending the First World War in Eastern Europe. \nThe Russians agreed to withdraw from the west of the Arkhangelsk-Astrakhan Line. In turn, the Germans agreed to cease all fighting and issue a ceasefire. While peace has returned to Russia, experts doubted however that peace in Russia will last long...."
+ rksnews.11.a:0 "The impossible!"
+ rksnews.11.b:0 "Victory belongs to Germany!"
+ rksnews.11.c:0 "We have shamed the motherland.."
+ 
+ rksnews.12.t:0 "Leader of the [SOV.GetName] is dead!"
+ rksnews.12.d:0 "On [GetDateText], the Russian government in exile has announced the death of their leader earlier this morning. It came as a shock to the whole nation as it battles with itself after their defeat in the Great Patriotic War. \nThe likely cause of death is to be thought an assassination, due to a couple of evidences found nearby. However, there is still no suspect(s) according to the investigators. Foreign observers pointed at the possibility of a planned assassination by the government itself, seeing the leader as incompetent and unfit. \nNevertheless, the nation mourned the loss in a ceremonial funeral."
+ rksnews.12.a:0 "My condolences."
+ rksnews.12.b:0 "The bastard is finally dead!"
+ rksnews.12.c:0 "Where's the guards?!"
+ 
+ rksnews.13.t:0 "Japanese Takeover of Transamur"
+ rksnews.13.d:0 "Tokyo has recently announced their takeover of Transamur to the whole world. The goal of the takeover according to the Japanese are to "secure Japanese interests". Japan has always had an interest in the region. This could be seen from their occupation of Vladivostok in the Russian Civil War, where shopkeepers and traders from Japan were brought there up until the end of the conflict. \nInterestingly, there were little to no fighting during the course of the invasion. This could be attributed to the ongoing unrest in Russia, which denied the Russian Army to respond effectively. \nSverdlovsk heavily condemned the invasion, though did not declare a proclamation of war."
+ rksnews.13.a:0 "Their ambitions finally fulfilled"
+ rksnews.13.b:0 "For the Emperor!"
+ rksnews.13.c:0 "It's too much for us to handle!"
+ 
+ rksnews.14.t:0 "The Collapse of Russia"
+ rksnews.14.d:0 "The defeat of Russia during the Great Patriotic War and its unconditional surrender has shown to the people how incompetent the current regime is. Now that they have spoken up, Russia that we knew is now dead. \nAfter a series of defeats and setbacks during the war, the Russian leadership has decided to unconditionally surrender to the Germans. This has caused a massive uproar amongst the population, causing a massive collapse which destroyed Russia. \nA new communist government was formed in Kazan by Georgy Zhukov in hopes of "liberating their homelands for the future of mankind". Experts doubted that Zhukov will be able to fight head on against the goliath Germans. \nMother Russia is dead and only god can save her from the depths of hell." 
+ rksnews.14.a:0 "Farewell.."
+ rksnews.14.b:0 "Russland kaput!"
+ rksnews.14.c:0 "Dark is the night..."
+ 
+ rksnews.15.t:0 "Skywall Rises in Japan!"
+ rksnews.15.d:0 "Earlier today, a historic event has taken place in Japan. A dark alien wall has risen from the ground, claiming thousands of lives in the process. Scientists around the world has dubbed this wall the "Skywall" due to its staggering heights. \n\nSpeculation has been floating around on why the Skywall has appeared. Some said that is the sign of an incoming Doomsday while others concluded to an alien invasion. Scientists have started study on the mysterious wall, though they could not get close as an unknown dangerous gas are emitting from the walls."
+ rksnews.15.a:0 "What on Earth is going on?!"
+ rksnews.15.b:0 "Is this our fault???"
+ 
+ rksnews.16.t:0 "Japanese Civil War"
+ rksnews.16.d:0 "Since the end of Shogunate, there has been no brother wars in Japan. That changes today after the collapse of Reichskommissariat Japan, local governments has announced themselves as the true successor to Japan and began war against each other. \n\nTouto, the ruler of Tokyo has vowed to solve the conflict peacefully, though it will not hesisate from using forces if provoked. Seito, state of the south has promised to unite the island by all means necessary. Hokuto, state of the north has set up a military dictatorship, vowing to take Tokyo and Osaka in the near future. \n\nThe situation is still developing by the minutes."
+ rksnews.16.a:0 "War in Japan once again..."
+ 
+ rksnews.17.t:0 "Franco-Burgundian War"
+ rksnews.17.d:0 "Taking advantage of the lack of German military presence and internal politics, the SS-Ordensstaat Burgundy has launched an invasion into Reichskommisariat Frankreich and has already occupied several towns close to the Ordensstaat. \n\nRecent news from the front has reported that the Burgundian forces have already advanced several kilometers deep within the Reichskommisariat. The war is heavily one sided as Burgundy reportedly has invested most of its budgets into their military. \n\nThe administration of Reichskommisariat Frankreich heavily condemned the invasion and pledged to repel the invasion. They have requested helps from Berlin, weirdly enough there has been no responses."
+ rksnews.17.a:0 "The shock!"
+ rksnews.17.b:0 "Why aren't we notified on this?"
+ rksnews.17.c:0 "Don't let the messages get to Berlin..."
+ 
+ rksnews.18.t:0 "German-Burgundian War"
+ rksnews.18.d:0 "In the cover of midnight, Burgundian special forces infiltrated German lines along the Alsace-Lorraine border region and began a sabotage campaign against the German. At the same time, Burgundian forces entered several border towns, engaging with German border patrols. \n\nHours later, Reichsführer-SS Heinrich Himmler declared in a fiery speech in Ostparis that the Holy Aryan War has began and all men must fight till the end to overthrow Berlin. All hell broke loose as gunfights can be heard throughout the borders. Several battles have already taken place and reports of atrocities commited by Burgundian forces have already reached the global news."
+ rksnews.18.a:0 "The final battle"
+ rksnews.18.b:0 "They have gone too far"
+ rksnews.18.c:0 "TO BERLIN!"
+ 
+ rksnews.19.t:0 "The Fall of Berlin"
+ rksnews.19.d:0 "Reports are arriving from Berlin regarding the fate of the city. Earlier this morning, the Burgundian Army has entered the city center and captured the Reichstag after an intense last stand by German troops. \n\nIt was reported that flamethrowers and anti-tank weapons had to be used in order to eliminate the stubborn defenders. Eventually after the harsh battle, the flag of the SS-Ordensstaat fly high on the Reichstag. Though battered and ruined, the Reichstag still stands. \n\nReichsführer-SS Heinrich Himmler personally visited the Reichstag under heavy protection and commented that Germany is finally free from the grasps of those undermining Germany's true potential."
+ rksnews.19.a:0 "Will the Reich be able to retake the city?"
+ rksnews.19.b:0 "Endsieg is near!"
+ rksnews.19.c:0 "Where is Steiner?!"
+ 
+ rksnews.20.t:0 "El Dorado Discovered?"
+ rksnews.20.d:0 "Interesting news have come out from Burgundy has the Ordensstaat has supposedly confirmed the existence of the legendary city of El Dorado. To back their crazy claims, they have showcased an abundance of gold bars and jewelry supposedly found in the city. \n\nThe city has been described as a majestic city with great infrastructures and most notably, the abundance of golds scattered throughout the city. Weirdly enough, despite there being absolutely zero population, the city isn't claimed by nature instead being described as clean and maintained. \n\nThe Brazillian authorities have notified the Burgundian leadership to give informations regarding El Dorado but there has been no replies so far."
+ rksnews.20.a:0 "What the??"
+ rksnews.20.b:0 "How?!"
+ rksnews.20.c:0 "We're rich!"
+ 
+ 
+ rksnews.1000.t:0 "TNO REFERENEC!!!!!!
+ rksnews.1000.d:0 "!!!!!HOLY FUCKING SHIT!!!!!!! IS THAT A MOTHERFUCKING TNO  REFERENCE??????!!!!!!!!!!??1!1!1!1!1!1!1! TNO IS THE BEST  FUCKING MOD!!! SABLIN IS SO BLESSEDDD!!!  BLACKSUN BLACKSUN BLACKSUN BLACKSUN BLACKSUN KISHIPURGE KISHIPURGE KISHIPURGE KISHIPURGE  KISHIPURGE LBJALLTHEWAY LBJALLTHEWAY LBJALLTHEWAY  LBJALLTHEWAY LBJALLTHEWAY LBJALLTHEWAY LBJALLTHEWAY LBJALLTHEWAY  LBJALLTHEWAY NIXON IS NOT A CROOK! RFK BLESSED RFK BLESSED RFK BLESSED  RFK BLESSED Yo Speer! Yo Speer! Yo Speer! Yo Speer!  Yo Speer! Yo Speer! Yo Speer! Yo Speer! Yo Speer!  Yo Speer! Yo Speer! Yo Speer! Yo Speer! Yo  Speer! Yo Speer! Yo Speer! Yo Speer! Yo Speer!  Yo Speer! Yo Speer! Yo Speer! Yo Speer! Alexei is  still alive?!? TICK TOCK FUNNI MAN HAS A MENTAL BREAKDOWN BREAKDOWN  BREAKDOWN BREAKDOWN"
+ rksnews.1000.a:0 "OMGGGG SABLIN WHOLESOME BIG CHUNGUS!!!!"
+ 
+ 
+ 
+ #### UNITED RKS ####
+ 
+ rksunited.1.t:0 "The Unification of Nordafrika"
+ rksunited.1.d:0 "With the entirety of Nordafrika firmly in our hands, there has been a voice calling for the unification of German Reichskolonie in the region. While this movement is currently still unpopular, it is gaining momentum fast. Therefore, there has been a debate in the Reichstag to whether unite the Reichskolonies or leave it as it is. The Fuhrer however ultimately decides to....."
+ rksunited.1.a:0 "Approves the unification!"
+ rksunited.1.b:0 "Reject the unification!"
+ 
+ rksunited.2.t:0 "Choose the Reichskommissar"
+ rksunited.2.d:0 "Thanks to the Fuhrer's approval, the Reichskolonies are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichskolonie? We have three options and the one who shall lead the new colony is...."
+ rksunited.2.a:0 "Erwin Rommel"
+ rksunited.2.b:0 "Hans-Jurgen Theodor von Arnim"
+ rksunited.2.c:0 "Friedrich Dollmann"
+ 
+ rksunited.3.t:0 "The Unification of Ostafrika"
+ rksunited.3.d:0 "The establishment of Reichskolonies in Ostafrika has solidifed our control as the absolute ruler of the region. Questions remain however if we were to unite the colonies, for easier management of course (also good borders). Ultimately however, it is up to Berlin to give the final approval. The Fuhrer has decided to....."
+ rksunited.3.a:0 "Approves the unification!"
+ rksunited.3.b:0 "Reject the unification!"
+ 
+ rksunited.4.t:0 "Choose the Reichskommissar"
+ rksunited.4.d:0 "Thanks to the Fuhrer's approval, the Reichskolonies are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichskolonie? We have three options and the one who shall lead the new colony is...."
+ rksunited.4.a:0 "Leo Geyr von Schweppenburg"
+ rksunited.4.b:0 "Ludwig Cruwell"
+ rksunited.4.c:0 "Walter Nehring"
+ 
+ rksunited.5.t:0 "The Unification of Mittelafrika"
+ rksunited.5.d:0 "The idea of Mittelafrika has been spread around ever since the imperial times. Now that we have controlled and established colonies covering the region, it is perhaps possible to realise this dream. After the appopriate files have been sent to Berlin, the Fuhrer's stance is to...."
+ rksunited.5.a:0 "Approves the unification!"
+ rksunited.5.b:0 "Reject the unification!"
+ 
+ rksunited.6.t:0 "Choose the Reichskommissar"
+ rksunited.6.d:0 "Thanks to the Fuhrer's approval, the Reichskolonies are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichskolonie? We have four options and the one who shall lead the new colony is...."
+ rksunited.6.a:0 "Siegfried Müller"
+ rksunited.6.b:0 "Fritz Bayerlein"
+ rksunited.6.c:0 "Günther von Kluge"
+ rksunited.6.e:0 "Hermann Göring"
+ 
+ rksunited.7.t:0 "The Unification of Iberia"
+ rksunited.7.d:0 "With the establishment of Reichskommmissariats in Iberia, officials began talks about the unification of the region. If approved, this will undoubtedly increase their autonomy. The Fuhrer decides to..."
+ rksunited.7.a:0 "Approves the unification!"
+ rksunited.7.b:0 "Approves the unification!"
+ rksunited.7.c:0 "Reject the unification!"
+ 
+ rksunited.8.t:0 "Choose the Reichsprotektor"
+ rksunited.8.d:0 "Thanks to the Fuhrer's approval, the Reichskommmissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have two options and the one who shall lead the new protectorate is...."
+ rksunited.8.a:0 "Hans Krebs"
+ rksunited.8.b:0 "Alfred Jodl"
+ 
+ rksunited.9.t:0 "Choose the Reichsprotektor"
+ rksunited.9.d:0 "Thanks to the Fuhrer's approval, the Reichskommmissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have four options and the one who shall lead the new protectorate is...."
+ rksunited.9.a:0 "Hans Krebs"
+ rksunited.9.b:0 "Alfred Jodl"
+ rksunited.9.c:0 "Dietrich von Saucken"
+ rksunited.9.e:0 "Next page"
+ 
+ rksunited.10.t:0 "Choose the Reichsprotektor II"
+ rksunited.10.d:0 "Thanks to the Fuhrer's approval, the Reichskommmissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have four options and the one who shall lead the new protectorate is...."
+ rksunited.10.a:0 "Helmuth Weidling"
+ rksunited.10.b:0 "Anton Grasser"
+ rksunited.10.c:0 "Previous page"
+ 
+ rksunited.11.t:0 "The Unification of Skandinavien"
+ rksunited.11.d:0 "After the establishment of Reichskommissariats in Scandinavia, there has been talks regarding the unification of the region. This will undoubtedly increase their autonomy. With the paperwork sent to Berlin, the Fuhrer decides to...."
+ rksunited.11.a:0 "Approves the unification!"
+ rksunited.11.b:0 "Reject the unification!"
+ 
+ rksunited.12.t:0 "Choose the Reichsprotektor"
+ rksunited.12.d:0 "Thanks to the Fuhrer's approval, the Reichskommmissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have three options and the one who shall lead the new protectorate is...."
+ rksunited.12.a:0 "Felix Steiner"
+ rksunited.12.b:0 "Josef Terboven"
+ rksunited.12.c:0 "Eduard Dietl"
+ 
+ rksunited.13.t:0 "The Unification of the Balkan"
+ rksunited.13.d:0 "After the establishment of Reichskommissariats in Balkan, there has been talks regarding the unification of the region. This will undoubtedly increase their autonomy. With the paperwork sent to Berlin, the Fuhrer decides to...."
+ rksunited.13.a:0 "Approves the unification!"
+ rksunited.13.b:0 "Reject the unification!"
+ 
+ rksunited.14.t:0 "Choose the Reichsprotektor"
+ rksunited.14.d:0 "Thanks to the Fuhrer's approval, the Reichskommmissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have seven/nine options and the one who shall lead the new protectorate is...."
+ rksunited.14.a:0 "Rudolf Veiel"
+ rksunited.14.b:0 "Wilhelm List"
+ rksunited.14.c:0 "Johannes Frießner"
+ rksunited.14.e:0 "Next page"
+ 
+ rksunited.15.t:0 "Choose the Reichsprotektor II"
+ rksunited.15.d:0 "Thanks to the Fuhrer's approval, the Reichskommmissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have seven/nine options and the one who shall lead the new protectorate is...."
+ rksunited.15.a:0 "Franz Böhme"
+ rksunited.15.b:0 "Otto Woehler"
+ rksunited.15.c:0 "Hans-Valentin Hube"
+ rksunited.15.e:0 "Previous page"
+ rksunited.15.f:0 "Next page"
+ 
+ rksunited.16.t:0 "Choose the Reichsprotektor III"
+ rksunited.16.d:0 "Thanks to the Fuhrer's approval, the Reichskommmissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have seven/nine options and the one who shall lead the new protectorate is...."
+ rksunited.16.a:0 "Maximilian von Weichs"
+ rksunited.16.b:0 "Erhard Raus"
+ rksunited.16.c:0 "Hans Gustav Felber"
+ rksunited.16.e:0 "Previous page"
+ 
+ rksunited.17.t:0 "Choose the Capital"
+ rksunited.17.d:0 "Everything is set and ready to go, however one final question remains. Where will this new protectorate's capital city be?"
+ rksunited.17.a:0 "Sofia"
+ rksunited.17.b:0 "Bucharest"
+ rksunited.17.c:0 "Belgrade"
+ rksunited.17.e:0 "Budapest"
+ rksunited.17.f:0 "Athens"
+ 
+ rksunited.18.t:0 "The Unification of China"
+ rksunited.18.d:0 "After the establishment of Reichsprotektorats in China, there has been talks regarding the unification of the region. Some within the high-ranking officials has secretly voiced their protests against the 'unrealistic unification' and called it an impossible mission. Only time and efforts can tell whether this is a good idea at all and with the paperwork sent to Berlin, the Fuhrer decides to...."
+ rksunited.18.a:0 "Approves the unification!"
+ rksunited.18.b:0 "Reject the unification!"
+ 
+ rksunited.19.t:0 "Choose the Reichsprotektor I"
+ rksunited.19.d:0 "Thanks to the Fuhrer's approval, the Reichsprotektorats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have four/five options and the one who shall lead the new protectorate is...."
+ rksunited.19.a:0 "Alexander von Falkenhausen"
+ rksunited.19.b:0 "Wilhelm Ritter von Thoma"
+ rksunited.19.c:0 "Walter Model"
+ rksunited.19.e:0 "Next page"
+ 
+ rksunited.20.t:0 "Choose the Reichsprotektor II"
+ rksunited.20.d:0 "Thanks to the Fuhrer's approval, the Reichsprotektorats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have four/five options and the one who shall lead the new protectorate is...."
+ rksunited.20.a:0 "Erwin von Witzleben"
+ rksunited.20.b:0 "Friedrich Schulz"
+ rksunited.20.c:0 "Previous page"
+ 
+ rksunited.21.t:0 "The Unification of Siberia"
+ rksunited.21.d:0 "After the establishment of Reichskommissariats in Siberia, there has been talks regarding the unification of the region. The vastness of Siberia will make policing the region an even harder task however. With the paperwork sent to Berlin, the Fuhrer decides to...."
+ rksunited.21.a:0 "Approves the unification!"
+ rksunited.21.b:0 "Reject the unification!"
+ 
+ rksunited.22.t:0 "Choose the Reichsprotektor"
+ rksunited.22.d:0 "Thanks to the Fuhrer's approval, the Reichskommissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have two options and the one who shall lead the new protectorate is...."
+ rksunited.22.a:0 "Ernst-Eberhard Hell"
+ rksunited.22.b:0 "Ferdinand Scherner"
+ 
+ rksunited.23.t:0 "The Unification of Afrika"
+ rksunited.23.d:0 "Crazy debates are happening in Berlin as some within the Reichstag suggested an absurd but intriguing plan, to unite all the Reichskolonie in Afrika to a single supercolony. While most has obviously rejected the idea for being the most outlandish plan out there, there is a small yet loud minority which weirdly enough supporting this plan. The Fuhrer not wanting anymore bullshit in his days other than play strategy games 24/7, decided to break his silence and finally announces...."
+ rksunited.23.a:0 "Insane plan but we roll with it!"
+ rksunited.23.b:0 "Shut up and let me play some Stellaris!"
+ 
+ rksunited.24.t:0 "Choose the Reichsprotektor"
+ rksunited.24.d:0 "With his approval, the Reichskolonies are beginning to work together to ensure a stable unification. However, a question still remains unanswered. Who will lead this god-forsaken colony? Unsurprisingly, not many wishes to administer Afrika. Only a select few brave (and crazy) enough applied to be the administrator. So, who should we choose?"
+ rksunited.24.a:0 "Hermann Göring!"
+ rksunited.24.b:0 "Erwin Rommel!"
+ rksunited.24.c:0 "Siegfried Müller!"
+ rksunited.24.e:0 "Heinz Harmel!"
+ 
+ rksunited.25.t:0 "Choose the Capital"
+ rksunited.25.d:0 "Everything is set and ready to go, however one final question remains. Where will this new protectorate's capital city be?"
+ rksunited.25.a:0 "Cape Town"
+ rksunited.25.b:0 "Cairo"
+ rksunited.25.c:0 "Dakar"
+ rksunited.25.e:0 "Addis Ababa"
+ rksunited.25.f:0 "Leopoldville"
+ 
+ rksunited.26.t:0 "The Unification of Osteuropa"
+ rksunited.26.d:0 "Months before, nobody within the Reichstag would have even considered this idea, let alone to even suggest it. But now, with a popular backings from influencial figures such as Speer, the idea of Osteuropa is circulating around the Reichstag. It would be a gigantic colony comprising of a small German minority gradually increasing overtime and a huge numbers of Slavs. The establishment of such state would cause a massive instability and uncertain future. However, the Fuhrer has decided to....."
+ rksunited.26.a:0 "Approve the unification!"
+ rksunited.26.b:0 "Laughs at the proposal and throw it into the trashbin..."
+ 
+ rksunited.27.t:0 "Choose the Reichskommisar I"
+ rksunited.27.d:0 "Thanks to the Fuhrer's approval, the Reichskommissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichskommissariat? We have multiple options and the one who shall lead the new commissariat is...."
+ rksunited.27.a:0 "Siegfried Kasche"
+ rksunited.27.b:0 "Hinrich Lohse"
+ rksunited.27.c:0 "Erich Koch"
+ rksunited.27.e:0 "Alfred Rosenberg"
+ rksunited.27.f:0 "Next menu"
+ 
+ rksunited.28.t:0 "Choose the Reichskommisar II"
+ rksunited.28.d:0 "Thanks to the Fuhrer's approval, the Reichskommissariats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichskommissariat? We have multiple options and the one who shall lead the new commissariat is...."
+ rksunited.28.a:0 "Dietrich Klagges"
+ rksunited.28.b:0 "Wilhelm Adam"
+ rksunited.28.c:0 "Georg Lindemann"
+ rksunited.28.e:0 "Previous menu"
+
+ rksunited.29.t:0 "The Unification of South East Asia"
+ rksunited.29.d:0 "After the establishment of Reichskolonies in South East Asia, there has been talks regarding the unification of the region. This will undoubtedly increase their autonomy. With the paperwork sent to Berlin, the Fuhrer decides to...."
+ rksunited.29.a:0 "Approves the unification!"
+ rksunited.29.b:0 "Reject the unification!"
+ 
+ rksunited.30.t:0 "Choose the Reichsprotektor"
+ rksunited.30.d:0 "Thanks to the Fuhrer's approval, the Reichskolonies are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have two options and the one who shall lead the new protectorate is...."
+ rksunited.30.a:0 "Hermann Boehm"
+ rksunited.30.b:0 "Erich Raeder"
+
+ rksunited.31.t:0 "Choose the Capital"
+ rksunited.31.d:0 "Everything is set and ready to go, however one final question remains. Where will this new protectorate's capital city be?"
+ rksunited.31.a:0 "Saigon"
+ rksunited.31.b:0 "Bangkok"
+ rksunited.31.c:0 "Singapore"
+ rksunited.31.e:0 "Batavia/Jakarta"
+ rksunited.31.f:0 "Manila"
+ 
+ rksunited.32.t:0 "The Unification of South America"
+ rksunited.32.d:0 "After the establishment of Reichsprotektorats in South America, there has been talks regarding the unification of the region. This will undoubtedly increase their autonomy. With the paperwork sent to Berlin, the Fuhrer decides to...."
+ rksunited.32.a:0 "Approves the unification!"
+ rksunited.32.b:0 "Reject the unification!"
+ 
+ rksunited.33.t:0 "Choose the Reichsprotektor"
+ rksunited.33.d:0 "Thanks to the Fuhrer's approval, the Reichsprotektorats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have multiple options and the one who shall lead the new protectorate is...."
+ rksunited.33.a:0 "Hans von Obstfelder"
+ rksunited.33.b:0 "Kurt Student"
+ rksunited.33.c:0 "Otto Kumm"
+ rksunited.33.e:0 "Hasso von Manteuffel"
+ 
+ rksunited.34.t:0 "Choose the Capital"
+ rksunited.34.d:0 "Everything is set and ready to go, however one final question remains. Where will this new protectorate's capital city be?"
+ rksunited.34.a:0 "Buenos Aires"
+ rksunited.34.b:0 "Rio de Janeiro"
+ rksunited.34.c:0 "Sao Paolo"
+ rksunited.34.e:0 "Bogota"
+ rksunited.34.f:0 "Caracas"
+ 
+ rksunited.35.t:0 "The Unification of North America"
+ rksunited.35.d:0 "After the establishment of Reichsprotektorats in North America, there has been talks regarding the unification of the region. This will undoubtedly increase their autonomy. With the paperwork sent to Berlin, the Fuhrer decides to...."
+ rksunited.35.a:0 "Approves the unification!"
+ rksunited.35.b:0 "Reject the unification!"
+ 
+ rksunited.36.t:0 "Choose the Reichsprotektor"
+ rksunited.36.d:0 "Thanks to the Fuhrer's approval, the Reichsprotektorats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have multiple options and the one who shall lead the new protectorate is...."
+ rksunited.36.a:0 "Sepp Dietrich"
+ rksunited.36.b:0 "Paul Hausser"
+ rksunited.36.c:0 "Fritz Julius Kuhn"
+ rksunited.36.e:0 "Next page"
+ 
+ rksunited.37.t:0 "Choose the Reichsprotektor II"
+ rksunited.37.d:0 "Thanks to the Fuhrer's approval, the Reichsprotektorats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have multiple options and the one who shall lead the new protectorate is...."
+ rksunited.37.a:0 "Gotthard Heinrici"
+ rksunited.37.b:0 "Erich Brandenberger"
+ rksunited.37.c:0 "Karl Donitz"
+ rksunited.37.e:0 "Next page"
+ rksunited.37.f:0 "Previous page"
+ 
+ rksunited.38.t:0 "Choose the Capital"
+ rksunited.38.d:0 "Everything is set and ready to go, however one final question remains. Where will this new protectorate's capital city be?"
+ rksunited.38.a:0 "Ottawa"
+ rksunited.38.b:0 "New York"
+ rksunited.38.c:0 "Washington DC"
+ rksunited.38.e:0 "Los Angeles"
+ rksunited.38.f:0 "Mexico City"
+ 
+ rksunited.39.t:0 "The Unification of the British Isles"
+ rksunited.39.d:0 "After the establishment of Reichsprotektorats the British Isles, there has been talks regarding the unification of the region. This will undoubtedly increase their autonomy. With the paperwork sent to Berlin, the Fuhrer decides to...."
+ rksunited.39.a:0 "Approves the unification!"
+ rksunited.39.b:0 "Reject the unification!"
+ 
+ rksunited.40.t:0 "Choose the Reichsprotektor"
+ rksunited.40.d:0 "Thanks to the Fuhrer's approval, the Reichsprotektorats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have two options and the one who shall lead the new protectorate is...."
+ rksunited.40.a:0 "[RUK.GetLeader]"
+ rksunited.40.b:0 "Friedrich Paulus"
+ 
+ rksunited.41.t:0 "Choose the Reichsprotektor III"
+ rksunited.41.d:0 "Thanks to the Fuhrer's approval, the Reichsprotektorats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have multiple options and the one who shall lead the new protectorate is...."
+ rksunited.41.a:0 "Walter Schroth"
+ rksunited.41.b:0 "Erich von Manstein"
+ rksunited.41.c:0 "Karl von Tiedemann"
+ rksunited.41.e:0 "Next page"``
+ rksunited.41.f:0 "Previous page"
+ 
+ rksunited.42.t:0 "Choose the Reichsprotektor IV"
+ rksunited.42.d:0 "Thanks to the Fuhrer's approval, the Reichsprotektorats are now working together to solidify their controls in order to guarantee a stable unification. However, a question is still left unanswered. Who will lead this new united Reichsprotektorat? We have multiple options and the one who shall lead the new protectorate is...."
+ rksunited.42.a:0 "Curt Liebmann"
+ rksunited.42.b:0 "Friedrich Kirchner"
+ rksunited.42.c:0 "Hans-Wolfgang Reinhard"
+ rksunited.42.e:0 "Previous page"
+ 
+ #### PEACE DEAL ####
+ 
+ rkspeacedeal.1.t:0 "Surrender to the Germans?"
+ rkspeacedeal.1.d:0 "Our situation went from bad to utterly decimated. Our army is in shambles, the people are beginning to stray away from the central government, three of our major cities has been captured, and sadly pillaged to the ground. Sooner or later, the entire Slavic race will be annihilated and wiped off the face of the Earth by the Germanic hordes. Desperate time calls for desperate measures. We will negotiate a peace deal, under their terms and conditions. It may be the final nail in the coffin for us, but if that's the best of what we could get then we'll endure it. The Germans are demanding us withdraw west of the Arkhangelsk-Astrakhan Line, so be it. We will retreat to Siberia, we might never see Moscow ever again. We will take the fight to their land... to their people... to their blood."
+ rkspeacedeal.1.a:0 "Forgive us motherland..."
+ rkspeacedeal.1.b:0 "Our motherland shall never be their graves!"
+
+ 
+ rkspeacedeal.1.a_tt:0 "Germany gains:"
+
+ rkspeacedeal.2.t:0 "The Russian Surrenders!"
+ rkspeacedeal.2.d:0 "Operation Barbarossa has been a resounding success, the Russians were completely annihilated and their army is in shambles. They have proposed a peace deal, in our terms - which all of the high commands have agreed for the Russians to retreat from the west of the AA Line (Arkhangelsk-Astrakhan). We have kicked the door, and now the entire structure has collapsed. However, some argues that we should advance all the way to the Urals and annhilate all of them completely. This would put us in an disadvantage as we still have a front in the West to deal with. Despite all of this, the Fuhrer...."
+ rkspeacedeal.2.a:0 "Agrees!"
+ rkspeacedeal.2.b:0 "Rejects!"
+ 
+ #### USSR COLLAPSE EVENT ####
+ 
+ rksplusussr.1.t:0 "Worrying news..."
+ rksplusussr.1.d:0 "With our humiliating defeat in the Great Patriotic War, the people have begun to question the central government. A series of demonstration took places across the major cities in Siberia and while insignificant, it will undoubtedly grow larger overtime. Our special agents are still keeping a close eye on the civilian population but for how long? Currently, we are still the head of [Root.GetNameDefCap] - for now..."
+ rksplusussr.1.a:0 "We have larger issues to be dealt with."
+ 
+ rksplusussr.2.t:0 "Mass Protests Against the Government!"
+ rksplusussr.2.d:0 "Recently, a huge fiery but mostly peaceful protest against our government were held throughout the nation. From Kazan all the way to Magadan, the people are fed up. It seems like we have lost the grip on the population. Soldiers are already on their way to the cities - we can only hope for the best."
+ rksplusussr.2.a:0 "Right?"
+ 
+ rksplusussr.3.t:0 "Protests turned Violent!"
+ rksplusussr.3.d:0 "In the wake of our soldiers' reinforcement, the protesters have begun to entrench themselves and soon it turned violent - with protesters throwing whatever they could get their hands on to our soldiers. Unsurprisingly, our soldiers retaliated with gunshots. 4 people lost their lives that day - with 13 wounded."
+ rksplusussr.3.a:0 "Ahhh this is bad!"
+ 
+ rksplusussr.4.t:0 "Armoury Raid!"
+ rksplusussr.4.d:0 "Our troubles have only gotten worse. Disturbing reports shown that an armoury was recently raided by the protesters in the wake of the killings of four of their comrades. This incident was only reported earlier this morning - to which some experts presumed that the armoury was raided under the darkness of night. A total of a thousand guns are missing and they could be anywhere - very likely to be used to against us."
+ rksplusussr.4.a:0 "Not good!"
+ 
+ rksplusussr.5.t:0 "National Emergency Declaration"
+ rksplusussr.5.d:0 "The ongoing violent protests happening throughout the country has turned into a full scale revolution. Many are taking their sides while others try their best to disassociate themselves from the extremists. The government has declared a nation-scale lockdown and ordered all civilians to be home on curfew or else. However, this has only put more woods onto the flame. Gunfights are common in major cities and our troops have began deserting and joining others in their causes. Our collapse is imminent."
+ rksplusussr.5.a:0 "Oh noooo!"
+ 
+ rksplusussr.6.t:0 "Kazakhstan declares Independence!"
+ rksplusussr.6.d:0 "The ongoing chaos in our country has convinced the Kazakhs to declare indepedence to protect its people, according to their representatives. Our soldiers are busy dealing with the rebellion and are beyond exhausted to stop this declaration. Our grip in Eurasia is collapsing and this won't be the last of it."
+ rksplusussr.6.a:0 "Fine..."
+ rksplusussr.6.b:0 "Oyan Qazaqstan!"
+ 
+ rksplusussr.7.t:0 "Islamic Republic of Turkestan declares Independence!"
+ rksplusussr.7.d:0 "With the Kazakhs having successfully declared indepedence, this gave enough confidence for the rest of the Turkic people in Central Asia to declare their own state under the name of the Islamic Republic of Turkestan. We doubt however whether the Pamir garrison would react too kindly to this situation..."
+ rksplusussr.7.a:0 "We can't even get to them anyway..."
+ rksplusussr.7.b:0 "Allahu akbar!"
+ 
+ rksplusussr.8.t:0 "Turkestan Soviet Republic Emerges!"
+ rksplusussr.8.d:0 "In response to Kazakh and Islamic Turkestan's indepedences, the remaining Communist Party members in Turkestan declared a seperate communist Soviet Republic in the Eastern part of Turkestan. With them essentially cut off from us, it would be hard to support them. The Pamir Garrison has vowed to 'defend the Republic until the Union returns.'"
+ rksplusussr.8.a:0 "We will be back..."
+ rksplusussr.8.b:0 "Ura!!"
+ 
+ rksplusussr.9.t:0 "[From.From.GetLeader] assassinated!"
+ rksplusussr.9.d:0 "Under the darkness of night, our leader [From.From.GetLeader] has been murdered cold-blooded. Investigation are taking place but given the circumstances with the riots, it is going rather slow. Nonetheless, a burial ceremony was held early in the morning. Upon receiving the news, some people were shocked but a concerning majority cheered on. The stability of our country goes lower than ever."
+ rksplusussr.9.a:0 "The Red Army will take full control!"
+ rksplusussr.9.b:0 "The Emergency Government will take full control!"
+ 
+ rksplusussr.10.t:0 "Occupy Transamur?"
+ rksplusussr.10.d:0 "Our intelligence has suggested that the situation in Russia is terrible, with massive riots and uprisings throughout the nation. Luckily for us, this has spawned a rare opportunity that's too hard to miss. The occupation of Transamur. We always had an ambition there, we briefly occupied it during the Russian Civil War and now we can take back what was once ours. \n There are concerns whether the Russian will retaliates though this seems very unlikely given their current situation. A dice on the world map will decide the fate of the people of Transamur."
+ rksplusussr.10.a:0 "March onwards! (Take all)"
+ rksplusussr.10.b:0 "March onwards! (Transfer Out.Manchuria to Manchukuo)"
+ rksplusussr.10.c:0 "I'm scared, mommy!"
+ 
+ rksplusussr.11.t:0 "Transamur Occupied!"
+ rksplusussr.11.d:0 "In a scummy decision, the Japanese has decided that it's best to steal Transamur from us. They knew our situation and took full advantage of it. Our commands in Vladivostok were overwhelmed and forced to surrender. This is the breaking point. A foreign exploitation. The beginning of the end."
+ rksplusussr.11.a:0 "As if it couldn't get any worse!"
+ 
+ rksplusussr.12.t:0 "Tannu Tuva declares indepedence!"
+ rksplusussr.12.d:0 "Tannu Tuva, a nation that's in de facto Russian rule has declared itself independent from the rest of Russia. The reason is clear as the ruler doesn't want his people to suffer any longer. The higher-ups have simply called this move a "bluff" and moved forward with their tasks. The future of Tannu Tuva is uncertain."
+ rksplusussr.12.a:0 "Tannu what?"
+ 
+ rksplusussr.13.t:0 "Mongolia cut ties!"
+ rksplusussr.13.d:0 "Mongolia, a country that was previously heavily under our sphere has cut ties with us and declared a "free and a united nation"."
+ rksplusussr.13.a:0 "Moving on.."
+ 
+ rksplusussr.14.t:0 "White Russians have taken the Far East!"
+ rksplusussr.14.d:0 "Without warning, the White Russians have declared a new front against the central government based in Irkutsk! Their activies were recently noticed by our intelligence agency, however we were a little to late to take action as they've already commenced their operation. With the Far East lost, we are bound to be wiped out."
+ rksplusussr.14.a:0 "Damn you!"
+ rksplusussr.14.b:0 "For Mother Russia!"
+ 
+ rksplusussr.15.t:0 "Concerning reports..."
+ rksplusussr.15.d:0 "Our capital was recently shocked by a confrontation between the army and the angry populace. The people are demanding us to resign immediately and allow a democratic election to take place. Still, our army has proven to them that the central government aren't willing to talk. Therefore, a few dissidents have discussed the possibility of a Siberian Republic, to replace the current one in Sverdlovsk."
+ rksplusussr.15.a:0 "Nonsense!"
+ 
+ rksplusussr.16.t:0 "Declaration of a Siberian Republic"
+ rksplusussr.16.d:0 "Today, history was made. The protesters stormed into the Parliament in Sverdlovsk. After securing the location, the leaders of the movement stepped up and declared a new Siberian Republic that shall follow "free and democratic values for all men". Following afterwards, a massive clashes occured in the city. The protesters, motivated by the words of the proclamation faced the army with all force. They managed to kick out the central government from the city and the wave of revolution reached all the way to Krasnoyarsk. Siberia is free to decide its own path now, though with threats from the east as the White Russians looked on. Meanwhile, the central government managed to flee west of the Urals and settled in Kazan."
+ rksplusussr.16.a:0 "Bastards!"
+ rksplusussr.16.b:0 "Under the white and green banner of the tundra!"
+ 
+ rksplusussr.17.t:0 "The End"
+ rksplusussr.17.d:0 "The end has arrived. The country is no longer the powerhouse it was. Kazan was the best place, but it's not the greatest. Everyday, the Germans bombard the city, leaving only dust and rubbles to scavenge. Zhukov has decided that enough is enough. He has decided to form the West Russian Liberation Front, one final stronghold against German expansionism. We will endure. We will be back. Dark is the night, my love."
+ rksplusussr.17.a:0 "Smert'ne strashna..."

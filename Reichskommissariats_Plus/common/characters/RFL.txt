@@ -1,0 +1,15 @@
+characters={
+	RFL_Leader={
+		name= "Friedrich Kirchner"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Germany_Friedrich_Kirchner_rksplus
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,357 @@
+### Capital City
+capital = 650
+
+### Research slots / Stability / War support
+set_research_slots = 5
+set_stability = 1
+set_war_support = 1
+
+### Starting Ideas
+add_ideas = {
+SHC_isolated
+war_economy
+extensive_conscription
+}
+
+oob = "SHC_1936"
+
+recruit_character = SHC_Leader
+recruit_character = SHC_BeardedLizardMan
+recruit_character = SHC_Ganikoumoru
+recruit_character = SHC_Garaganda
+recruit_character = SHC_Hilchameleon
+recruit_character = SHC_Ika_Devil
+recruit_character = SHC_Jaguarman
+recruit_character = SHC_Zanjioh
+recruit_character = SHC_KameBazooka
+recruit_character = SHC_Siomaneking
+recruit_character = SHC_GeneralShadow
+recruit_character = SHC_GeneralJark
+recruit_character = SHC_ApolloGeist
+recruit_character = SHC_ShadowMoon
+recruit_character = SHC_Doras
+
+### Number of Convoys
+set_convoys = 30000
+
+###  Starting Technology
+set_technology = {
+    #air_techs
+    early_fighter = 1
+    cv_early_fighter = 1
+    fighter1 = 1
+    cv_fighter1 = 1
+    fighter2 = 1
+    cv_fighter2 = 1
+    fighter3 = 1
+    cv_fighter3 = 1
+    jet_fighter1 = 1
+    jet_fighter2 = 1
+    CAS1 = 1
+    cv_CAS1 = 1
+    CAS2 = 1
+    cv_CAS2 = 1
+    CAS3 = 1
+    cv_CAS3 = 1
+    naval_bomber1 = 1
+    cv_naval_bomber1 = 1
+    naval_bomber2 = 1
+    cv_naval_bomber2 = 1
+    naval_bomber3 = 1
+    cv_naval_bomber3 = 1
+    early_bomber = 1
+    heavy_fighter1 = 1
+    heavy_fighter2 = 1
+    heavy_fighter3 = 1
+    tactical_bomber1 = 1
+    tactical_bomber2 = 1
+    tactical_bomber3 = 1
+    jet_tactical_bomber1 = 1
+    jet_tactical_bomber2 = 1
+    strategic_bomber1 = 1
+    strategic_bomber2 = 1
+    strategic_bomber3 = 1
+    jet_strategic_bomber1 = 1
+    suicide_craft = 1
+    
+    ### Support
+    tech_support = 1
+    tech_engineers = 1
+    tech_engineers2 = 1
+    tech_engineers3 = 1
+    tech_engineers4 = 1
+    tech_recon = 1
+    tech_recon2 = 1
+    tech_recon3 = 1
+    tech_recon4 = 1
+    tech_military_police = 1
+    tech_military_police2 = 1
+    tech_military_police3 = 1
+    tech_military_police4 = 1
+    tech_maintenance_company = 1
+    tech_maintenance_company2 = 1
+    tech_maintenance_company3 = 1
+    tech_maintenance_company4 = 1
+    tech_field_hospital = 1
+    tech_field_hospital2 = 1
+    tech_field_hospital3 = 1
+    tech_field_hospital4 = 1
+    tech_logistics_company = 1
+    tech_logistics_company2 = 1
+    tech_logistics_company3 = 1
+    tech_logistics_company4 = 1
+    tech_signal_company = 1
+    tech_signal_company2 = 1
+    tech_signal_company3 = 1
+    tech_signal_company4 = 1
+    
+    #armor
+    gwtank = 1 #Leichttraktor
+    basic_light_tank = 1 #Panzer I
+    basic_light_td = 1
+    basic_light_art = 1
+    basic_light_spaa = 1
+    improved_light_tank = 1 #Panzer II
+    improved_light_td = 1
+    improved_light_art = 1
+    improved_light_spaa = 1
+    advanced_light_tank = 1 #Leopard
+    advanced_light_td = 1
+    advanced_light_art = 1
+    advanced_light_spaa = 1
+    basic_medium_tank = 1 #Panzer III
+    basic_medium_td = 1
+    basic_medium_art = 1
+    basic_medium_spaa = 1
+    improved_medium_tank = 1 #Panzer IV
+    improved_medium_td = 1
+    improved_medium_art = 1
+    improved_medium_spaa = 1
+    advanced_medium_tank = 1 #Panther
+    advanced_medium_td = 1
+    advanced_medium_art = 1
+    advanced_medium_spaa = 1
+    main_battle_tank = 1 #E-50
+    modern_td = 1
+    modern_art = 1
+    modern_spaa = 1
+    basic_heavy_tank = 1 #Grosstraktor
+    basic_heavy_td = 1
+    basic_heavy_art = 1
+    basic_heavy_spaa = 1
+    improved_heavy_tank = 1 #Tiger
+    improved_heavy_td = 1
+    improved_heavy_art = 1
+    improved_heavy_spaa = 1
+    advanced_heavy_tank = 1 #King Tiger
+    advanced_heavy_td = 1
+    advanced_heavy_art = 1
+    advanced_heavy_spaa = 1
+    super_heavy_tank = 1 #Maus
+    super_heavy_td = 1
+    super_heavy_art = 1
+    super_heavy_spaa = 1
+    
+    ### infantry
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    infantry_weapons2 = 1
+    improved_infantry_weapons = 1
+    improved_infantry_weapons_2 = 1
+    infantry_at = 1
+    infantry_at2 = 1
+    advanced_infantry_weapons = 1
+    advanced_infantry_weapons2 = 1
+    paratroopers = 1
+    paratroopers2 = 1
+    paratroopers3 = 1
+    marines = 1
+    marines2 = 1
+    marines3 = 1
+    tech_mountaineers = 1
+    tech_mountaineers2 = 1
+    tech_mountaineers3 = 1
+    night_vision = 1
+    night_vision2 = 1
+    support_weapons = 1
+    support_weapons2 = 1
+    support_weapons3 = 1
+    support_weapons4 = 1
+    motorised_infantry = 1
+    motorized_rocket_unit = 1
+    mechanised_infantry = 1
+    mechanised_infantry2 = 1
+    mechanised_infantry3 = 1
+    
+    #artillery
+    gw_artillery = 1
+    interwar_artillery = 1
+    artillery1 = 1
+    artillery2 = 1
+    artillery3 = 1
+    artillery4 = 1
+    artillery5 = 1
+    rocket_artillery = 1
+    rocket_artillery2 = 1
+    rocket_artillery3 = 1
+    rocket_artillery4 = 1
+    interwar_antiair = 1
+    antiair1 = 1
+    antiair2 = 1
+    antiair3 = 1
+    antiair4 = 1
+    antiair5 = 1
+    interwar_antitank = 1
+    antitank1 = 1
+    antitank2 = 1
+    antitank3 = 1
+    antitank4 = 1
+    antitank5 = 1
+    
+    ### naval
+    early_destroyer = 1
+    basic_destroyer = 1
+    improved_destroyer = 1
+    advanced_destroyer = 1
+    early_light_cruiser = 1
+    basic_light_cruiser = 1
+    improved_light_cruiser = 1
+    advanced_light_cruiser = 1
+    early_heavy_cruiser = 1
+    basic_heavy_cruiser = 1
+    improved_heavy_cruiser = 1
+    advanced_heavy_cruiser = 1
+    early_battlecruiser = 1
+    basic_battlecruiser = 1
+    early_battleship = 1
+    basic_battleship = 1
+    improved_battleship = 1
+    advanced_battleship = 1
+    heavy_battleship = 1
+    heavy_battleship2 = 1
+    transport = 1
+    landing_craft = 1
+    tank_landing_craft = 1
+    early_carrier = 1
+    basic_carrier = 1
+    improved_carrier = 1
+    advanced_carrier = 1
+    early_submarine = 1
+    basic_submarine = 1
+    improved_submarine = 1
+    advanced_submarine = 1
+    
+    ### electronics
+    electronic_mechanical_engineering = 1
+    radio = 1
+    radio_detection = 1
+    decimetric_radar = 1
+    improved_decimetric_radar = 1
+    centimetric_radar = 1
+    improved_centimetric_radar = 1
+    advanced_centimetric_radar = 1
+    mechanical_computing = 1
+    computing_machine = 1
+    improved_computing_machine = 1
+    advanced_computing_machine = 1
+    basic_encryption = 1
+    improved_encryption = 1
+    advanced_encryption = 1
+    basic_decryption = 1
+    improved_decryption = 1
+    advanced_decryption = 1
+    experimental_rockets = 1
+    rocket_engines = 1
+    improved_rocket_engines = 1
+    advanced_rocket_engines = 1
+    jet_engines = 1
+    atomic_research = 1
+    nuclear_reactor = 1
+    nukes = 1
+    
+	## Branch 2 - Close Air Support
+    formation_flying = 1
+    dive_bombing = 1
+    direct_ground_support = 1
+    formation_fighting = 1      # Option #1
+    hunt_and_destroy = 1
+    combat_unit_destruction = 1
+    battlefield_support = 1
+    keypoint_bombing = 1
+    ground_support_integration = 1
+    naval_strike_torpedo_tactics = 1
+    strategic_destruction = 1
+    forward_interception = 1
+	
+    ## Branch 2 - Attrition Navy 
+    trade_interdiction = 1
+    convoy_interdiction_ti = 1
+    unrestricted_submarine_warfare = 1
+    wolfpacks = 1
+    advanced_submarine_warfare = 1
+    combined_operations_raiding = 1
+    raider_patrols = 1
+    capital_ship_raiders = 1
+    battlefleet_concentration_ti = 1
+    floating_fortress_ti = 1
+    floating_airfield_ti = 1
+    carrier_operations = 1
+    convoy_sailing_ti = 1
+    subsidiary_carrier_role_ti = 1
+    naval_air_operations = 1   
+	
+	### Industry
+    basic_machine_tools = 1
+    improved_machine_tools = 1
+    advanced_machine_tools = 1
+    assembly_line_production = 1
+    flexible_line = 1
+    # Option 1 - Concentrated Industry
+    concentrated_industry = 1
+    concentrated_industry2 = 1
+    concentrated_industry3 = 1
+    concentrated_industry4 = 1
+    concentrated_industry5 = 1
+    construction1 = 1
+    excavation1 = 1
+    construction2 = 1
+    excavation2 = 1
+    construction3 = 1
+    excavation3 = 1
+    construction4 = 1
+    excavation4 = 1
+    construction5 = 1
+    excavation5 = 1
+	
+	### Land doctrine
+    ## Branch 1  - Mobile Warfare
+    mobile_warfare = 1
+    delay = 1
+    elastic_defence = 1
+            # Option 1 - Branch focuses on infantry, included Motorised and Mechanised.
+            mobile_infantry = 1 
+            mass_motorization = 1
+            mechanised_offensive = 1
+
+    kampfgruppe = 1    
+            # Option 1 - Branch focused on mobile warfares
+            firebrigades = 1 
+            backhand_blow = 1
+            modern_blitzkrieg = 1
+}
+
+### Politics
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+set_popularities = {
+	democratic = 0
+	fascism = 87
+	communism = 0
+	neutrality = 13
+}

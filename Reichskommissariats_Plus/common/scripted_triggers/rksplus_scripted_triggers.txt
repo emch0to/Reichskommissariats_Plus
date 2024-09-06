@@ -1,0 +1,58 @@
+    
+	
+	
+SOV_is_owned_by_SOV_or_puppet_trigger = {
+
+	custom_trigger_tooltip = {
+		tooltip = SOV_is_owned_by_SOV_or_puppet_trigger_tooltip
+		
+		owner = {
+			OR = {
+				tag = SOV
+				is_subject_of = SOV
+			}
+		}
+	}
+}
+
+ENG_is_owned_by_ENG_or_puppet_trigger = {
+
+	custom_trigger_tooltip = {
+		tooltip = ENG_is_owned_by_ENG_or_puppet_trigger_tooltip
+		
+		owner = {
+			OR = {
+				tag = ENG
+				is_subject_of = ENG
+			}
+		}
+	}
+}
+
+BEL_is_owned_by_BEL_or_puppet_trigger = {
+
+	custom_trigger_tooltip = {
+		tooltip = BEL_is_owned_by_BEL_or_puppet_trigger_tooltip
+		
+		owner = {
+			OR = {
+				tag = BEL
+				is_subject_of = BEL
+			}
+		}
+	}
+}
+
+HOL_is_owned_by_FRA_or_puppet_trigger = {
+
+	custom_trigger_tooltip = {
+		tooltip = HOL_is_owned_by_FRA_or_puppet_trigger_tooltip
+		
+		owner = {
+			OR = {
+				tag = BEL
+				is_subject_of = BEL
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+
+	# RKSPLUS
+	
+	OSS_german_collaboration = {
+		value = 50
+	}
+	
+	OSS_mission_to_burgundy = {
+	    value = 25
+	}
+	
+	OSS_mission_to_gotenland = {
+	    value = 25
+	}
+	
+	OSS_schutzstaffel_collaboration = {
+		value = 50
+	}
+	
+	OBG_germany_reconciliation = {
+		value = 15
+	}
+	
+	OBG_germany_loyalty = {
+		value = 35
+	}
+	
+	OBG_germany_neutrality = {
+		value = 10
+	}
+	
+	OBG_germany_protectorate = {
+		value = 50
+	}
+	
+	OBG_mission_to_gotenland = {
+	    value = 25
+	}
+	
+	OBG_mission_to_banat = {
+	    value = 25
+	}
+	
+	OBG_mission_to_iceland = {
+	    value = 25
+	}
+	
+	OBG_mission_to_lombardie = {
+	    value = 25
+	}
+	
+	OBG_mission_to_shocker = {
+		value = 25
+	}
+	
+	GER_rksplus_fine_investment_it_is = {
+		value = 25
+	}
+	
+	GER_rksplus_go_fuck_off_dumbass = {
+		value = -15
+	}
+	
+	OBG_burgundy_intimidated_us_opinion = {
+		value = -100
+	}
+}

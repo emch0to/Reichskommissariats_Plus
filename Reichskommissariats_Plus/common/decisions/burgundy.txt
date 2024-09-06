@@ -1,0 +1,1861 @@
+
+OBG_integrate_frankreich_decision_category = {
+	
+	OBG_rksplus_integrate_paris = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 16
+		}
+
+		cost = 75
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 120
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 16
+				
+				16 = {
+					set_state_name = Himmlerstadt
+					set_province_name = {
+						id = 11506
+						name = rksplus_himmlerstadt_localisation
+					}
+				}
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_normandy = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 15
+			controls_state = 30 
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 15
+				add_state_core = 30
+		    }
+		}
+	}
+
+	OBG_rksplus_integrate_brittany = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 14
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 14
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_bourgogne = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 27
+			controls_state = 24
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 27
+				add_state_core = 24
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_bourdeaux = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 23
+			controls_state = 19
+			controls_state = 806
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 23
+				add_state_core = 19
+				add_state_core = 806
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_toulouse = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 31
+			controls_state = 22
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 31
+				add_state_core = 22
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_centralfrance = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 33
+			controls_state = 25
+			controls_state = 26
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 33
+				add_state_core = 25
+				add_state_core = 26
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_rhone = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 20
+
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 20
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_marseille = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 32
+			controls_state = 21
+
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 32
+				add_state_core = 21
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_var = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 851
+
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 851
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_savoy = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 735
+
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 735
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_corsica = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+			
+			controls_state = 1
+
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_frankreich
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 1
+		    }
+		}
+	}
+}
+
+OBG_subjugate_ordensstaats_decision_category = {
+	
+	OBG_rksplus_subjugate_gotenland = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_subjugate_ordensstaats
+			has_government = fascism
+			
+			country_exists = OGT
+			
+			has_opinion = {
+				target = OGT
+				value > 49
+			}
+
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_subjugate_ordensstaats
+			has_government = fascism
+		}
+		
+		days_remove = 35
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OGT = {
+				country_event = rksburgundynew.19
+			}
+		}
+	}
+	
+	OBG_rksplus_subjugate_banat = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_subjugate_ordensstaats
+			has_government = fascism
+			
+			country_exists = RBA
+			
+			has_opinion = {
+				target = RBA
+				value > 49
+			}
+			
+			has_global_flag = RBA_banat_ss_flag
+
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_subjugate_ordensstaats
+			has_government = fascism
+		}
+		
+		days_remove = 35
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			RBA = {
+				country_event = rksburgundynew.22
+			}
+		}
+	}
+	
+	OBG_rksplus_subjugate_iceland = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_subjugate_ordensstaats
+			has_government = fascism
+			
+			country_exists = OIC
+			
+			has_opinion = {
+				target = OIC
+				value > 49
+			}
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_subjugate_ordensstaats
+			has_government = fascism
+		}
+		
+		days_remove = 35
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OIC = {
+				country_event = rksburgundynew.25
+			}
+		}
+	}
+	
+	OBG_rksplus_subjugate_lombardei = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_subjugate_ordensstaats
+			has_government = fascism
+			
+			country_exists = OLB
+			
+			has_opinion = {
+				target = OLB
+				value > 49
+			}
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_subjugate_ordensstaats
+			has_government = fascism
+		}
+		
+		days_remove = 35
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OLB = {
+				country_event = rksburgundynew.28
+			}
+		}
+	}
+}
+
+OBG_integrate_deutschland_decision_category = {
+	
+	OBG_rksplus_integrate_germany_rhineland = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 42
+			controls_state = 51
+
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 42
+				add_state_core = 51
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_southgermany = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 50
+			controls_state = 54
+			controls_state = 52
+			controls_state = 53
+
+		}
+
+		cost = 75
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 120
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {	
+				add_state_core = 50
+				add_state_core = 54
+				add_state_core = 52
+				add_state_core = 53
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_westgermany = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 55
+			controls_state = 57
+			controls_state = 56
+			controls_state = 59
+			controls_state = 60
+			controls_state = 58
+			controls_state = 909
+
+		}
+
+		cost = 75
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 120
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 55
+				add_state_core = 57
+				add_state_core = 56
+				add_state_core = 59
+				add_state_core = 60
+				add_state_core = 58
+				add_state_core = 909
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_eastgermany = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 61
+			controls_state = 62
+			controls_state = 64
+			controls_state = 65
+
+		}
+
+		cost = 75
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 120
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 61
+				add_state_core = 62
+				add_state_core = 64
+				add_state_core = 65
+		    }
+		}
+	}
+		
+	OBG_rksplus_integrate_germany_easterngermany = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 63
+			controls_state = 68
+			controls_state = 66
+			controls_state = 67
+
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 63
+				add_state_core = 68
+				add_state_core = 66
+				add_state_core = 67
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_prussia = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 5
+			controls_state = 763
+			controls_state = 188
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 5
+				add_state_core = 763
+				add_state_core = 188
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_alsacelorraine = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 8
+			controls_state = 28
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 8
+				add_state_core = 28
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_netherlands = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 35
+			controls_state = 7
+			controls_state = 36
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 35
+				add_state_core = 7
+				add_state_core = 36
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_denmark = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 99
+			controls_state = 37
+			controls_state = 911
+			controls_state = 912
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 99
+				add_state_core = 37
+				add_state_core = 911
+				add_state_core = 912
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_bornholm = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 910
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 910
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_iceland = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 100
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 100
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_janmayen = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 914
+		}
+
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 3
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 914
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_austria = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 848
+			controls_state = 153
+			controls_state = 152
+			controls_state = 4
+		}
+
+		cost = 75
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 120
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 848
+				add_state_core = 153
+				add_state_core = 152
+				add_state_core = 4
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_czechia = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 69
+			controls_state = 9
+			controls_state = 75
+			controls_state = 74
+			controls_state = 72
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 120
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 69
+				add_state_core = 9
+				add_state_core = 75
+				add_state_core = 74
+				add_state_core = 72
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_poland = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 85
+			controls_state = 807
+			controls_state = 86
+			controls_state = 87
+			controls_state = 98
+			controls_state = 97
+			controls_state = 10
+			controls_state = 92
+			controls_state = 90
+			controls_state = 762
+			controls_state = 88
+		}
+
+		cost = 120
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 150
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 85
+				add_state_core = 807
+				add_state_core = 86
+				add_state_core = 87
+				add_state_core = 98
+				add_state_core = 97
+				add_state_core = 10
+				add_state_core = 92
+				add_state_core = 90
+				add_state_core = 762
+				add_state_core = 88
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_slovakia = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 70
+			controls_state = 71
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 70
+				add_state_core = 71
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_carpathia = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 664
+			controls_state = 73
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 664
+				add_state_core = 73
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_lviv = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 89
+			controls_state = 91
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 89
+				add_state_core = 91
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_slovenia = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 102
+			controls_state = 853
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 60
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 102
+				add_state_core = 853
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_switzerland = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 845
+			controls_state = 3
+			controls_state = 847
+			controls_state = 151
+			controls_state = 846
+		}
+
+		cost = 100
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 845
+				add_state_core = 3
+				add_state_core = 847
+				add_state_core = 151
+				add_state_core = 846
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_venice = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 159
+			controls_state = 160
+			controls_state = 850
+			controls_state = 39
+			controls_state = 736
+		}
+
+		cost = 100
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 90
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {
+				add_state_core = 159
+				add_state_core = 160
+				add_state_core = 850
+				add_state_core = 39
+				add_state_core = 736
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_ostland = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 95
+			controls_state = 204
+			controls_state = 206
+			controls_state = 96
+			controls_state = 207
+			controls_state = 784
+			controls_state = 814
+			controls_state = 11
+			controls_state = 815
+			controls_state = 189
+			controls_state = 190
+			controls_state = 809
+			controls_state = 808
+			controls_state = 810
+			controls_state = 12
+			controls_state = 811
+			controls_state = 13
+			controls_state = 812
+			controls_state = 813
+			controls_state = 191
+			controls_state = 94
+			controls_state = 194
+			controls_state = 241
+		}
+
+		cost = 250
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 180
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {			
+					add_state_core = 95
+					add_state_core = 204
+					add_state_core = 206
+					add_state_core = 96
+					add_state_core = 207
+					add_state_core = 784
+					add_state_core = 814
+					add_state_core = 11
+					add_state_core = 815
+					add_state_core = 189
+					add_state_core = 190
+					add_state_core = 809
+					add_state_core = 808
+					add_state_core = 810
+					add_state_core = 12
+					add_state_core = 811
+					add_state_core = 13
+					add_state_core = 812
+					add_state_core = 813
+					add_state_core = 191
+					add_state_core = 94
+					add_state_core = 194
+					add_state_core = 241
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_ukraine = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 198
+			controls_state = 199
+			controls_state = 201
+			controls_state = 93
+			controls_state = 202
+			controls_state = 203
+			controls_state = 259
+			controls_state = 197
+			controls_state = 226
+			controls_state = 200
+			controls_state = 196
+			controls_state = 227
+			controls_state = 228
+			controls_state = 221
+			controls_state = 193
+			controls_state = 225
+			controls_state = 192
+			controls_state = 834
+		}
+
+		cost = 250
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 180
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {			
+					add_state_core = 198
+					add_state_core = 199
+					add_state_core = 201
+					add_state_core = 93
+					add_state_core = 202
+					add_state_core = 203
+					add_state_core = 259
+					add_state_core = 197
+					add_state_core = 226
+					add_state_core = 200
+					add_state_core = 196
+					add_state_core = 227
+					add_state_core = 228
+					add_state_core = 221
+					add_state_core = 193
+					add_state_core = 225
+					add_state_core = 192
+					add_state_core = 834
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_gotenland = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 137
+		}
+
+		cost = 250
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 180
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {			
+					add_state_core = 137
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_moskowien = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 208
+			controls_state = 244
+			controls_state = 209
+			controls_state = 263
+			controls_state = 264
+			controls_state = 210
+			controls_state = 246
+			controls_state = 247
+			controls_state = 248
+			controls_state = 242
+			controls_state = 219
+			controls_state = 253
+			controls_state = 243
+			controls_state = 224
+			controls_state = 205
+			controls_state = 223
+			controls_state = 254
+			controls_state = 255
+			controls_state = 222
+			controls_state = 258
+			controls_state = 220
+			controls_state = 257
+			controls_state = 240
+			controls_state = 260
+			controls_state = 195
+			controls_state = 252
+			controls_state = 351
+			controls_state = 879
+			controls_state = 880
+			controls_state = 214
+		}
+
+		cost = 250
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 180
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {			
+				add_state_core = 208
+				add_state_core = 244
+				add_state_core = 209
+				add_state_core = 263
+				add_state_core = 264
+				add_state_core = 210
+				add_state_core = 246
+				add_state_core = 247
+				add_state_core = 248
+				add_state_core = 242
+				add_state_core = 219
+				add_state_core = 253
+				add_state_core = 243
+				add_state_core = 224
+				add_state_core = 205
+				add_state_core = 223
+				add_state_core = 254
+				add_state_core = 255
+				add_state_core = 222
+				add_state_core = 258
+				add_state_core = 220
+				add_state_core = 257
+				add_state_core = 240
+				add_state_core = 260
+				add_state_core = 195
+				add_state_core = 252
+				add_state_core = 351
+				add_state_core = 879
+				add_state_core = 880
+				add_state_core = 214
+
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_donwolga = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 218
+            controls_state = 245
+			controls_state = 217
+            controls_state = 265
+			controls_state = 829
+            controls_state = 239
+			controls_state = 401
+		}
+
+		cost = 250
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 180
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {			
+				add_state_core = 218
+				add_state_core = 245
+				add_state_core = 217
+				add_state_core = 265
+				add_state_core = 829
+				add_state_core = 239
+				add_state_core = 401
+
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_caucasus = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 238
+			controls_state = 237
+			controls_state = 236
+			controls_state = 234
+			controls_state = 235
+			controls_state = 232
+			controls_state = 233
+			controls_state = 827
+			controls_state = 826
+			controls_state = 828
+			controls_state = 821
+			controls_state = 231
+			controls_state = 229
+			controls_state = 230
+		}
+
+		cost = 250
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 180
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {			
+				add_state_core = 238
+				add_state_core = 237
+				add_state_core = 236
+				add_state_core = 234
+				add_state_core = 235
+				add_state_core = 232
+				add_state_core = 233
+				add_state_core = 827
+				add_state_core = 826
+				add_state_core = 828
+				add_state_core = 821
+				add_state_core = 231
+				add_state_core = 229
+				add_state_core = 230
+
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_interiorrussia = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 251
+			controls_state = 250
+			controls_state = 256
+			controls_state = 249
+			controls_state = 399
+			controls_state = 833
+			controls_state = 400
+			controls_state = 397
+			controls_state = 262
+			controls_state = 825
+			controls_state = 581
+
+		}
+
+		cost = 250
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 180
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {			
+				add_state_core = 251
+				add_state_core = 250
+				add_state_core = 256
+				add_state_core = 249
+				add_state_core = 399
+				add_state_core = 833
+				add_state_core = 400
+				add_state_core = 397
+				add_state_core = 262
+				add_state_core = 825
+				add_state_core = 581
+
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_ural = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 398
+			controls_state = 573
+			controls_state = 651
+			controls_state = 652
+			controls_state = 582
+
+		}
+
+		cost = 250
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 180
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {			
+				add_state_core = 398
+				add_state_core = 573
+				add_state_core = 651
+				add_state_core = 652
+				add_state_core = 582
+
+		    }
+		}
+	}
+	
+	OBG_rksplus_integrate_germany_murmansk = {
+
+		icon = GFX_decision_generic_nationalism
+
+		available = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+			
+			controls_state = 146
+			controls_state = 216
+			controls_state = 215
+			controls_state = 213
+
+		}
+
+		cost = 250
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			has_completed_focus = OBG_integrate_germany
+			has_government = fascism
+		}
+		
+		days_remove = 180
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			OBG = {			
+				add_state_core = 146
+				add_state_core = 216
+				add_state_core = 215
+				add_state_core = 213
+
+		    }
+		}
+	}

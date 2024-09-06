@@ -1,0 +1,16 @@
+characters={
+	RBE_Leader={
+		name= "Joachim von Ribbentrop"
+		portraits={
+			civilian={
+				large=GFX_Portrait_GER_Joachim_von_Ribbentrop
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits = { theocratic_diplomat }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

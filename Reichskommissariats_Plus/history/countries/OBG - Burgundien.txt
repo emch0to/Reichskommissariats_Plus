@@ -1,0 +1,86 @@
+### Capital City
+capital = 17
+
+### Research slots / Stability / War support
+set_research_slots = 2
+set_stability = 0.50
+set_war_support = 0.25
+
+### Starting Ideas
+add_ideas = {
+    OBG_germanrule
+	OBG_resistance
+	OBG_army_state_poor
+}
+
+oob = "OBG_1936"
+
+recruit_character = OBG_Leader
+recruit_character = OBG_Gottlob_Berger
+recruit_character = OBG_Ernst_Kaltenbrunner
+recruit_character = OBG_Maximilian_von_Herff
+recruit_character = OBG_Otto_Hofmann
+recruit_character = OBG_Herbert-Ernst_Vahl
+recruit_character = OBG_Fritz_Witt
+recruit_character = OBG_Georg_Keppler
+recruit_character = OBG_Joachim_Peiper
+recruit_character = OBG_Lothar_Debes
+recruit_character = OBG_Otto_Baum
+recruit_character = OBG_Wilhelm_Bittrich
+recruit_character = OBG_Wilhelm_Mohnke
+recruit_character = OBG_Theodor_Eicke
+recruit_character = OBG_Gustav_Lombard
+recruit_character = OBG_Bjorn_Sveinsson_Bjornsson
+recruit_character = OBG_Sepp_Janko
+recruit_character = OBG_Reinhard_Heydrich
+recruit_character = OBG_Rudolf_Querner
+
+### Number of Convoys
+set_convoys = 15
+
+###  Starting Technology
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	transport = 1
+	superior_firepower = 1
+	base_strike = 1
+}
+
+### Politics
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+set_popularities = {
+	democratic = 20
+	fascism = 50
+	communism = 13
+	neutrality = 17
+}

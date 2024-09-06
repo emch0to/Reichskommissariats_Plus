@@ -1,0 +1,33 @@
+
+OBG_integrate_deutschland_decision_category = {
+
+	allowed = {
+		original_tag = OBG
+	}
+
+	visible = {
+		has_completed_focus = OBG_integrate_germany
+	}
+}
+
+OBG_integrate_frankreich_decision_category = {
+
+	allowed = {
+		original_tag = OBG
+	}
+
+	visible = {
+		has_completed_focus = OBG_integrate_frankreich
+	}
+}
+
+OBG_subjugate_ordensstaats_decision_category = {
+
+	allowed = {
+		original_tag = OBG
+	}
+
+	visible = {
+		has_completed_focus = OBG_subjugate_ordensstaats
+	}
+}

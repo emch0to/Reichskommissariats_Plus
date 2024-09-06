@@ -1,0 +1,15 @@
+characters={
+	RGC_Leader={
+		name= "Maximilian von Weichs"
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_maximilian_von_weichs
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

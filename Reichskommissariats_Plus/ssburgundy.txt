@@ -1,0 +1,2510 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = ssburgundy_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OBG
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 1950 y = 100 }  
+	initial_show_position = {
+		x = 15
+		y = 0
+	}
+
+	focus = {
+		id = OBG_burgundy_summary
+		icon = GFX_goal_generic_demand_territory
+		#prerequisite = { focus = }
+
+		x = 8
+		y = 0
+		#relative_position_id = 
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_political_situation
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_burgundy_summary }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_burgundy_summary
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_ss_coup
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_political_situation }
+
+		x = -4
+		y = 1
+		relative_position_id = OBG_political_situation
+		mutually_exclusive = { focus = OBG_himmler_dominance }
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_operation_cleanup
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_ss_coup }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_ss_coup
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_with_germany
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_operation_cleanup }
+
+		x = 2
+		y = 1
+		relative_position_id = OBG_operation_cleanup
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_loyalty_germany
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_with_germany }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_with_germany
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_eliminate_french
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_operation_cleanup }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_operation_cleanup
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_germanisation_program
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_eliminate_french }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_eliminate_french
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_ss_youth
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_operation_cleanup }
+
+		x = -2
+		y = 1
+		relative_position_id = OBG_operation_cleanup
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_ss_propaganda
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_ss_youth }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_ss_youth
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_ss_path
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_ss_propaganda }
+		prerequisite = { focus = OBG_germanisation_program }
+		prerequisite = { focus = OBG_loyalty_germany }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_germanisation_program
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_autonomous_ss_state
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_ss_path }
+		mutually_exclusive = { focus = OBG_german_aligned_ss_state }
+		mutually_exclusive = { focus = OBG_neutral_ss_state }
+
+
+		x = -2
+		y = 1
+		relative_position_id = OBG_ss_path
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_neutral_ss_state
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_ss_path }
+		mutually_exclusive = { focus = OBG_autonomous_ss_state }
+		mutually_exclusive = { focus = OBG_german_aligned_ss_state }
+
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_ss_path
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_german_aligned_ss_state
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_ss_path }
+		mutually_exclusive = { focus = OBG_autonomous_ss_state }
+		mutually_exclusive = { focus = OBG_neutral_ss_state }
+
+
+		x = 2
+		y = 1
+		relative_position_id = OBG_ss_path
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_himmler_dominance
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_political_situation }
+
+		x = 8
+		y = 1
+		relative_position_id = OBG_political_situation
+		mutually_exclusive = { focus = OBG_ss_coup }
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_economic_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_ss_coup focus = OBG_himmler_dominance }
+
+		x = 2
+		y = 2
+		relative_position_id = OBG_political_situation
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_research_slot_one
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_economic_focus }
+
+		x = 2
+		y = 1
+		relative_position_id = OBG_economic_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_construction_efforts
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_economic_focus }
+
+		x = -2
+		y = 1
+		relative_position_id = OBG_economic_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_implement_slavery
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_economic_focus }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_economic_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_civfactories_one
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_implement_slavery }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_implement_slavery
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = OBG_infrastructure_works
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_implement_slavery }
+
+		x = -2
+		y = 1
+		relative_position_id = OBG_implement_slavery
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_investment_germany
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_infrastructure_works }
+		prerequisite = { focus = OBG_loyalty_germany }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_infrastructure_works
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_resource_exploits
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_infrastructure_works }
+		prerequisite = { focus = OBG_civfactories_one }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_infrastructure_works
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_excavation_efforts
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_civfactories_one }
+		prerequisite = { focus = OBG_milfactories_one }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_civfactories_one
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_milfactories_one
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_implement_slavery }
+
+		x = 2
+		y = 1
+		relative_position_id = OBG_implement_slavery
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_military_investment
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_milfactories_one }
+		prerequisite = { focus = OBG_militarism_focus }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_milfactories_one
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_civfactories_two
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_resource_exploits }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_resource_exploits
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_milfactories_two
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_excavation_efforts }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_excavation_efforts
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_obedience_above_all
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_himmler_dominance }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_himmler_dominance
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_policy_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_obedience_above_all }
+
+		x = -2
+		y = 1
+		relative_position_id = OBG_obedience_above_all
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_militarism_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_policy_focus }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_policy_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_all_or_nothing
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_militarism_focus }
+		prerequisite = { focus = OBG_brainwashed_youth }
+
+		x = 0
+		y = 2
+		relative_position_id = OBG_militarism_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_education_indoctrination
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_policy_focus }
+
+		x = 2
+		y = 1
+		relative_position_id = OBG_policy_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_brainwashed_youth
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_education_indoctrination }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_education_indoctrination
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_eradication_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_policy_focus focus = OBG_political_focus }
+
+		x = 4
+		y = 1
+		relative_position_id = OBG_policy_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_assimilation_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_eradication_focus }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_eradication_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_new_identity
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_assimilation_focus }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_assimilation_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_new_loyalty
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_assimilation_focus focus = OBG_burgundian_propaganda }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_assimilation_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_political_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_obedience_above_all }
+
+		x = 5
+		y = 1
+		relative_position_id = OBG_obedience_above_all
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_strengthen_party
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_political_focus }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_political_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_burgundian_propaganda
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_strengthen_party }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_strengthen_party
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_consolidate_power
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_political_focus }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_political_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_burgundian_prophet
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_consolidate_power }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_consolidate_power
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_true_purpose
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_burgundian_propaganda focus = OBG_burgundian_prophet }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_burgundian_prophet
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_black_sun
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_true_purpose }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_true_purpose
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_relationship_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_obedience_above_all }
+
+		x = 9
+		y = 1
+		relative_position_id = OBG_obedience_above_all
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_germany_relationship
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_relationship_focus }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_relationship_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_ourown_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_germany_relationship }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_germany_relationship
+		mutually_exclusive = { focus = OBG_playsafe_focus }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_centralize_control
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_ourown_focus }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_ourown_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_new_organisation
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_centralize_control }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_centralize_control
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_playsafe_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_germany_relationship }
+		mutually_exclusive = { focus = OBG_ourown_focus }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_germany_relationship
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_request_investment
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_playsafe_focus }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_playsafe_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_industrial_overhaul
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_request_investment }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_request_investment
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_relationship_schutzstaffel
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_relationship_focus }
+
+		x = 5
+		y = 1
+		relative_position_id = OBG_relationship_focus
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_relationship_gotenland
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_relationship_schutzstaffel }
+
+		x = 2
+		y = 1
+		relative_position_id = OBG_relationship_schutzstaffel
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_relationship_banat
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_relationship_schutzstaffel }
+
+		x = -2
+		y = 1
+		relative_position_id = OBG_relationship_schutzstaffel
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_relationship_iceland
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_relationship_schutzstaffel }
+
+		x = 1
+		y = 2
+		relative_position_id = OBG_relationship_schutzstaffel
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_relationship_lombardie
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_relationship_schutzstaffel }
+
+		x = -1
+		y = 2
+		relative_position_id = OBG_relationship_schutzstaffel
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_relationship_shocker
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_relationship_schutzstaffel }
+
+		x = 0
+		y = 3
+		relative_position_id = OBG_relationship_schutzstaffel
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_himmler_plans
+		icon = GFX_goal_
+		#prerequisite = { focus =  }
+
+		x = 20
+		y = 10
+		#relative_position_id =
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			has_completed_focus = OBG_black_sun
+			
+			OR = {
+				has_completed_focus = OBG_new_organisation
+				has_completed_focus = OBG_industrial_overhaul
+			}
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_operation_hahndolch
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_himmler_plans }
+
+		x = -3
+		y = 1
+		relative_position_id = OBG_himmler_plans
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_demand_nordfrankreich
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_operation_hahndolch }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_operation_hahndolch
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_fortify_nordfrankreich
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_demand_nordfrankreich }
+
+		x = -2
+		y = 1
+		relative_position_id = OBG_demand_nordfrankreich
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_integrate_nordfrankreich
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_demand_nordfrankreich }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_demand_nordfrankreich
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_develop_nordfrankreich
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_demand_nordfrankreich }
+
+		x = 2
+		y = 1
+		relative_position_id = OBG_demand_nordfrankreich
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_prepare_france
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_integrate_nordfrankreich }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_integrate_nordfrankreich
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_conquer_france
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_prepare_france }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_prepare_france
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_conquer_brittany
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_prepare_france }
+
+		x = -2
+		y = 1
+		relative_position_id = OBG_prepare_france
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_integrate_frankreich
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_conquer_france }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_conquer_france
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_subjugate_ordensstaats
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_himmler_plans }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_himmler_plans
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_under_the_black_sun
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_subjugate_ordensstaats }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_subjugate_ordensstaats
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_operation_gefalleneradler
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_himmler_plans }
+
+		x = 3
+		y = 1
+		relative_position_id = OBG_himmler_plans
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_milfactories_germany
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_operation_gefalleneradler }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_operation_gefalleneradler
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_prepare_army
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_operation_gefalleneradler }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_operation_gefalleneradler
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_the_countdown
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_prepare_army }
+		prerequisite = { focus = OBG_milfactories_germany }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_prepare_army
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_demand_submission
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_the_countdown }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_the_countdown
+		mutually_exclusive = { focus = OBG_suprise_attack }
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_suprise_attack
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_the_countdown }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_the_countdown
+		mutually_exclusive = { focus = OBG_demand_submission }
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_sabotage_germany
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_suprise_attack focus = OBG_demand_submission }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_suprise_attack
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_ss_uprisings
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_suprise_attack focus = OBG_demand_submission }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_suprise_attack
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_demoralize_germany
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_suprise_attack focus = OBG_demand_submission }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_demand_submission
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_occupy_germany
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_ss_uprisings focus = OBG_demoralize_germany focus = OBG_sabotage_germany }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_ss_uprisings
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_integrate_germany
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_occupy_germany }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_occupy_germany
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_proclaim_aryan_reich
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_integrate_germany }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_integrate_germany
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_artifacts_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_himmler_plans }
+
+		x = 9
+		y = 1
+		relative_position_id = OBG_himmler_plans
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_amazon_artifacts_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_artifacts_focus }
+
+		x = -3
+		y = 1
+		relative_position_id = OBG_artifacts_focus
+		mutually_exclusive = { focus = OBG_norway_artifacts_focus }
+		mutually_exclusive = { focus = OBG_tibet_artifacts_focus }
+		mutually_exclusive = { focus = OBG_japan_artifacts_focus }
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_norway_artifacts_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_artifacts_focus }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_artifacts_focus
+		mutually_exclusive = { focus = OBG_amazon_artifacts_focus }
+		mutually_exclusive = { focus = OBG_tibet_artifacts_focus }
+		mutually_exclusive = { focus = OBG_japan_artifacts_focus }
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_tibet_artifacts_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_artifacts_focus }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_artifacts_focus
+		mutually_exclusive = { focus = OBG_amazon_artifacts_focus }
+		mutually_exclusive = { focus = OBG_norway_artifacts_focus }
+		mutually_exclusive = { focus = OBG_japan_artifacts_focus }
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_japan_artifacts_focus
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_artifacts_focus }
+
+		x = 3
+		y = 1
+		relative_position_id = OBG_artifacts_focus
+		mutually_exclusive = { focus = OBG_amazon_artifacts_focus }
+		mutually_exclusive = { focus = OBG_norway_artifacts_focus }
+		mutually_exclusive = { focus = OBG_tibet_artifacts_focus }
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_military_question
+		icon = GFX_goal_
+		#prerequisite = { focus =  }
+
+		x = 7
+		y = 10
+		#relative_position_id =
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_army_state
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_military_question }
+
+		x = -5
+		y = 1
+		relative_position_id = OBG_military_question
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_fortify_german_borders
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_army_state }
+
+		x = 2
+		y = 1
+		relative_position_id = OBG_army_state
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = OBG_lessons_from_war
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_army_state }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_army_state
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_armored_research
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_lessons_from_war }
+
+		x = 2
+		y = 1
+		relative_position_id = OBG_lessons_from_war
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_infantry_research
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_lessons_from_war }
+
+		x = -2
+		y = 1
+		relative_position_id = OBG_lessons_from_war
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_artillery_research
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_lessons_from_war }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_lessons_from_war
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_smuggle_equipments
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_infantry_research focus = OBG_artillery_research }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_infantry_research
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_defunct_tanks
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_artillery_research focus = OBG_armored_research }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_artillery_research
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_train_instructors
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_smuggle_equipments }
+		prerequisite = { focus = OBG_defunct_tanks }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_smuggle_equipments
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_armored_exercise
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_defunct_tanks }
+		prerequisite = { focus = OBG_smuggle_equipments }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_defunct_tanks
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_professional_army
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_train_instructors focus = OBG_armored_exercise }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_armored_exercise
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_burgundian_warriors
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_professional_army  }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_professional_army
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_airforce_state
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_military_question }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_military_question
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_bribe_german_pilots
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_airforce_state }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_airforce_state
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_smuggle_aircraft_parts
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_airforce_state }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_airforce_state
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_aircraft_factories
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_smuggle_aircraft_parts }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_smuggle_aircraft_parts
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_air_exercise
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_bribe_german_pilots }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_bribe_german_pilots
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_build_airbase
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_air_exercise }
+		prerequisite = { focus = OBG_aircraft_factories }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_air_exercise
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_eagles_of_the_sky
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_build_airbase }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_build_airbase
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_navy_state
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_military_question }
+
+		x = 7
+		y = 1
+		relative_position_id = OBG_military_question
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_construct_dockyards
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_navy_state }
+
+		x = 1
+		y = 1
+		relative_position_id = OBG_navy_state
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_steal_convoys
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_navy_state }
+
+		x = -1
+		y = 1
+		relative_position_id = OBG_navy_state
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_smuggling_routes
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_steal_convoys }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_steal_convoys
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_wunderwaffen_state
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_military_question }
+
+		x = 3
+		y = 1
+		relative_position_id = OBG_military_question
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_technological_advancement
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_wunderwaffen_state }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_wunderwaffen_state
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_rocketry
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_technological_advancement }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_technological_advancement
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = OBG_nuclearbomb
+		icon = GFX_goal_
+		prerequisite = { focus = OBG_rocketry }
+
+		x = 0
+		y = 1
+		relative_position_id = OBG_rocketry
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+}
+

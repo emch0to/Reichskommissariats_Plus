@@ -1,0 +1,18 @@
+
+##### RKSPLUS CUSTOM TRAITS #####
+
+leader_traits = {
+
+	rks_senior_internal = {
+		sprite = 13
+		weekly_manpower = 200
+		fascism_drift = 0.02
+	}
+	
+	rks_lebensborn_trait = {
+		sprite = 13
+		monthly_population = 0.05
+	}
+
+
+}

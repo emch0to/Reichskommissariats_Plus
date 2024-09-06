@@ -1,0 +1,125 @@
+
+GER_rksplus_category_generalboard = {
+
+	allowed = {
+		original_tag = GER
+	}
+}
+
+GER_reichskommissariats_category_europe = {
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		OR = {
+			has_completed_focus = GER_form_the_reichskommissariats
+			has_country_flag = GER_rksplus_startup_event_enable
+		}
+	}
+}
+
+GER_reichskommissariats_category_asia = {
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		OR = {
+			has_completed_focus = GER_form_the_reichskommissariats
+			has_country_flag = GER_rksplus_startup_event_enable
+		}
+	}
+}
+
+GER_reichskommissariats_category_africa = {
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		OR = {
+			has_completed_focus = GER_form_the_reichskommissariats
+			has_country_flag = GER_rksplus_startup_event_enable
+		}
+	}
+}
+
+GER_reichskommissariats_category_america = {
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		OR = {
+			has_completed_focus = GER_form_the_reichskommissariats
+			has_country_flag = GER_rksplus_startup_event_enable
+		}
+	}
+}
+
+GER_rksplus_category_integration = {
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		OR = {
+			has_completed_focus = GER_form_the_reichskommissariats
+			has_country_flag = GER_rksplus_startup_event_enable
+		}
+	}
+}
+
+GER_rksplus_category_state_transfer = {
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		OR = {
+			has_completed_focus = GER_form_the_reichskommissariats
+			has_country_flag = GER_rksplus_startup_event_enable
+		}
+	}
+}
+
+
+GER_rksplus_category_collaboration = {
+
+	allowed = {
+		original_tag = GER
+	}
+	
+	visible = {
+		OR = {
+			has_completed_focus = GER_form_the_reichskommissariats
+			has_country_flag = GER_rksplus_startup_event_enable
+		}
+	}
+}
+
+GER_rksplus_category_uniting_rks = {
+
+	allowed = {
+		original_tag = GER
+	}
+	
+	visible = {
+		OR = {
+			has_completed_focus = GER_form_the_reichskommissariats
+			has_country_flag = GER_rksplus_startup_event_enable
+		}
+	}
+}
+
+GER_customization_category = {
+
+	allowed = {
+		original_tag = GER
+	}
+}

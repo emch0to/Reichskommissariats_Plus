@@ -1,0 +1,15 @@
+characters={
+	RND_Leader={
+		name= "Georg Lindemann"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Germany_Georg_Lindemann_rksplus
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

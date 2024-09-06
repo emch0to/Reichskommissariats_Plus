@@ -1,0 +1,384 @@
+characters={
+	OBG_Leader={
+		name= "Heinrich Himmler"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Heinrich_Himmler_rksplus
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+            traits = { politically_connected harsh_leader }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 2
+        }
+	}
+	
+	OBG_Gottlob_Berger={
+		name= "Gottlob Berger"
+		portraits={
+			army={
+				small="GFX_idea_rksplus_gottlob_berger"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = OBG_Gottlob_Berger
+			cost = 100
+			allowed = {
+				original_tag = OBG
+			}
+			available = {
+				NOT = {
+					if = {
+						has_country_flag = OBG_ss_coup_flag
+					}
+				}
+					
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}
+	}
+	
+	OBG_Ernst_Kaltenbrunner={
+		name= "Ernst Kaltenbrunner"
+		portraits={
+			army={
+				small="GFX_idea_rksplus_ernst_kaltenbrunner"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = OBG_Ernst_Kaltenbrunner
+			cost = 100
+			allowed = {
+				original_tag = OBG
+			}
+			available = {
+				NOT = {
+					if = {
+						has_country_flag = OBG_ss_coup_flag
+					}
+				}
+					
+			}
+			traits = {
+				prince_of_terror 
+			}
+		}
+	}
+	
+	OBG_Maximilian_von_Herff={
+		name= "Maximilian von Herff"
+		portraits={
+			army={
+				small="GFX_idea_rksplus_maximilian_von_herff"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = OBG_Maximilian_von_Herff
+			cost = 100
+			allowed = {
+				original_tag = OBG
+			}
+			available = {
+					
+			}
+			traits = {
+				rks_lebensborn_trait 
+			}
+		}
+	}
+	
+	OBG_Otto_Hofmann={
+		name= "Otto Hofmann"
+		portraits={
+			army={
+				small="GFX_idea_rksplus_otto_hofmann"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = OBG_Otto_Hofmann
+			cost = 150
+			allowed = {
+				original_tag = OBG
+			}
+			available = {
+					
+			}
+			traits = {
+				rks_senior_internal 
+			}
+		}
+	}
+	
+	OBG_Herbert-Ernst_Vahl = {
+	    name= "Herbert-Ernst Vahl"
+		portraits={
+			army={
+				large=GFX_Portrait_Germany_Herbert-Ernst_Vahl
+			}
+		}
+		corps_commander={
+			traits={ armor_officer  }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	
+	OBG_Fritz_Witt = {
+	    name= "Fritz Witt"
+		portraits={
+			army={
+				large=GFX_Portrait_OBG_Fritz_Witt_rksplus
+			}
+		}
+		corps_commander={
+			traits={ armor_officer  }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	
+	OBG_Georg_Keppler = {
+	    name= "Georg Keppler"
+		portraits={
+			army={
+				large=GFX_Portrait_OBG_Georg_Keppler_rksplus
+			}
+		}
+		corps_commander={
+			traits={ old_guard armor_officer  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	
+	OBG_Joachim_Peiper = {
+	    name= "Joachim Peiper"
+		portraits={
+			army={
+				large=GFX_Portrait_OBG_Joachim_Peiper_rksplus
+			}
+		}
+		corps_commander={
+			traits={ politically_connected armor_officer  }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	
+	OBG_Lothar_Debes = {
+	    name= "Lothar Debes"
+		portraits={
+			army={
+				large=GFX_Portrait_OBG_Lothar_Debes_rksplus
+			}
+		}
+		corps_commander={
+			traits={ armor_officer  }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	
+	OBG_Otto_Baum = {
+	    name= "Otto Baum"
+		portraits={
+			army={
+				large=GFX_Portrait_OBG_Otto_Baum_rksplus
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	
+	OBG_Wilhelm_Bittrich = {
+	    name= "Wilhelm Bittrich"
+		portraits={
+			army={
+				large=GFX_Portrait_OBG_Wilhelm_Bittrich_rksplus
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer  }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=4
+		}
+	}
+	
+	OBG_Wilhelm_Mohnke = {
+	    name= "Wilhelm Mohnke"
+		portraits={
+			army={
+				large=GFX_Portrait_OBG_Wilhelm_Mohnke_rksplus
+			}
+		}
+		corps_commander={
+			traits={ armor_officer  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	
+	OBG_Theodor_Eicke = {
+	    name= "Theodor Eicke"
+		portraits={
+			army={
+				large=GFX_Portrait_OBG_Theodor_Eicke_rksplus
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer brilliant_strategist  }
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	
+	OBG_Gustav_Lombard = {
+		name = "Gustav Lombard"
+		portraits = {
+			army = {
+				large="GFX_Portrait_Germany_Gustav_Lombard_rksplus"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+			traits = { cavalry_officer infantry_officer }
+			visible = {
+				has_global_flag = obg_lombardy_gustav_called
+			}
+		}
+	}
+	
+	OBG_Bjorn_Sveinsson_Bjornsson = {
+		name = "Björn Sveinsson Björnsson"
+		portraits = {
+			army = {
+				large="GFX_Portrait_Germany_Bjorn_Sveinsson_Bjornsson"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			traits = {  }
+			visible = {
+				has_global_flag = obg_iceland_bjorn_called
+			}
+		}
+	}
+	
+	OBG_Sepp_Janko = {
+		name = "Sepp Janko"
+		portraits = {
+			army = {
+				large="GFX_Portrait_Sepp_Janko_SS"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			traits = {  }
+			visible = {
+				has_global_flag = obg_banat_janko_called
+			}
+		}
+	}
+	
+	OBG_Reinhard_Heydrich = {
+		name = "Reinhard Heydrich"
+		portraits = {
+			army = {
+				large="GFX_Portrait_Reinhard_Heydrich_RKPLUS"
+			}
+		}
+		field_marshal = {
+            traits = { politically_connected harsh_leader }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 3
+			visible = {
+				has_global_flag = obg_gotenland_heydrich_called
+			}
+        }
+	}
+	OBG_Rudolf_Querner = {
+		name = "Rudolf Querner"
+		portraits = {
+			army = {
+				small="GFX_idea_rksplus_rudolf_querner"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = OBG_Rudolf_Querner
+			allowed = {
+				original_tag = OBG
+			}
+			available = {
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+				modifier = {
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	OLB_Leader={
+		name= "Gustav Lombard"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Germany_Gustav_Lombard_rksplus
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

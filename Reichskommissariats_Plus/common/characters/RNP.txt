@@ -1,0 +1,15 @@
+characters={
+	RNP_Leader={
+		name= "Hans-Wolfgang Reinhard"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Germany_Hans-Wolfgang_Reinhard_rksplus
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,32 @@
+﻿#Generic Operative list
+GENERIC_GER_OPERATIVE_CODENAME_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_OPERATIVES
+
+	# for all English speaking countries
+	for_countries = { OGT OBG OLB OIC RBG RGC RBL RNT RDN RNW RBM RGV RUA ROT RMK RDW RTK RKS RSV RHG RRO RTS RBA RCR RSB RAB RUK RSC RWL RCW RFC RIE RSW RFD RSP RBQ RAG RPT RWS RES RNH RTU RAR RNA RMA RSF REF RMG RIT RSZ RPR RID RIN ROA ROZ RQU RCD RAM RCS RPZ RMX RCB RCL RBZ RGT REC RWC RMO RMC RKR RJP RPO RAD RUL RCX REY RGL RSD RWF RTZ RZA RPE RBD RTN RBE RCA RFL RTX RNP ROB RND }
+
+
+	type = codename
+
+	fallback_name = "Agent %d"
+
+	unique = {
+		"Wolf"
+		"Cicero"
+		"Cäsar"
+		"Nero"
+		"Alaric"
+		"Augustus"
+		"Titus"
+		"Tiger"
+		"Condor"
+		"Elster"
+		"Bär"
+		"Hai"
+		"Maus"
+		"Willhelm"
+		"August"
+		"Karl"
+		"Heinrich"
+	}
+}

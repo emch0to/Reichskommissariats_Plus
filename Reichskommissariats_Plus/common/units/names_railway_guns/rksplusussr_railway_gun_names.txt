@@ -1,0 +1,10 @@
+﻿SOV_RG_HISTORICAL = {
+	for_countries = { WRS SBI WRA TRK TRC KZN }
+
+	type = railway_gun
+	
+	fallback_name = "%dya Artilleryskaya Zheleznodorozhnaya Batareya"
+
+	ordered = {
+	}
+}

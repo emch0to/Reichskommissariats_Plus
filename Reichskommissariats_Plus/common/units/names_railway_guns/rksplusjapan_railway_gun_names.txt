@@ -1,0 +1,13 @@
+﻿JAP_RG_HISTORICAL = {
+	for_countries = { SHC TOU SEI HOK }
+
+	type = railway_gun
+	
+	fallback_name = "%d. Ressha Houdai"
+
+	ordered = {
+		
+		
+		
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	RDN_Leader={
+		name= "Fritz Clausen"
+		portraits={
+			civilian={
+				large=GFX_Portrait_GER_Fritz_Clausen_rksplus
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits = { eager_collaborator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

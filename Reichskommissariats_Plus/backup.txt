@@ -1,0 +1,2419 @@
+add_namespace = rksplus
+
+country_event = {
+	id = rksplus.1
+	title = rksplus.1.t
+	desc = rksplus.1.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.1.a
+		
+		trigger = { country_exists = RGR }
+		
+		RGR = {
+			transfer_state = 731
+			transfer_state = 184
+			
+			hidden_effect = {
+			add_state_core = 731
+			add_state_core = 184
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.1.b
+		
+		trigger = { country_exists = RBL }
+
+		RBL = {
+			transfer_state = 731
+			transfer_state = 184
+			
+			hidden_effect = {
+			add_state_core = 731
+			add_state_core = 184
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.2
+	title = rksplus.2.t
+	desc = rksplus.2.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.2.a
+		
+		trigger = { country_exists = RBM }
+		
+		GER = {
+			transfer_state = 9
+			transfer_state = 75
+			add_stability = -0.1
+			
+			hidden_effect = {
+			add_state_core = 9
+			add_state_core = 75
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.3
+	title = rksplus.3.t
+	desc = rksplus.3.d
+	picture = GFX_report_event_germany_victory
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.3.a
+		
+		trigger = {
+		    country_exists = RGV 
+			NOT = { country_exists = RUA }
+		}
+		GER = {
+			transfer_state = 10
+			transfer_state = 88
+			transfer_state = 90
+			transfer_state = 92
+			add_stability = -0.1
+			
+			hidden_effect = {
+			add_state_core = 10
+			add_state_core = 88
+			add_state_core = 92
+			add_state_core = 10
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.3.b
+		
+		trigger = {
+		    country_exists = RGV 
+			country_exists = RUA
+			RUA = { 
+			    controls_state = 91
+			    controls_state = 89
+			}
+		}
+		GER = {
+			transfer_state = 10
+			transfer_state = 88
+			transfer_state = 90
+			transfer_state = 92
+			add_stability = -0.1
+			
+			hidden_effect = {
+			add_state_core = 10
+			add_state_core = 88
+			add_state_core = 92
+			add_state_core = 10
+			}
+		}
+	}
+	
+	option = {
+		name = rksplus.3.c
+		
+		trigger = {
+		    country_exists = RGV 
+			country_exists = RUA
+			RGV = { 
+			    controls_state = 91
+			    controls_state = 89
+			}
+		}
+		GER = {
+			transfer_state = 10
+			transfer_state = 88
+			transfer_state = 90
+			transfer_state = 92
+			add_stability = -0.05
+			
+			hidden_effect = {
+			add_state_core = 10
+			add_state_core = 88
+			add_state_core = 92
+			add_state_core = 10
+			}
+		}
+		RUA = {
+		    transfer_state = 91
+			transfer_state = 89
+			add_stability = -0.05
+			
+			hidden_effect = {
+			add_state_core = 91
+			add_state_core = 89
+			}
+		}
+	}
+	
+	option = {
+		name = rksplus.3.e
+		
+		trigger = {
+		    country_exists = RGV 
+			RGV = { 
+			    controls_state = 91
+			    controls_state = 89
+			}
+		}
+		GER = {
+			transfer_state = 10
+			transfer_state = 88
+			transfer_state = 90
+			transfer_state = 92
+			transfer_state = 91
+			transfer_state = 89
+			add_stability = -0.1
+			
+			hidden_effect = {
+			add_state_core = 91
+			add_state_core = 89
+			add_state_core = 10
+			add_state_core = 88
+			add_state_core = 92
+			add_state_core = 10
+			}
+		}
+	}
+}
+	
+country_event = {
+	id = rksplus.4
+	title = rksplus.4.t
+	desc = rksplus.4.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.4.a
+		
+		trigger = { country_exists = RGV }
+		
+		RGV = {
+			transfer_state = 91
+			transfer_state = 89
+			
+			hidden_effect = {
+			add_state_core = 91
+			add_state_core = 89
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.4.b
+		
+		trigger = { country_exists = RUA }
+
+		RUA = {
+			transfer_state = 91
+			transfer_state = 89
+			
+			hidden_effect = {
+			add_state_core = 91
+			add_state_core = 89
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.5
+	title = rksplus.5.t
+	desc = rksplus.5.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.5.a
+		
+		trigger = { }
+		
+		GER = {
+			transfer_state = 195
+		}
+
+	}
+	option = {
+		name = rksplus.5.b
+		
+		trigger = { country_exists = RMK }
+
+		RMK = {
+			transfer_state = 195
+			
+			hidden_effect = {
+			add_state_core = 195
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.6
+	title = rksplus.6.t
+	desc = rksplus.6.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.6.a
+		
+		trigger = { }
+		
+		GER = {
+			transfer_state = 137
+		}
+
+	}
+	option = {
+		name = rksplus.6.b
+		
+		trigger = { country_exists = RUA }
+
+		RUA = {
+			transfer_state = 137
+			
+			hidden_effect = {
+			add_state_core = 137
+			}
+		}
+	}
+	option = {
+		name = rksplus.6.c
+		
+		trigger = { }
+		
+        GER = { set_autonomy = { target = OGT autonomy_state = autonomy_reichskommissariat} }
+
+		OGT = {
+			transfer_state = 137
+			
+			hidden_effect = {
+			add_state_core = 137
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.7
+	title = rksplus.7.t
+	desc = rksplus.7.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.7.a
+		
+		trigger = { country_exists = RSV }
+		
+		RSV = {
+			transfer_state = 664
+			transfer_state = 73
+			
+			hidden_effect = {
+			add_state_core = 664
+			add_state_core = 73
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.7.b
+		
+		trigger = { country_exists = RHG }
+
+		RHG = {
+			transfer_state = 664
+			transfer_state = 73
+			
+			hidden_effect = {
+			add_state_core = 664
+			add_state_core = 73
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.8
+	title = rksplus.8.t
+	desc = rksplus.8.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.8.a
+		
+		trigger = { country_exists = RRO }
+		
+		RRO = {
+			transfer_state = 76
+			transfer_state = 84
+			transfer_state = 83
+			
+			hidden_effect = {
+			add_state_core = 76
+			add_state_core = 84
+			add_state_core = 83
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.8.b
+		
+		trigger = { country_exists = RHG }
+
+		RHG = {
+			transfer_state = 76
+			transfer_state = 84
+			transfer_state = 83
+			
+			hidden_effect = {
+			add_state_core = 76
+			add_state_core = 84
+			add_state_core = 83
+			}
+		}
+	}
+	
+	option = {
+		name = rksplus.8.c
+		
+		trigger = {
+		    country_exists = RRO
+			country_exists = RHG
+		}
+
+		RRO = {
+			transfer_state = 84
+			transfer_state = 83
+			
+			hidden_effect = {
+			add_state_core = 84
+			add_state_core = 83
+			}
+		}
+		
+		RHG = {
+			transfer_state = 76
+			
+			hidden_effect = {
+			add_state_core = 76
+			}
+		}
+	}
+	
+	option = {
+		name = rksplus.8.e
+		
+		trigger = { }
+
+		GER = { set_autonomy = { target = RTS autonomy_state = autonomy_reichskommissariat} }
+
+		RTS = {
+			transfer_state = 76
+			transfer_state = 84
+			transfer_state = 83
+			
+			hidden_effect = {
+			add_state_core = 76
+			add_state_core = 84
+			add_state_core = 83
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.9
+	title = rksplus.9.t
+	desc = rksplus.9.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.9.a
+		
+		trigger = { country_exists = RBL }
+		
+		RBL = {
+			transfer_state = 77
+			
+			hidden_effect = {
+			add_state_core = 77
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.9.b
+		
+		trigger = { country_exists = RRO }
+
+		RRO = {
+			transfer_state = 77
+			
+			hidden_effect = {
+			add_state_core = 77
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.10
+	title = rksplus.10.t
+	desc = rksplus.10.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.10.a
+		
+		trigger = { country_exists = RRO }
+		
+		RRO = {
+			transfer_state = 82
+			
+			hidden_effect = {
+			add_state_core = 82
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.10.b
+		
+		trigger = { country_exists = RTS }
+
+		RTS = {
+			transfer_state = 82
+			
+			hidden_effect = {
+			add_state_core = 82
+			}
+		}
+	}
+	option = {
+		name = rksplus.10.c
+		
+		trigger = {
+		    country_exists = RHG 
+			RHG = {
+              	controls_state = 84
+				controls_state = 83
+			}
+		}
+
+		RHG = {
+			transfer_state = 82
+			
+			hidden_effect = {
+			add_state_core = 82
+			}
+		}
+	}
+	
+	option = {
+		name = rksplus.10.e
+		
+		trigger = {
+		    NOT = { country_exists = RBA }
+		}
+		
+		GER = { set_autonomy = { target = RBA autonomy_state = autonomy_reichskommissariat} }
+
+		RBA = {
+			transfer_state = 82
+			
+			hidden_effect = {
+			add_state_core = 82
+			}
+		}
+	}
+	
+	option = {
+		name = rksplus.10.f
+		
+		trigger = {
+		    country_exists = RBA
+		}
+
+		RBA = {
+			transfer_state = 82
+			
+			hidden_effect = {
+			add_state_core = 82
+			set_capital = { state = 82 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.11
+	title = rksplus.11.t
+	desc = rksplus.11.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.11.a
+		
+		trigger = { country_exists = RBL }
+		
+		RBL = {
+			transfer_state = 803
+			transfer_state = 106
+			
+			hidden_effect = {
+			add_state_core = 803
+			add_state_core = 106
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.11.b
+		
+		trigger = { country_exists = RSB }
+
+		RSB = {
+		    transfer_state = 803
+			transfer_state = 106
+			
+			hidden_effect = {
+			add_state_core = 803
+			add_state_core = 106
+			}
+
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.12
+	title = rksplus.12.t
+	desc = rksplus.12.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.12.a
+		
+		trigger = { country_exists = RAB }
+		
+		RAB = {
+			transfer_state = 802
+			transfer_state = 105
+			
+			hidden_effect = {
+			add_state_core = 802
+			add_state_core = 105
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.12.b
+		
+		trigger = { country_exists = RSB }
+
+		RSB = {
+		    transfer_state = 802
+			transfer_state = 105
+			
+			hidden_effect = {
+			add_state_core = 802
+			add_state_core = 105
+			}
+		}
+	}
+	option = {
+		name = rksplus.12.c
+		
+		trigger = { 
+		    country_exists = RSB
+			country_exists = RAB
+		}
+
+		RSB = {
+			transfer_state = 105
+			
+			hidden_effect = {
+			add_state_core = 105
+			}
+		}
+		
+		RAB = {
+		    transfer_state = 802
+			
+			hidden_effect = {
+			add_state_core = 802
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.13
+	title = rksplus.13.t
+	desc = rksplus.13.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.13.a
+		
+		trigger = { country_exists = RAB }
+		
+		RAB = {
+			transfer_state = 805
+			
+			hidden_effect = {
+			add_state_core = 805
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.13.b
+		
+		trigger = { country_exists = RGR }
+
+		RGR = {
+		    transfer_state = 805
+			
+			hidden_effect = {
+			add_state_core = 805
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.14
+	title = rksplus.14.t
+	desc = rksplus.14.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.14.a
+		
+		trigger = { country_exists = RSB }
+		
+		RSB = {
+			transfer_state = 764
+			
+			hidden_effect = {
+			add_state_core = 764
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.14.b
+		
+		trigger = {
+            country_exists = RTS
+			RTS = { controls_state = 82 }
+		}
+
+		RTS = {
+		    transfer_state = 764
+			
+			hidden_effect = {
+			add_state_core = 764
+			}
+
+		}
+	}
+	
+	option = {
+		name = rksplus.14.c
+		
+		trigger = {
+            country_exists = RBA
+		}
+
+		RBA = {
+		    transfer_state = 764
+			
+			hidden_effect = {
+			add_state_core = 764
+			}
+
+		}
+	}
+	
+	option = {
+		name = rksplus.14.e
+		
+		trigger = {
+			NOT = { country_exists = RBA }
+		}
+		
+		GER = { set_autonomy = { target = RBA autonomy_state = autonomy_reichskommissariat} }
+
+		RBA = {
+		    transfer_state = 764
+			set_capital = { state = 764 }
+			
+			hidden_effect = {
+			add_state_core = 764
+			}
+
+		}
+	}
+	option = {
+		name = rksplus.14.f
+		
+		trigger = {
+            country_exists = RHG
+			RHG = { controls_state = 82 }
+		}
+
+		RHG = {
+		    transfer_state = 764
+			
+			hidden_effect = {
+			add_state_core = 764
+			}
+
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.15
+	title = rksplus.15.t
+	desc = rksplus.15.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.15.a
+		
+		trigger = {
+            country_exists = RBA
+			RBA = { controls_state = 764 }
+		}
+		
+		RBA = {
+			transfer_state = 45
+			
+			hidden_effect = {
+			add_state_core = 45
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.15.b
+		
+		trigger = {
+            country_exists = RSB
+			RSB = { controls_state = 764 }
+		}
+
+		RSB = {
+		    transfer_state = 45
+			
+			hidden_effect = {
+			add_state_core = 45
+			}
+
+		}
+	}
+	
+	option = {
+		name = rksplus.15.c
+		
+		trigger = {
+            country_exists = RHG
+		}
+
+		RHG = {
+		    transfer_state = 45
+			
+			hidden_effect = {
+			add_state_core = 45
+			}
+
+		}
+	}
+	
+	option = {
+		name = rksplus.15.e
+		
+		trigger = {
+			country_exists = RCR 
+		}
+
+		RCR = {
+		    transfer_state = 45
+			
+			hidden_effect = {
+			add_state_core = 45
+			}
+
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.16
+	title = rksplus.16.t
+	desc = rksplus.16.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.16.a
+
+	}
+	option = {
+		name = rksplus.16.b
+		
+		trigger = { country_exists = RBA }
+
+		RBA = {
+		    set_cosmetic_tag = RBA_reichskommissariat_SS
+		    create_country_leader = {
+				name = "Sepp Janko"
+				desc = ""
+				picture = "gfx/leaders/GER/Portrait_Sepp_Janko_SS.dds"
+				expire = "1965.1.1"
+				ideology = nazism
+				traits = { }
+			}  
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.17
+	title = rksplus.17.t
+	desc = rksplus.17.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.17.a
+		
+		trigger = { }
+		
+		GER = { set_autonomy = { target = RUK autonomy_state = autonomy_reichskommissariat} }
+		
+		RUK = {
+			transfer_state = 127
+			transfer_state = 126
+			transfer_state = 125
+			transfer_state = 338
+			transfer_state = 123
+			transfer_state = 129
+			transfer_state = 128
+			transfer_state = 122
+			transfer_state = 130
+			transfer_state = 132
+			transfer_state = 131
+			transfer_state = 121
+			transfer_state = 133
+			transfer_state = 136
+			transfer_state = 120
+			
+			hidden_effect = {
+			add_state_core = 127
+			add_state_core = 126
+			add_state_core = 125
+			add_state_core = 338
+			add_state_core = 123
+			add_state_core = 129
+			add_state_core = 128
+			add_state_core = 122
+			add_state_core = 130
+			add_state_core = 132
+			add_state_core = 131
+			add_state_core = 121
+			add_state_core = 133
+			add_state_core = 136
+			add_state_core = 120
+			}
+		}
+
+	}
+	option = {
+		name = rksplus.17.b
+		
+		trigger = { }
+		
+		GER = { set_autonomy = { target = RUK autonomy_state = autonomy_reichskommissariat} }
+		GER = { set_autonomy = { target = RSC autonomy_state = autonomy_reichskommissariat} }
+		GER = { set_autonomy = { target = RWL autonomy_state = autonomy_reichskommissariat} }
+		GER = { set_autonomy = { target = RCW autonomy_state = autonomy_reichskommissariat} }
+
+		RUK = {
+		
+		
+		    set_cosmetic_tag = RUK_reichskommissariat_england
+		
+		    transfer_state = 127
+			transfer_state = 126
+			transfer_state = 125
+			transfer_state = 338
+			transfer_state = 128
+			transfer_state = 129
+			transfer_state = 132
+			transfer_state = 130
+			transfer_state = 131
+			
+			hidden_effect = {
+			add_state_core = 127
+			add_state_core = 126
+			add_state_core = 125
+			add_state_core = 338
+			add_state_core = 128
+			add_state_core = 129
+			add_state_core = 132
+			add_state_core = 130
+			add_state_core = 131
+			}
+		}
+		
+		RSC = {
+		    transfer_state = 121
+			transfer_state = 133
+			transfer_state = 136
+			transfer_state = 120
+			
+			hidden_effect = {
+			add_state_core = 121
+			add_state_core = 133
+			add_state_core = 136
+			add_state_core = 120
+			}
+		}
+		
+		RWL = {
+		    transfer_state = 122
+			
+			hidden_effect = {
+			add_state_core = 122
+			}
+		}
+		
+		RCW = {
+		    transfer_state = 123
+			
+			hidden_effect = {
+			add_state_core = 123
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.18
+	title = rksplus.18.t
+	desc = rksplus.18.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rksplus.18.a
+		
+		trigger = {
+		    country_exists = RFD
+			country_exists = RMK
+		}
+		
+
+		RFD = {
+		    transfer_state = 146
+			
+			hidden_effect = {
+			add_state_core = 146
+			}
+		}
+		
+		RMK = {
+		    transfer_state = 216
+			transfer_state = 215
+			transfer_state = 213
+			
+			hidden_effect = {
+			add_state_core = 216
+			add_state_core = 215
+			add_state_core = 213
+			}
+		}
+	}
+	option = {
+		name = rksplus.18.b
+		
+		trigger = {
+		    country_exists = RFD
+		}
+
+		RFD = {
+		    transfer_state = 146
+			transfer_state = 216
+			transfer_state = 215
+			transfer_state = 213
+			
+			hidden_effect = {
+			add_state_core = 216
+			add_state_core = 215
+			add_state_core = 213
+			add_state_core = 146
+			}
+		}
+	}
+	option = {
+		name = rksplus.18.c
+		
+		trigger = {
+			country_exists = RMK
+		}
+
+		RMK = {
+		    transfer_state = 146
+			transfer_state = 216
+			transfer_state = 215
+			transfer_state = 213
+			
+			hidden_effect = {
+			add_state_core = 216
+			add_state_core = 215
+			add_state_core = 213
+			add_state_core = 146
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.19
+	title = rksplus.19.t
+	desc = rksplus.19.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rksplus.19.a
+		
+		trigger = { }
+		
+		
+		GER = { set_autonomy = { target = RSP autonomy_state = autonomy_reichskommissariat} }
+
+		RSP = {
+		    transfer_state = 165
+			transfer_state = 794
+			transfer_state = 166
+			transfer_state = 167
+			transfer_state = 172
+			transfer_state = 176
+			transfer_state = 793
+			transfer_state = 792
+			transfer_state = 791
+			transfer_state = 174
+			transfer_state = 790
+			transfer_state = 171
+			transfer_state = 788
+			transfer_state = 41
+			transfer_state = 170
+			transfer_state = 175
+			transfer_state = 168
+			transfer_state = 169
+			transfer_state = 789
+			transfer_state = 173
+			transfer_state = 177
+			
+			hidden_effect = {
+			add_state_core = 165
+			add_state_core = 794
+			add_state_core = 166
+			add_state_core = 167
+			add_state_core = 172
+			add_state_core = 176
+			add_state_core = 793
+			add_state_core = 792
+			add_state_core = 791
+			add_state_core = 174
+			add_state_core = 790
+			add_state_core = 171
+			add_state_core = 788
+			add_state_core = 41
+			add_state_core = 170
+			add_state_core = 175
+			add_state_core = 168
+			add_state_core = 169
+			add_state_core = 789
+			add_state_core = 173
+			add_state_core = 177
+		    }
+		}
+	}
+	option = {
+		name = rksplus.19.b
+		
+		trigger = {
+		    country_exists = RFD
+		}
+		
+		GER = { set_autonomy = { target = RSP autonomy_state = autonomy_reichskommissariat} }
+		GER = { set_autonomy = { target = RBQ autonomy_state = autonomy_reichskommissariat} }
+		GER = { set_autonomy = { target = RAG autonomy_state = autonomy_reichskommissariat} }
+
+		RSP = {
+			transfer_state = 176
+			transfer_state = 793
+			transfer_state = 791
+			transfer_state = 174
+			transfer_state = 790
+			transfer_state = 171
+			transfer_state = 788
+			transfer_state = 41
+			transfer_state = 170
+			transfer_state = 175
+			transfer_state = 168
+			transfer_state = 169
+			transfer_state = 789
+			transfer_state = 173
+			
+			hidden_effect = {
+			add_state_core = 176
+			add_state_core = 793
+			add_state_core = 791
+			add_state_core = 174
+			add_state_core = 790
+			add_state_core = 171
+			add_state_core = 788
+			add_state_core = 41
+			add_state_core = 170
+			add_state_core = 175
+			add_state_core = 168
+			add_state_core = 169
+			add_state_core = 789
+			add_state_core = 173
+			}
+		}
+		
+		RAG = {
+		    transfer_state = 165
+			transfer_state = 794
+			transfer_state = 166
+			transfer_state = 167
+			transfer_state = 177
+			
+			hidden_effect = {
+		    add_state_core = 165
+			add_state_core = 794
+			add_state_core = 166
+			add_state_core = 167
+			add_state_core = 177
+			}
+		}
+		
+		RBQ = { 
+		    transfer_state = 792
+			transfer_state = 172
+			
+			hidden_effect = {
+		    add_state_core = 792
+			add_state_core = 172
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.20
+	title = rksplus.20.t
+	desc = rksplus.20.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.20.a
+		
+		trigger = { }
+		
+		GER = {
+			add_state_core = 85
+			add_state_core = 807
+			add_state_core = 98
+			add_state_core = 86
+			add_state_core = 87
+			add_state_core = 762
+			add_stability = -0.05
+			
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.21
+	title = rksplus.21.t
+	desc = rksplus.21.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.21.a
+		
+		trigger = { country_exists = RES }
+		
+		RES = { 
+		    transfer_state = 560
+			transfer_state = 657
+			transfer_state = 409
+			transfer_state = 408
+			
+			hidden_effect = {
+		    add_state_core = 560
+			add_state_core = 657
+			add_state_core = 409
+			add_state_core = 408
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.22
+	title = rksplus.22.t
+	desc = rksplus.22.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.22.a
+		
+		trigger = { country_exists = RTU }
+		
+		RTU = { 
+		    transfer_state = 799
+
+			
+			hidden_effect = {
+		    add_state_core = 799
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.22.b
+		
+		trigger = { country_exists = RNH }
+		
+		RNH = { 
+		    transfer_state = 799
+
+			
+			hidden_effect = {
+		    add_state_core = 799
+
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.23
+	title = rksplus.23.t
+	desc = rksplus.23.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.23.a
+		
+		trigger = { country_exists = RTU }
+		
+		RTU = { 
+		    transfer_state = 341
+
+			
+			hidden_effect = {
+		    add_state_core = 341
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.23.b
+		
+		trigger = { 
+		country_exists = RGR
+		RGR = { controls_state = 184 }
+		}
+		
+		RGR = { 
+		    transfer_state = 341
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 341
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.23.c
+		
+		trigger = { 
+		country_exists = RBL
+		RBL = { controls_state = 184 }
+		}
+		
+		RBL = { 
+		    transfer_state = 341
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 341
+
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.24
+	title = rksplus.24.t
+	desc = rksplus.24.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.24.a
+		
+		trigger = { country_exists = RTU }
+		
+		RTU = { 
+		    transfer_state = 797
+
+			
+			hidden_effect = {
+		    add_state_core = 797
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.24.b
+		
+		trigger = { 
+		country_exists = RGR
+		RGR = { controls_state = 341 }
+		}
+		
+		RGR = { 
+		    transfer_state = 797
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 797
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.24.c
+		
+		trigger = {
+		country_exists = RBL
+		RBL = { controls_state = 341 }
+		}
+		
+		RBL = { 
+		    transfer_state = 797
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 797
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.24.e
+		
+		trigger = { }
+		
+		GER = { 
+		    transfer_state = 797
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.25
+	title = rksplus.25.t
+	desc = rksplus.25.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.25.a
+		
+		trigger = { }
+		
+		GER = { set_autonomy = { target = RIT autonomy_state = autonomy_reichskommissariat} }
+		
+		RIT = { 
+			transfer_state = 158
+			transfer_state = 159
+			transfer_state = 160
+			transfer_state = 161
+			transfer_state = 162
+			transfer_state = 157
+			transfer_state = 2
+			transfer_state = 849
+			transfer_state = 117
+			transfer_state = 156
+			transfer_state = 115
+
+			
+			hidden_effect = {
+			add_state_core = 158
+			add_state_core = 159
+			add_state_core = 160
+			add_state_core = 161
+			add_state_core = 162
+			add_state_core = 157
+			add_state_core = 2
+			add_state_core = 849
+			add_state_core = 117
+			add_state_core = 156
+			add_state_core = 115
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.25.b
+		
+		trigger = { }
+		
+		GER = { set_autonomy = { target = RIT autonomy_state = autonomy_reichskommissariat} }
+		
+		RIT = {
+		    set_cosmetic_tag = RIT_reichskommissariat_benito
+		    create_country_leader = {
+				name = "Benito Mussolini"
+				desc = ""
+				picture = "gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds"
+				expire = "1965.1.1"
+				ideology = nazism
+				traits = { }
+			}  
+		}
+		
+		RIT = {
+		    transfer_state = 797
+			transfer_state = 158
+			transfer_state = 159
+			transfer_state = 160
+			transfer_state = 161
+			transfer_state = 162
+			transfer_state = 157
+			transfer_state = 2
+			transfer_state = 849
+			transfer_state = 117
+			transfer_state = 156
+			transfer_state = 115
+
+			
+			hidden_effect = {
+		    add_state_core = 797
+			add_state_core = 158
+			add_state_core = 159
+			add_state_core = 160
+			add_state_core = 161
+			add_state_core = 162
+			add_state_core = 157
+			add_state_core = 2
+			add_state_core = 849
+			add_state_core = 117
+			add_state_core = 156
+			add_state_core = 115
+
+			}
+        }
+	}
+}
+
+country_event = {
+	id = rksplus.26
+	title = rksplus.26.t
+	desc = rksplus.26.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.26.a
+		
+		trigger = {
+		GER = { controls_state = 853 }
+		}
+		
+		GER = { 
+		    transfer_state = 736
+
+			
+			hidden_effect = {
+		    add_state_core = 736
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.26.b
+		
+		trigger = { 
+		country_exists = RIT
+		RIT = { controls_state = 160 }
+		}
+		
+		RIT = { 
+		    transfer_state = 736
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 736
+
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.27
+	title = rksplus.27.t
+	desc = rksplus.27.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.27.a
+		
+		trigger = { }
+		
+		GER = { 
+		    transfer_state = 39
+			transfer_state = 850
+
+			
+			hidden_effect = {
+		    add_state_core = 39
+			add_state_core = 850
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.27.b
+		
+		trigger = { 
+		country_exists = RIT
+		}
+		
+		RIT = { 
+		    transfer_state = 39
+			transfer_state = 850
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 39
+			add_state_core = 850
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.27.c
+		
+		trigger = { 
+		country_exists = RIT
+		}
+		
+		GER = { 
+		    transfer_state = 39
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 39
+
+			}
+		}
+		
+		RIT = {
+		    transfer_state = 850
+			
+			
+			hidden_effect = {
+			add_state_core = 850
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.28
+	title = rksplus.28.t
+	desc = rksplus.28.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.28.a
+		
+		trigger = { country_exists = RFC }
+		
+		RFC = { 
+		    transfer_state = 735
+
+			
+			hidden_effect = {
+		    add_state_core = 735
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.28.b
+		
+		trigger = { 
+		country_exists = RIT
+		}
+		
+		RIT = { 
+		    transfer_state = 735
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 735
+
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.29
+	title = rksplus.29.t
+	desc = rksplus.29.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.29.a
+		
+		trigger = { }
+		
+		GER = { 
+		    transfer_state = 116
+
+		}
+
+	}
+	
+	option = {
+		name = rksplus.29.b
+		
+		trigger = { 
+		country_exists = RIT
+		}
+		
+		RIT = { 
+		    transfer_state = 116
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 116
+
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.30
+	title = rksplus.30.t
+	desc = rksplus.30.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.30.a
+		
+		trigger = { }
+		
+		add_stability = -0.15
+
+	}
+	
+	option = {
+		name = rksplus.30.b
+		
+		trigger = {
+		}
+		
+		GER = { set_autonomy = { target = OBG autonomy_state = autonomy_reichskommissariat} }
+		
+		OBG = { 
+		    transfer_state = 17
+			transfer_state = 18
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 17
+			add_state_core = 18
+
+			}
+		}
+		
+		add_stability = -0.10
+
+	}
+}
+
+country_event = {
+	id = rksplus.31
+	title = rksplus.31.t
+	desc = rksplus.31.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.31.a
+		
+		trigger = { country_exists = RGR }
+		
+		RGR = { 
+		    transfer_state = 164
+
+			
+			hidden_effect = {
+		    add_state_core = 164
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.31.b
+		
+		trigger = { 
+		country_exists = RTU
+		}
+		
+		RTU = { 
+		    transfer_state = 164
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 164
+
+			}
+		}
+
+	}
+}
+	
+country_event = {
+	id = rksplus.32
+	title = rksplus.32.t
+	desc = rksplus.32.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.32.a
+		
+		trigger = { country_exists = RGR }
+		
+		RGR = { 
+		    transfer_state = 183
+
+			
+			hidden_effect = {
+		    add_state_core = 183
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.32.b
+		
+		trigger = { 
+		country_exists = RTU
+		}
+		
+		RTU = { 
+		    transfer_state = 183
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 183
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.32.c
+		
+		trigger = { 
+		country_exists = RNH
+		}
+		
+		RNH = { 
+		    transfer_state = 164
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 164
+
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = rksplus.33
+	title = rksplus.33.t
+	desc = rksplus.33.d
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.33.a
+		
+		trigger = { }
+		
+		GER = { set_autonomy = { target = RAM autonomy_state = autonomy_reichsprotectorate} }
+		
+		RAM = { 
+			transfer_state = 357
+			transfer_state = 358
+			transfer_state = 359
+			transfer_state = 360
+			transfer_state = 361
+			transfer_state = 362
+			transfer_state = 816
+			transfer_state = 261
+			transfer_state = 369
+			transfer_state = 396
+			transfer_state = 393
+			transfer_state = 395
+			transfer_state = 394
+			transfer_state = 373
+			transfer_state = 392
+			transfer_state = 391
+			transfer_state = 383
+			transfer_state = 384
+			transfer_state = 390
+			transfer_state = 389
+			transfer_state = 382
+			transfer_state = 381
+			transfer_state = 388
+			transfer_state = 376 #
+			transfer_state = 375
+			transfer_state = 374
+			transfer_state = 372
+			transfer_state = 371
+			transfer_state = 370
+			transfer_state = 368
+			transfer_state = 367
+			transfer_state = 363
+			transfer_state = 364
+			transfer_state = 365
+			transfer_state = 366
+
+			
+			hidden_effect = {
+		    add_state_core = 357
+			add_state_core = 358
+			add_state_core = 359
+			add_state_core = 360
+			add_state_core = 361
+			add_state_core = 362
+			add_state_core = 816
+			add_state_core = 261
+			add_state_core = 369
+			add_state_core = 396
+			add_state_core = 393
+			add_state_core = 395
+			add_state_core = 394
+			add_state_core = 373
+			add_state_core = 392
+			add_state_core = 391
+			add_state_core = 383
+			add_state_core = 384
+			add_state_core = 390
+			add_state_core = 389
+			add_state_core = 382
+			add_state_core = 381
+			add_state_core = 388
+			add_state_core = 376 #
+			add_state_core = 375
+			add_state_core = 374
+			add_state_core = 372
+			add_state_core = 371
+			add_state_core = 370
+			add_state_core = 368
+			add_state_core = 367
+			add_state_core = 363
+			add_state_core = 364
+			add_state_core = 365
+			add_state_core = 366
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.33.b
+		
+		trigger = { }
+		
+		GER = { set_autonomy = { target = RAM autonomy_state = autonomy_reichsprotectorate} }
+		GER = { set_autonomy = { target = RCS autonomy_state = autonomy_reichsprotectorate} }
+		
+		RAM = { 
+		    transfer_state = 357
+			transfer_state = 358
+			transfer_state = 359
+			transfer_state = 360
+			transfer_state = 361
+			transfer_state = 362
+			transfer_state = 816
+			transfer_state = 261
+			transfer_state = 369
+			transfer_state = 396
+			transfer_state = 393
+			transfer_state = 395
+			transfer_state = 394
+			transfer_state = 373
+			transfer_state = 392
+			transfer_state = 391
+			transfer_state = 383
+			transfer_state = 384
+			transfer_state = 390
+			transfer_state = 389
+			transfer_state = 382
+			transfer_state = 381
+			transfer_state = 388
+			
+
+			
+			hidden_effect = {
+		    add_state_core = 357
+			add_state_core = 358
+			add_state_core = 359
+			add_state_core = 360
+			add_state_core = 361
+			add_state_core = 362
+			add_state_core = 816
+			add_state_core = 261
+			add_state_core = 369
+			add_state_core = 396
+			add_state_core = 393
+			add_state_core = 395
+			add_state_core = 394
+			add_state_core = 373
+			add_state_core = 392
+			add_state_core = 391
+			add_state_core = 383
+			add_state_core = 384
+			add_state_core = 390
+			add_state_core = 389
+			add_state_core = 382
+			add_state_core = 381
+			add_state_core = 388
+
+			}
+		}
+		
+		RCS = {
+		    transfer_state = 376 #
+			transfer_state = 375
+			transfer_state = 374
+			transfer_state = 372
+			transfer_state = 371
+			transfer_state = 370
+			transfer_state = 368
+			transfer_state = 367
+			transfer_state = 363
+			transfer_state = 364
+			transfer_state = 365
+			transfer_state = 366
+			
+			hidden_effect = {
+			
+			add_state_core = 376 #
+			add_state_core = 375
+			add_state_core = 374
+			add_state_core = 372
+			add_state_core = 371
+			add_state_core = 370
+			add_state_core = 368
+			add_state_core = 367
+			add_state_core = 363
+			add_state_core = 364
+			add_state_core = 365
+			add_state_core = 366
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.34
+	title = rksplus.34.t
+	desc = rksplus.34.d
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.34.a
+		
+		trigger = { }
+		
+		GER = { set_autonomy = { target = RPZ autonomy_state = autonomy_reichsprotectorate} }
+		
+		RPZ = { 
+			transfer_state = 386
+			transfer_state = 387
+			transfer_state = 385
+			transfer_state = 378
+			transfer_state = 379
+			transfer_state = 380
+			transfer_state = 377
+
+			
+			hidden_effect = {
+		    add_state_core = 386
+			add_state_core = 387
+			add_state_core = 385
+			add_state_core = 378
+			add_state_core = 379
+			add_state_core = 380
+			add_state_core = 377
+
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.34.b
+		
+		trigger = { country_exists = RAM }
+		
+		RAM = { 
+			transfer_state = 386
+			transfer_state = 387
+			transfer_state = 385
+			transfer_state = 378
+			transfer_state = 379
+			transfer_state = 380
+			transfer_state = 377
+
+			
+			hidden_effect = {
+		    add_state_core = 386
+			add_state_core = 387
+			add_state_core = 385
+			add_state_core = 378
+			add_state_core = 379
+			add_state_core = 380
+			add_state_core = 377
+
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.35
+	title = rksplus.35.t
+	desc = rksplus.35.d
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.35.a
+		
+		trigger = { }
+		
+		JAP = {
+			transfer_state = 386
+			transfer_state = 387
+			transfer_state = 385
+			transfer_state = 378
+			transfer_state = 379
+			transfer_state = 380
+			transfer_state = 377
+		}
+
+	}
+	
+	option = {
+		name = rksplus.35.b
+		
+		trigger = { }
+		
+		JAP = { set_autonomy = { target = JPZ autonomy_state = autonomy_wtt_imperial_protectorate } }
+		
+		JPZ = {
+			transfer_state = 386
+			transfer_state = 387
+			transfer_state = 385
+			transfer_state = 378
+			transfer_state = 379
+			transfer_state = 380
+			transfer_state = 377
+
+			
+			hidden_effect = {
+		    add_state_core = 386
+			add_state_core = 387
+			add_state_core = 385
+			add_state_core = 378
+			add_state_core = 379
+			add_state_core = 380
+			add_state_core = 377
+
+			}
+		}
+	}
+	
+	option = {
+	    name = rksplus.35.c
+		
+		trigger = { }
+		
+	}
+}
+
+country_event = {
+	id = rksplus.36
+	title = rksplus.36.t
+	desc = rksplus.36.d
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.36.a
+		
+		trigger = { country_exists = RES }
+		
+		RES = {
+			transfer_state = 650
+
+			hidden_effect = {
+		    add_state_core = 650
+			}
+		}
+
+	}
+	
+	option = {
+		name = rksplus.36.b
+		
+		trigger = { country_exists = RCD }
+		
+		RCD = {
+			transfer_state = 650
+
+			
+			hidden_effect = {
+		    add_state_core = 650
+
+			}
+		}
+	}
+	
+	option = {
+	    name = rksplus.36.c
+		
+		trigger = {
+		country_exists = OGT
+		country_exists = OBG }
+		
+		GER = {
+		
+		    country_event = rksplus.37
+		}
+	}
+}
+
+country_event = {
+	id = rksplus.37
+	title = rksplus.37.t
+	desc = rksplus.37.d
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rksplus.37.a
+		
+		trigger = { }
+		
+		SHC = {
+			transfer_state = 650
+
+			hidden_effect = {
+		    add_state_core = 650
+			}
+		}
+
+	}
+	
+}

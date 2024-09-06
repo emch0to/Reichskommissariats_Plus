@@ -1,0 +1,189 @@
+ideas = { 
+	
+	country = {
+
+        ROB_anarchy = {
+            picture = SPR_anarchist_society
+			
+			allowed = {
+				tag = ROB
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+				political_power_gain = -0.3
+				stability_weekly = -0.01
+				
+			}
+		}
+		
+		ROB_germanrule = {
+            picture = german_advisors
+			
+			allowed = {
+				tag = ROB
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+				fascism_drift = 0.03
+				consumer_goods_factor = 0.10
+				
+			}
+		}
+		
+		ROB_trauma = {
+		    picture = great_depression
+			
+			allowed = {
+				tag = ROB
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				stability_factor = -0.3
+				war_support_factor = -0.5
+				conscription_factor = -0.5
+				
+			}
+		}
+		
+		ROB_trauma_v2 = {
+		    picture = great_depression
+			
+			allowed = {
+				tag = ROB
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				stability_factor = -0.15
+				war_support_factor = -0.25
+				conscription_factor = -0.25
+				
+			}
+		}
+		
+		ROB_destruction = {
+		    picture = SPA_recovering_from_the_civil_war
+			
+			allowed = {
+				tag = ROB
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				monthly_population = -0.4
+				local_resources_factor = -0.3
+				research_speed_factor = -0.3
+				industrial_capacity_factory = -0.5
+				industry_repair_factor = -0.75
+				production_speed_buildings_factor = -0.75
+				consumer_goods_factor = 0.8
+			}
+		}
+		
+		ROB_destruction_v2 = {
+		    picture = generic_production_bonus
+			
+			allowed = {
+				tag = ROB
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				monthly_population = -0.2
+				local_resources_factor = -0.15
+				research_speed_factor = -0.15
+				industrial_capacity_factory = -0.2
+				industry_repair_factor = -0.3
+				production_speed_buildings_factor = -0.25
+				consumer_goods_factor = 0.3
+			}
+		}
+		
+		ROB_destruction_v3 = {
+		    picture = generic_production_bonus
+			
+			allowed = {
+				tag = ROB
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				monthly_population = 0.15
+				industrial_capacity_factory = 0.1
+				industry_repair_factor = 0.3
+				production_speed_buildings_factor = 0.25
+			}
+		}
+
+	}
