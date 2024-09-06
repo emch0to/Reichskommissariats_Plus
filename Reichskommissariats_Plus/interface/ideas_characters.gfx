@@ -1,4 +1,4 @@
-spriteTypes = {
+lspriteTypes = {
     ### BOHMEN UND MAHREN ###
 	spriteType = {
 		name = "GFX_Portrait_Konstantin_von_Neurath_rkplus"
